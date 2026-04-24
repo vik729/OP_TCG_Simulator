@@ -1,0 +1,24 @@
+{
+  "id": "ST02-011",
+  "name": "Heat",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Kid",
+    "Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-011",
+  "effect_text": "NULL",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

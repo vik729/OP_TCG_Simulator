@@ -1,0 +1,24 @@
+{
+  "id": "ST01-001",
+  "name": "Monkey.D.Luffy (001)",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "L",
+  "set_id": "ST01",
+  "image_id": "ST01-001",
+  "effect_text": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

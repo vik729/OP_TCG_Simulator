@@ -1,0 +1,27 @@
+{
+  "id": "ST02-004",
+  "name": "Capone\"Gang\"Bege",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Firetank",
+    "Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-004",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

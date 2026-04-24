@@ -1,0 +1,24 @@
+{
+  "id": "ST01-013",
+  "name": "Roronoa Zoro",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "SR",
+  "set_id": "ST01",
+  "image_id": "ST01-013",
+  "effect_text": "[DON!! x1] This Character gains +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

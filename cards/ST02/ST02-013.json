@@ -1,0 +1,26 @@
+{
+  "id": "ST02-013",
+  "name": "Eustass\"Captain\"Kid (013)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Kid Pirates",
+    "Supernovas"
+  ],
+  "rarity": "SR",
+  "set_id": "ST02",
+  "image_id": "ST02-013",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this card as active.  This card has been officially errata'd.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

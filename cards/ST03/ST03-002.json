@@ -1,0 +1,24 @@
+{
+  "id": "ST03-002",
+  "name": "Edward Weevil",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Seven Warlords of the Sea",
+    "The"
+  ],
+  "rarity": "C",
+  "set_id": "ST03",
+  "image_id": "ST03-002",
+  "effect_text": "NULL",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ST02-003",
+  "name": "Urouge",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fallen",
+    "Monk",
+    "Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-003",
+  "effect_text": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

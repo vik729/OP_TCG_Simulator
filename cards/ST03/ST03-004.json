@@ -1,0 +1,27 @@
+{
+  "id": "ST03-004",
+  "name": "Gecko Moria",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Seven Warlords of the Sea",
+    "The",
+    "Thriller",
+    "Bark",
+    "Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "ST03",
+  "image_id": "ST03-004",
+  "effect_text": "[On Play] Add up to 1 \"The Seven Warlords of the Sea\" or \"Thriller Bark Pirates\" type Character with a cost of 4 or less than [Gecko Moria] from your trash to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

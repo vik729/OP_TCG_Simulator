@@ -1,0 +1,28 @@
+{
+  "id": "ST03-003",
+  "name": "Crocodile (003)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Seven Warlords of the Sea",
+    "Baroque",
+    "Works",
+    "The"
+  ],
+  "rarity": "SR",
+  "set_id": "ST03",
+  "image_id": "ST03-003",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ST02-008",
+  "name": "Scratchmen Apoo",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "On-Air",
+    "Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-008",
+  "effect_text": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

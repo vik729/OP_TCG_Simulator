@@ -1,0 +1,26 @@
+{
+  "id": "ST03-015",
+  "name": "Sables",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Seven Warlords of the Sea",
+    "Baroque",
+    "Works",
+    "The"
+  ],
+  "rarity": "C",
+  "set_id": "ST03",
+  "image_id": "ST03-015",
+  "effect_text": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand. [Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}
