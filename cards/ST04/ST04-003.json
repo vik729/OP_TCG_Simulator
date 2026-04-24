@@ -1,0 +1,28 @@
+{
+  "id": "ST04-003",
+  "name": "Kaido (003)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 9,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The",
+    "Four",
+    "Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "ST04",
+  "image_id": "ST04-003",
+  "effect_text": "[On Play] DON!! -5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

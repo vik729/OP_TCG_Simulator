@@ -1,0 +1,26 @@
+{
+  "id": "ST03-001",
+  "name": "Crocodile (001)",
+  "type": "Leader",
+  "color": [
+    "Blue"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Seven Warlords of the Sea",
+    "Baroque",
+    "Works",
+    "The"
+  ],
+  "rarity": "L",
+  "set_id": "ST03",
+  "image_id": "ST03-001",
+  "effect_text": "[Activate: Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

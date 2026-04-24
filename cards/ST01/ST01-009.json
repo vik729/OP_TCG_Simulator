@@ -1,0 +1,23 @@
+{
+  "id": "ST01-009",
+  "name": "Nefeltari Vivi",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "C",
+  "set_id": "ST01",
+  "image_id": "ST01-009",
+  "effect_text": "NULL",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

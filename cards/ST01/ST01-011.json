@@ -1,0 +1,23 @@
+{
+  "id": "ST01-011",
+  "name": "Brook",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST01",
+  "image_id": "ST01-011",
+  "effect_text": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ST03-012",
+  "name": "Pacifista",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Biological",
+    "Weapon",
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST03",
+  "image_id": "ST03-012",
+  "effect_text": "NULL",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

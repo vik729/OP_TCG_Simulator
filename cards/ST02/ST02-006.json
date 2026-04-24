@@ -1,0 +1,23 @@
+{
+  "id": "ST02-006",
+  "name": "Koby",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-006",
+  "effect_text": "NULL",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

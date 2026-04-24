@@ -1,0 +1,26 @@
+{
+  "id": "ST03-011",
+  "name": "Buggy",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Seven Warlords of the Sea",
+    "Buggy's",
+    "Delivery",
+    "The"
+  ],
+  "rarity": "C",
+  "set_id": "ST03",
+  "image_id": "ST03-011",
+  "effect_text": "NULL",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ST02-014",
+  "name": "X.Drake",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Drake",
+    "Pirates",
+    "Navy",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-014",
+  "effect_text": "[DON!! x1] [Your Turn] If this Character is rested, your \"Supernovas\" or \"Navy\" type Leaders and Characters gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

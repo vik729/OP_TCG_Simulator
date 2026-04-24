@@ -1,0 +1,25 @@
+{
+  "id": "ST02-017",
+  "name": "Straw Sword",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Hawkins",
+    "Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "ST02",
+  "image_id": "ST02-017",
+  "effect_text": "[Main] Rest up to 1 of your opponent's Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

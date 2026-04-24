@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Card database — raw API cache (re-fetchable, never commit)
+cards/raw/

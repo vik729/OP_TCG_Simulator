@@ -1,0 +1,23 @@
+{
+  "id": "ST01-007",
+  "name": "Nami",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST01",
+  "image_id": "ST01-007",
+  "effect_text": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}
