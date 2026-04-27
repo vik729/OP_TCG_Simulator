@@ -11,15 +11,13 @@
   "life": null,
   "attribute": "Slash",
   "subtypes": [
-    "Seven Warlords of the Sea",
-    "Buggy's",
-    "Delivery",
-    "The"
+    "Buggy's Delivery",
+    "The Seven Warlords of the Sea"
   ],
   "rarity": "C",
   "set_id": "ST03",
   "image_id": "ST03-011",
-  "effect_text": "NULL",
+  "effect_text": null,
   "keywords": [],
   "triggers": [],
   "dsl_status": "pending"

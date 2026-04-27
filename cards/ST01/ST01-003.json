@@ -17,7 +17,7 @@
   "rarity": "C",
   "set_id": "ST01",
   "image_id": "ST01-003",
-  "effect_text": "NULL",
+  "effect_text": null,
   "keywords": [],
   "triggers": [],
   "dsl_status": "pending"

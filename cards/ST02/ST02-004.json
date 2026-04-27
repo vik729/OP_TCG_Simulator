@@ -11,8 +11,7 @@
   "life": null,
   "attribute": "Special",
   "subtypes": [
-    "Firetank",
-    "Pirates",
+    "Firetank Pirates",
     "Supernovas"
   ],
   "rarity": "C",

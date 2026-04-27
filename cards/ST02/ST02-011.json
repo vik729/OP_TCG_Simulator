@@ -11,13 +11,12 @@
   "life": null,
   "attribute": "Special",
   "subtypes": [
-    "Kid",
-    "Pirates"
+    "Kid Pirates"
   ],
   "rarity": "C",
   "set_id": "ST02",
   "image_id": "ST02-011",
-  "effect_text": "NULL",
+  "effect_text": null,
   "keywords": [],
   "triggers": [],
   "dsl_status": "pending"

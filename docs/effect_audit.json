@@ -1,0 +1,1059 @@
+{
+  "totals": {
+    "cards": 68,
+    "vanilla": 16,
+    "with_effect_text": 52,
+    "trigger_tail_cards": 13
+  },
+  "bracket_tokens": [
+    [
+      "[On Play]",
+      14
+    ],
+    [
+      "[Trigger]",
+      13
+    ],
+    [
+      "[Blocker]",
+      12
+    ],
+    [
+      "[DON!! x1]",
+      10
+    ],
+    [
+      "[Activate: Main]",
+      9
+    ],
+    [
+      "[Main]",
+      9
+    ],
+    [
+      "[Once Per Turn]",
+      7
+    ],
+    [
+      "[Counter]",
+      7
+    ],
+    [
+      "[When Attacking]",
+      5
+    ],
+    [
+      "[DON!! x2]",
+      3
+    ],
+    [
+      "[Rush]",
+      3
+    ],
+    [
+      "[Your Turn]",
+      2
+    ],
+    [
+      "[End of Your Turn]",
+      1
+    ],
+    [
+      "[On Block]",
+      1
+    ],
+    [
+      "[Gecko Moria]",
+      1
+    ],
+    [
+      "[Pacifista]",
+      1
+    ],
+    [
+      "[Page One]",
+      1
+    ]
+  ],
+  "unknown_brackets": [
+    [
+      "[Gecko Moria]",
+      1
+    ],
+    [
+      "[Pacifista]",
+      1
+    ],
+    [
+      "[Page One]",
+      1
+    ]
+  ],
+  "triggers": [
+    [
+      "[On Play]",
+      14
+    ],
+    [
+      "[Trigger]",
+      13
+    ],
+    [
+      "[Activate: Main]",
+      9
+    ],
+    [
+      "[Main]",
+      9
+    ],
+    [
+      "[Counter]",
+      7
+    ],
+    [
+      "[When Attacking]",
+      5
+    ],
+    [
+      "[Your Turn]",
+      2
+    ],
+    [
+      "[End of Your Turn]",
+      1
+    ],
+    [
+      "[On Block]",
+      1
+    ]
+  ],
+  "verbs": [
+    [
+      "GivePower",
+      10
+    ],
+    [
+      "SetActive",
+      9
+    ],
+    [
+      "KO",
+      7
+    ],
+    [
+      "Bounce",
+      5
+    ],
+    [
+      "Draw",
+      5
+    ],
+    [
+      "TrashHand",
+      4
+    ],
+    [
+      "AddDon",
+      4
+    ],
+    [
+      "AttachDon",
+      3
+    ],
+    [
+      "GainKeyword",
+      2
+    ],
+    [
+      "LookAt",
+      2
+    ],
+    [
+      "RestTarget",
+      2
+    ],
+    [
+      "Play",
+      2
+    ]
+  ],
+  "targets": [
+    [
+      "self:this_card",
+      20
+    ],
+    [
+      "filter:cost_le",
+      16
+    ],
+    [
+      "own:leader_or_character",
+      8
+    ],
+    [
+      "opp:character",
+      7
+    ],
+    [
+      "filter:subtype",
+      7
+    ],
+    [
+      "filter:rested",
+      5
+    ],
+    [
+      "own:character",
+      3
+    ],
+    [
+      "opp:blocker_restriction",
+      2
+    ],
+    [
+      "scope:other_than_this_card",
+      1
+    ],
+    [
+      "filter:power_le",
+      1
+    ],
+    [
+      "opp:don",
+      1
+    ]
+  ],
+  "clauses": [
+    [
+      "choice:up_to",
+      34
+    ],
+    [
+      "choice:you_may",
+      22
+    ],
+    [
+      "opponent_mentioned",
+      21
+    ],
+    [
+      "cost:you_may_rest_self",
+      11
+    ],
+    [
+      "cost:don_minus",
+      9
+    ],
+    [
+      "per_turn_limit",
+      7
+    ],
+    [
+      "conditional:if",
+      6
+    ],
+    [
+      "cost:paren_rest",
+      3
+    ],
+    [
+      "choice:then",
+      3
+    ],
+    [
+      "cost:trash_hand",
+      2
+    ]
+  ],
+  "per_set_verbs": {
+    "ST01": {
+      "GivePower": 4,
+      "AttachDon": 3,
+      "KO": 2,
+      "GainKeyword": 1
+    },
+    "ST02": {
+      "SetActive": 6,
+      "GivePower": 4,
+      "RestTarget": 2,
+      "TrashHand": 1,
+      "KO": 1,
+      "LookAt": 1
+    },
+    "ST03": {
+      "Bounce": 5,
+      "Draw": 2,
+      "TrashHand": 1,
+      "Play": 1,
+      "LookAt": 1,
+      "GivePower": 1
+    },
+    "ST04": {
+      "KO": 4,
+      "AddDon": 4,
+      "Draw": 3,
+      "SetActive": 3,
+      "TrashHand": 2,
+      "Play": 1,
+      "GainKeyword": 1,
+      "GivePower": 1
+    }
+  },
+  "grouped_by_trigger": {
+    "[Activate: Main]": [
+      {
+        "id": "ST01-001",
+        "type": "Leader",
+        "effect_text": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
+        "verbs": [
+          "AttachDon"
+        ],
+        "targets": [
+          "self:this_card",
+          "own:character",
+          "filter:rested"
+        ]
+      },
+      {
+        "id": "ST01-007",
+        "type": "Character",
+        "effect_text": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+        "verbs": [
+          "AttachDon"
+        ],
+        "targets": [
+          "own:leader_or_character",
+          "own:character",
+          "filter:rested"
+        ]
+      },
+      {
+        "id": "ST01-017",
+        "type": "Stage",
+        "effect_text": "[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "filter:subtype"
+        ]
+      },
+      {
+        "id": "ST02-001",
+        "type": "Leader",
+        "effect_text": "[Activate: Main] [Once Per Turn] (3) (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
+        "verbs": [
+          "SetActive",
+          "TrashHand"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST02-007",
+        "type": "Character",
+        "effect_text": "[Activate: Main] (1) (You may rest the specified number of DON!! cards in your cost area.) You may rest this card: Look at 5 cards from the top of your deck; reveal up to 1 \"Supernovas\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "verbs": [
+          "LookAt"
+        ],
+        "targets": [
+          "self:this_card",
+          "filter:subtype"
+        ]
+      },
+      {
+        "id": "ST03-001",
+        "type": "Leader",
+        "effect_text": "[Activate: Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+        "verbs": [
+          "Bounce"
+        ],
+        "targets": [
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST03-007",
+        "type": "Character",
+        "effect_text": "[DON!! x1] [Activate: Main] [Once Per Turn] (2) (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
+        "verbs": [
+          "Play"
+        ],
+        "targets": [
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST04-001",
+        "type": "Leader",
+        "effect_text": "[Activate: Main] [Once Per Turn] DON!! -7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.",
+        "verbs": [],
+        "targets": []
+      },
+      {
+        "id": "ST04-017",
+        "type": "Stage",
+        "effect_text": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+        "verbs": [
+          "AddDon"
+        ],
+        "targets": [
+          "filter:subtype"
+        ]
+      }
+    ],
+    "[When Attacking]": [
+      {
+        "id": "ST01-002",
+        "type": "Character",
+        "effect_text": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle. [Trigger] Play this card.",
+        "verbs": [],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST01-005",
+        "type": "Character",
+        "effect_text": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "self:this_card",
+          "own:leader_or_character",
+          "scope:other_than_this_card"
+        ]
+      },
+      {
+        "id": "ST01-012",
+        "type": "Character",
+        "effect_text": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+        "verbs": [],
+        "targets": [
+          "opp:blocker_restriction"
+        ]
+      },
+      {
+        "id": "ST02-008",
+        "type": "Character",
+        "effect_text": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
+        "verbs": [
+          "RestTarget"
+        ],
+        "targets": [
+          "opp:don"
+        ]
+      },
+      {
+        "id": "ST03-005",
+        "type": "Character",
+        "effect_text": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+        "verbs": [
+          "Draw",
+          "TrashHand"
+        ],
+        "targets": []
+      }
+    ],
+    "(vanilla)": [
+      {
+        "id": "ST01-003",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST01-008",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST01-009",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST01-010",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST02-002",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST02-006",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST02-011",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST02-012",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST03-002",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST03-006",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST03-011",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST03-012",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST04-007",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST04-009",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST04-012",
+        "type": "Character",
+        "effect_text": ""
+      },
+      {
+        "id": "ST04-013",
+        "type": "Character",
+        "effect_text": ""
+      }
+    ],
+    "(static/keyword only)": [
+      {
+        "id": "ST01-004",
+        "type": "Character",
+        "effect_text": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+        "verbs": [
+          "GainKeyword"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST01-006",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "verbs": [],
+        "targets": []
+      },
+      {
+        "id": "ST01-013",
+        "type": "Character",
+        "effect_text": "[DON!! x1] This Character gains +1000 power.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST02-003",
+        "type": "Character",
+        "effect_text": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST02-004",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "verbs": [],
+        "targets": []
+      },
+      {
+        "id": "ST03-008",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "verbs": [],
+        "targets": []
+      },
+      {
+        "id": "ST04-011",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "verbs": [],
+        "targets": []
+      }
+    ],
+    "[On Play]": [
+      {
+        "id": "ST01-011",
+        "type": "Character",
+        "effect_text": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+        "verbs": [
+          "AttachDon"
+        ],
+        "targets": [
+          "own:leader_or_character",
+          "own:character",
+          "filter:rested"
+        ]
+      },
+      {
+        "id": "ST02-005",
+        "type": "Character",
+        "effect_text": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less. [Trigger] Play this card.",
+        "verbs": [
+          "KO"
+        ],
+        "targets": [
+          "self:this_card",
+          "filter:cost_le",
+          "filter:rested"
+        ]
+      },
+      {
+        "id": "ST02-009",
+        "type": "Character",
+        "effect_text": "[On Play] Set up to 1 of your \"Supernovas\" or \"Heart Pirates\" type rested Characters with a cost of 5 or less as active.",
+        "verbs": [
+          "SetActive"
+        ],
+        "targets": [
+          "filter:cost_le",
+          "filter:subtype",
+          "filter:rested"
+        ]
+      },
+      {
+        "id": "ST03-004",
+        "type": "Character",
+        "effect_text": "[On Play] Add up to 1 \"The Seven Warlords of the Sea\" or \"Thriller Bark Pirates\" type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+        "verbs": [],
+        "targets": [
+          "filter:cost_le",
+          "filter:subtype"
+        ]
+      },
+      {
+        "id": "ST03-009",
+        "type": "Character",
+        "effect_text": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+        "verbs": [
+          "Bounce"
+        ],
+        "targets": [
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST03-010",
+        "type": "Character",
+        "effect_text": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order. [Trigger] Play this card.",
+        "verbs": [
+          "LookAt"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST03-014",
+        "type": "Character",
+        "effect_text": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+        "verbs": [
+          "Bounce"
+        ],
+        "targets": [
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST04-002",
+        "type": "Character",
+        "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
+        "verbs": [
+          "Play"
+        ],
+        "targets": [
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST04-003",
+        "type": "Character",
+        "effect_text": "[On Play] DON!! -5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+        "verbs": [
+          "KO",
+          "GainKeyword"
+        ],
+        "targets": [
+          "self:this_card",
+          "opp:character",
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST04-004",
+        "type": "Character",
+        "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+        "verbs": [
+          "KO"
+        ],
+        "targets": [
+          "opp:character",
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST04-005",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+        "verbs": [
+          "Draw",
+          "TrashHand"
+        ],
+        "targets": []
+      },
+      {
+        "id": "ST04-006",
+        "type": "Character",
+        "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.",
+        "verbs": [
+          "Draw"
+        ],
+        "targets": []
+      },
+      {
+        "id": "ST04-008",
+        "type": "Character",
+        "effect_text": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "verbs": [
+          "AddDon",
+          "SetActive",
+          "TrashHand"
+        ],
+        "targets": []
+      },
+      {
+        "id": "ST04-010",
+        "type": "Character",
+        "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. [Trigger] Play this card.",
+        "verbs": [
+          "KO"
+        ],
+        "targets": [
+          "self:this_card",
+          "opp:character",
+          "filter:cost_le"
+        ]
+      }
+    ],
+    "[Counter]": [
+      {
+        "id": "ST01-014",
+        "type": "Event",
+        "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "own:leader_or_character"
+        ]
+      },
+      {
+        "id": "ST02-015",
+        "type": "Event",
+        "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active. [Trigger] Set up to 2 of your DON!! cards as active.",
+        "verbs": [
+          "GivePower",
+          "SetActive"
+        ],
+        "targets": [
+          "own:leader_or_character"
+        ]
+      },
+      {
+        "id": "ST02-016",
+        "type": "Event",
+        "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+        "verbs": [
+          "GivePower",
+          "SetActive"
+        ],
+        "targets": [
+          "own:leader_or_character"
+        ]
+      },
+      {
+        "id": "ST03-016",
+        "type": "Event",
+        "effect_text": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand. [Trigger] Activate this card's [Counter] effect.",
+        "verbs": [
+          "Bounce"
+        ],
+        "targets": [
+          "self:this_card",
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST03-017",
+        "type": "Event",
+        "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
+        "verbs": [
+          "Draw",
+          "GivePower"
+        ],
+        "targets": [
+          "own:leader_or_character"
+        ]
+      },
+      {
+        "id": "ST04-016",
+        "type": "Event",
+        "effect_text": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "own:leader_or_character"
+        ]
+      }
+    ],
+    "[Main]": [
+      {
+        "id": "ST01-015",
+        "type": "Event",
+        "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less. [Trigger] Activate this card's [Main] effect.",
+        "verbs": [
+          "KO"
+        ],
+        "targets": [
+          "self:this_card",
+          "opp:character",
+          "filter:power_le"
+        ]
+      },
+      {
+        "id": "ST01-016",
+        "type": "Event",
+        "effect_text": "[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn. [Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
+        "verbs": [
+          "KO"
+        ],
+        "targets": [
+          "opp:blocker_restriction",
+          "filter:cost_le",
+          "filter:subtype"
+        ]
+      },
+      {
+        "id": "ST02-017",
+        "type": "Event",
+        "effect_text": "[Main] Rest up to 1 of your opponent's Characters.",
+        "verbs": [
+          "RestTarget"
+        ],
+        "targets": [
+          "opp:character"
+        ]
+      },
+      {
+        "id": "ST03-015",
+        "type": "Event",
+        "effect_text": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand. [Trigger] Activate this card's [Main] effect.",
+        "verbs": [
+          "Bounce"
+        ],
+        "targets": [
+          "self:this_card",
+          "filter:cost_le"
+        ]
+      },
+      {
+        "id": "ST04-014",
+        "type": "Event",
+        "effect_text": "[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active. [Trigger] Activate this card's [Main] effect.",
+        "verbs": [
+          "Draw",
+          "AddDon",
+          "SetActive"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      },
+      {
+        "id": "ST04-015",
+        "type": "Event",
+        "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "verbs": [
+          "KO",
+          "AddDon",
+          "SetActive"
+        ],
+        "targets": [
+          "opp:character",
+          "filter:cost_le"
+        ]
+      }
+    ],
+    "[Your Turn]": [
+      {
+        "id": "ST02-010",
+        "type": "Character",
+        "effect_text": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
+        "verbs": [
+          "SetActive"
+        ],
+        "targets": [
+          "self:this_card",
+          "opp:character"
+        ]
+      },
+      {
+        "id": "ST02-014",
+        "type": "Character",
+        "effect_text": "[DON!! x1] [Your Turn] If this Character is rested, your \"Supernovas\" or \"Navy\" type Leaders and Characters gain +1000 power.",
+        "verbs": [
+          "GivePower"
+        ],
+        "targets": [
+          "self:this_card",
+          "filter:subtype"
+        ]
+      }
+    ],
+    "[End of Your Turn]": [
+      {
+        "id": "ST02-013",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this card as active.  This card has been officially errata'd.",
+        "verbs": [
+          "SetActive"
+        ],
+        "targets": [
+          "self:this_card"
+        ]
+      }
+    ],
+    "[On Block]": [
+      {
+        "id": "ST03-003",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+        "verbs": [],
+        "targets": [
+          "filter:cost_le"
+        ]
+      }
+    ],
+    "[Trigger]": [
+      {
+        "id": "ST03-013",
+        "type": "Character",
+        "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Trigger] Play this card.",
+        "verbs": [],
+        "targets": [
+          "self:this_card"
+        ]
+      }
+    ]
+  },
+  "vanilla_cards": [
+    "ST01-003",
+    "ST01-008",
+    "ST01-009",
+    "ST01-010",
+    "ST02-002",
+    "ST02-006",
+    "ST02-011",
+    "ST02-012",
+    "ST03-002",
+    "ST03-006",
+    "ST03-011",
+    "ST03-012",
+    "ST04-007",
+    "ST04-009",
+    "ST04-012",
+    "ST04-013"
+  ],
+  "trigger_tail_cards": [
+    "ST01-002",
+    "ST01-014",
+    "ST01-015",
+    "ST01-016",
+    "ST02-005",
+    "ST02-015",
+    "ST03-010",
+    "ST03-013",
+    "ST03-015",
+    "ST03-016",
+    "ST04-010",
+    "ST04-014",
+    "ST04-015"
+  ],
+  "no_verb_detected": [
+    {
+      "id": "ST01-002",
+      "effect_text": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle. [Trigger] Play this card."
+    },
+    {
+      "id": "ST01-006",
+      "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+    },
+    {
+      "id": "ST01-012",
+      "effect_text": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle."
+    },
+    {
+      "id": "ST02-004",
+      "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+    },
+    {
+      "id": "ST03-003",
+      "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck."
+    },
+    {
+      "id": "ST03-004",
+      "effect_text": "[On Play] Add up to 1 \"The Seven Warlords of the Sea\" or \"Thriller Bark Pirates\" type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand."
+    },
+    {
+      "id": "ST03-008",
+      "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+    },
+    {
+      "id": "ST03-013",
+      "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Trigger] Play this card."
+    },
+    {
+      "id": "ST04-001",
+      "effect_text": "[Activate: Main] [Once Per Turn] DON!! -7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards."
+    },
+    {
+      "id": "ST04-011",
+      "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+    }
+  ],
+  "data_quality": {
+    "effect_text_literal_NULL": []
+  }
+}

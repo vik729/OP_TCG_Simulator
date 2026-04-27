@@ -1,0 +1,26 @@
+{
+  "_description": "Transcription corrections applied on top of normalized cards. Fixes upstream API scraping errors so our cards/STxx/*.json files reflect the text actually printed on Bandai cards. Not to be confused with ruleset errata (see docs/ARCHITECTURE.md) — those live in rulesets/ and are versioned per ruleset.",
+  "_schema": {
+    "keys_starting_with_underscore": "Stripped before merging. Use for meta like _reason, _source.",
+    "override_shape": {
+      "object_form": {
+        "before_contains": "substring expected in the current field value",
+        "after": "the corrected value"
+      },
+      "direct_form": "any JSON value — replaces the field unconditionally (use sparingly; before_contains is safer)"
+    },
+    "behaviors": {
+      "applied": "current value matches before_contains -> replaced with after",
+      "skipped-upstream-fixed": "current value already equals after -> correction is obsolete, consider removing",
+      "stale": "neither matches -> emit warning; correction may need updating for a new upstream shape"
+    }
+  },
+  "ST03-004": {
+    "effect_text": {
+      "before_contains": "cost of 4 or less than [Gecko Moria]",
+      "after": "[On Play] Add up to 1 \"The Seven Warlords of the Sea\" or \"Thriller Bark Pirates\" type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand."
+    },
+    "_reason": "Upstream optcgapi.com scraper dropped 'other' — produces ungrammatical 'cost of 4 or less than [Gecko Moria]'.",
+    "_source": "Official printed card text"
+  }
+}

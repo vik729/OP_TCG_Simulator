@@ -11,9 +11,7 @@
   "life": null,
   "attribute": "Strike",
   "subtypes": [
-    "Fallen",
-    "Monk",
-    "Pirates",
+    "Fallen Monk Pirates",
     "Supernovas"
   ],
   "rarity": "C",

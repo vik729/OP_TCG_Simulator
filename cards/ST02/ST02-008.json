@@ -11,8 +11,7 @@
   "life": null,
   "attribute": "Ranged",
   "subtypes": [
-    "On-Air",
-    "Pirates",
+    "On-Air Pirates",
     "Supernovas"
   ],
   "rarity": "C",
