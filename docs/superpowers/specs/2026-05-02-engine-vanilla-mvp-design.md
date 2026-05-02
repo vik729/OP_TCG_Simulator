@@ -107,7 +107,7 @@ The four-layer separation (engine ↔ RL ↔ server ↔ frontend) from `ARCHITEC
 |---|---|
 | `engine/game_state.py` | Add `WinReason` enum; add `winner` already exists; add `win_reason: Optional[WinReason] = None` field to `GameState`; update `validate_invariants` to assert `GAME_OVER ⇒ win_reason is not None` |
 | `engine/actions.py` | Add `AdvancePhase` action (frozen dataclass, no params) |
-| `engine/phase_machine.py` | Add `AdvancePhase` to `LEGAL_ACTIONS` for: REFRESH, DRAW, DON, END, BATTLE_DECLARED, BATTLE_WHEN_ATK, BATTLE_DAMAGE, BATTLE_CLEANUP, and BATTLE_TRIGGER (vanilla case where the trigger is always passed) |
+| `engine/phase_machine.py` | Add `AdvancePhase` to `LEGAL_ACTIONS` for the **automatic phases only**: REFRESH, DRAW, DON, END, BATTLE_DECLARED, BATTLE_WHEN_ATK, BATTLE_DAMAGE, BATTLE_CLEANUP. `BATTLE_TRIGGER` stays as `{ActivateTrigger, PassTrigger}` (it is a defender decision phase). In vanilla, `BATTLE_TRIGGER` is never entered because no card has a parsed `[Trigger]` — the combat logic in BATTLE_DAMAGE transitions directly to BATTLE_CLEANUP when the revealed life card has no `triggers[]`. |
 | `tests/test_game_state.py` | Add tests for new fields and `AdvancePhase` legality |
 
 ### New files (engine)
@@ -117,8 +117,9 @@ The four-layer separation (engine ↔ RL ↔ server ↔ frontend) from `ARCHITEC
 | `engine/rng.py` | Splittable seed RNG: `split_rng(state: int) → (Random, int)` | ~30 |
 | `engine/card_db.py` | `CardDefinition` dataclass; `CardDB` class to load `cards/STxx/*.json`; merge keyword YAML; lookup by ID | ~120 |
 | `engine/keywords.py` | `effective_keywords(card, db, state) → frozenset[str]`; condition evaluator (vanilla: `[DON!! xN]` only) | ~40 |
-| `engine/deck.py` | `DeckList` dataclass; `load_official_deck`; `load_custom_deck`; `validate_deck` | ~120 |
-| `engine/setup.py` | `build_initial_state(p1_deck, p2_deck, seed, ruleset_id, db) → GameState`; SETUP-phase action handlers | ~150 |
+| `engine/ruleset.py` | `Ruleset` frozen dataclass (id, banlist); `RULESETS` registry dict (vanilla MVP: one entry, `"ST01-ST04-v1"` with empty banlist) | ~25 |
+| `engine/deck.py` | `DeckList` dataclass; `load_official_deck`; `load_custom_deck`; `validate_deck(deck, db, ruleset)` | ~120 |
+| `engine/setup.py` | `build_initial_state(p1_deck: DeckList, p2_deck: DeckList, seed: int, ruleset: Ruleset, db: CardDB) → GameState`; SETUP-phase action handlers | ~150 |
 | `engine/legal_actions.py` | `legal_actions(state) → tuple[Action, ...]` for every phase | ~200 |
 | `engine/win_check.py` | `check_win_conditions(state) → state` — sets `win_reason`, transitions to `GAME_OVER` | ~50 |
 | `engine/combat.py` | All 7 battle sub-phase handlers + `begin_attack()` entry from MAIN | ~250 |
@@ -146,6 +147,7 @@ The four-layer separation (engine ↔ RL ↔ server ↔ frontend) from `ARCHITEC
 | `tests/test_rng.py` | unit |
 | `tests/test_card_db.py` | unit |
 | `tests/test_keywords.py` | unit |
+| `tests/test_ruleset.py` | unit |
 | `tests/test_deck.py` | unit |
 | `tests/test_setup.py` | unit |
 | `tests/test_legal_actions.py` | unit |
@@ -188,7 +190,7 @@ The four-layer separation (engine ↔ RL ↔ server ↔ frontend) from `ARCHITEC
                                   │
                               keywords.py
                                   │
-                              card_db.py ── deck.py
+                              card_db.py ── deck.py ── ruleset.py
                                   │
                               game_state.py + actions.py + phase_machine.py
                                   │
@@ -234,7 +236,7 @@ _ACTION_HANDLERS = {
     PassCounter:      combat.handle_pass_counter,
     ActivateTrigger:  combat.handle_trigger,        # vanilla: never reached
     PassTrigger:      combat.handle_pass_trigger,
-    ActivateAbility:  _handle_activate_ability,     # vanilla: raises IllegalActionError
+    ActivateAbility:  _handle_activate_ability,     # vanilla: raises NotImplementedError; never reached because legal_actions doesn't offer it for vanilla cards
     EndTurn:          _handle_end_turn,
 }
 ```
@@ -251,13 +253,13 @@ Combat lives entirely in `combat.py`. Entry point is `combat.begin_attack(state,
 | `BATTLE_WHEN_ATK` | auto | `AdvancePhase()` | No-op (no triggers in vanilla), → `BATTLE_BLOCKER` |
 | `BATTLE_BLOCKER` | defender | `DeclareBlocker(id)` or `PassBlocker()` | If attacker has `[Unblockable]`, only `PassBlocker()` is legal. Blocker character is rested; battle target is redirected to the blocker. → `BATTLE_COUNTER` |
 | `BATTLE_COUNTER` | defender | `PlayCounter(id)` (loop) or `PassCounter()` | Each `PlayCounter` trashes the played card and adds its `counter` value to `battle_context.power_boosts`. Loops until `PassCounter()`. → `BATTLE_DAMAGE` |
-| `BATTLE_DAMAGE` | auto | `AdvancePhase()` | Compute final attacker power (base + DON × 1000 + temp_effects). Compute final target power (base + DON × 1000 + counter sum). If atk ≥ target: target loses (Leader → 1 life, Character → K.O.); if atk < target: nothing. Apply `[Double Attack]` (2 life), `[Banish]` (life trashed, no Trigger). → `BATTLE_TRIGGER` (only if life card revealed has `[Trigger]`; in vanilla, always skip → `BATTLE_CLEANUP`) |
-| `BATTLE_TRIGGER` | defender | `PassTrigger()` (vanilla always passes) | Vanilla: revealed life card always added to hand. → `BATTLE_CLEANUP` |
+| `BATTLE_DAMAGE` | auto | `AdvancePhase()` | Compute final attacker power (base + DON × 1000 + temp_effects). Compute final target power (base + DON × 1000 + counter sum). If atk ≥ target: target loses (Leader → 1 life, Character → K.O.); if atk < target: nothing. Apply `[Double Attack]` (2 life), `[Banish]` (life trashed, no Trigger). Then check the revealed life card (if any): if it has parsed `triggers[]` → `BATTLE_TRIGGER`; else → `BATTLE_CLEANUP`. **In vanilla, `triggers[]` is always empty so this always goes to `BATTLE_CLEANUP` — `BATTLE_TRIGGER` is never entered.** |
+| `BATTLE_TRIGGER` | defender | `ActivateTrigger()` or `PassTrigger()` | Defender chooses to activate or skip the [Trigger]. Vanilla never reaches this phase. → `BATTLE_CLEANUP` |
 | `BATTLE_CLEANUP` | auto | `AdvancePhase()` | Clear `battle_context`; expire `TempEffect`s with `expires_after=BATTLE_CLEANUP`; → `MAIN` |
 
 ### 7.3 Setup flow
 
-`setup.build_initial_state(p1_deck, p2_deck, seed, ruleset_id, db) → GameState` returns a state in `Phase.SETUP` with:
+`setup.build_initial_state(p1_deck: DeckList, p2_deck: DeckList, seed: int, ruleset: Ruleset, db: CardDB) → GameState` returns a state in `Phase.SETUP` with:
 - Both decks loaded into the deck zone (unshuffled)
 - No hands, no life cards
 - `active_player_id = None` (not yet determined)
@@ -421,7 +423,20 @@ main_deck:
 5. Banlist: no card_id is in `ruleset.banlist`.
 6. Existence: every card_id resolves in `db`.
 
-**`Ruleset` for vanilla MVP**: a frozen dataclass with `id: str` and `banlist: frozenset[str] = frozenset()`. Errata overlay deferred. The `id` field is what gets written into `GameState.ruleset_id`.
+**`Ruleset` for vanilla MVP** (lives in `engine/ruleset.py`):
+
+```python
+@dataclass(frozen=True)
+class Ruleset:
+    id: str
+    banlist: frozenset[str] = frozenset()
+
+RULESETS: dict[str, Ruleset] = {
+    "ST01-ST04-v1": Ruleset(id="ST01-ST04-v1", banlist=frozenset()),
+}
+```
+
+The `id` field is what gets written into `GameState.ruleset_id`. Errata overlay deferred (see `docs/todos/DSL_PIPELINE.md`).
 
 ### 7.8 Replay
 
@@ -499,10 +514,41 @@ Verbose output: phase transitions, every action taken, current life/hand/DON cou
 All in `tests/test_random_game.py`:
 
 ```python
-@given(seed=integers(0, 1000))
+import pytest
+from hypothesis import given, settings, strategies as st
+import random
+from engine.card_db import CardDB
+from engine.ruleset import RULESETS
+from engine.deck import load_official_deck
+from engine.setup import build_initial_state
+from engine.step import step
+from engine.bots.random_bot import random_legal_action
+from engine.game_state import validate_invariants
+
+@pytest.fixture(scope="module")
+def db():
+    return CardDB()
+
+@pytest.fixture(scope="module")
+def ruleset():
+    return RULESETS["ST01-ST04-v1"]
+
+def _run_full_game(seed: int, db: CardDB, ruleset) -> "GameState":
+    p1_deck = load_official_deck("ST-01", db)
+    p2_deck = load_official_deck("ST-02", db)
+    state = build_initial_state(p1_deck, p2_deck, seed=seed, ruleset=ruleset, db=db)
+    bot_rng = random.Random(seed + 100_000)
+    while not state.is_terminal():
+        action = random_legal_action(state, bot_rng)
+        state = step(state, action)
+    return state
+
+@given(seed=st.integers(0, 1000))
 @settings(max_examples=100, deadline=None)
-def test_termination_and_invariants(seed):
-    state = build_initial_state(p1="ST-01", p2="ST-02", seed=seed, ruleset_id="ST01-ST04-v1", db=db)
+def test_termination_and_invariants(seed, db, ruleset):
+    p1_deck = load_official_deck("ST-01", db)
+    p2_deck = load_official_deck("ST-02", db)
+    state = build_initial_state(p1_deck, p2_deck, seed=seed, ruleset=ruleset, db=db)
     bot_rng = random.Random(seed + 100_000)
     while not state.is_terminal():
         action = random_legal_action(state, bot_rng)
@@ -512,18 +558,20 @@ def test_termination_and_invariants(seed):
     assert state.winner is not None
     assert state.win_reason is not None
 
-@given(seed=integers(0, 1000))
+@given(seed=st.integers(0, 1000))
 @settings(max_examples=50, deadline=None)
-def test_determinism(seed):
-    state_a = _run_full_game(seed)
-    state_b = _run_full_game(seed)
+def test_determinism(seed, db, ruleset):
+    state_a = _run_full_game(seed, db, ruleset)
+    state_b = _run_full_game(seed, db, ruleset)
     assert state_a == state_b
 
-@given(seed=integers(0, 1000))
+@given(seed=st.integers(0, 1000))
 @settings(max_examples=50, deadline=None)
-def test_card_count_conserved(seed):
+def test_card_count_conserved(seed, db, ruleset):
     """At every step, both players have exactly 51 cards in total."""
-    state = build_initial_state(...)
+    p1_deck = load_official_deck("ST-01", db)
+    p2_deck = load_official_deck("ST-02", db)
+    state = build_initial_state(p1_deck, p2_deck, seed=seed, ruleset=ruleset, db=db)
     bot_rng = random.Random(seed + 100_000)
     while not state.is_terminal():
         action = random_legal_action(state, bot_rng)
@@ -537,9 +585,10 @@ When a property test fails, the failing seed is logged. A small helper writes th
 ### 8.3 Smoke test
 
 ```python
-def test_smoke_random_game():
-    db = CardDB()
-    state = build_initial_state(p1="ST-01", p2="ST-02", seed=42, ruleset_id="ST01-ST04-v1", db=db)
+def test_smoke_random_game(db, ruleset):
+    p1_deck = load_official_deck("ST-01", db)
+    p2_deck = load_official_deck("ST-02", db)
+    state = build_initial_state(p1_deck, p2_deck, seed=42, ruleset=ruleset, db=db)
     bot_rng = random.Random(7)
     while not state.is_terminal():
         action = random_legal_action(state, bot_rng)
@@ -558,7 +607,7 @@ The work breaks into 4 waves. Within a wave, tasks have **no file conflicts** an
 
 | ID | Task | Files created/modified | Acceptance |
 |---|---|---|---|
-| **W1.1** | Schema additions | `engine/game_state.py` (add `WinReason`, `win_reason` field, update `validate_invariants`); `engine/actions.py` (add `AdvancePhase`); `engine/phase_machine.py` (add `AdvancePhase` to all auto-phase entries); `tests/test_game_state.py` updates | Existing tests pass; new fields covered |
+| **W1.1** | Schema additions | `engine/game_state.py` (add `WinReason` enum with values `LIFE_AND_LEADER_HIT`, `DECK_OUT`, `CONCESSION`, `CARD_EFFECT`; add `win_reason: Optional[WinReason] = None` field to `GameState`; update `validate_invariants` to assert `GAME_OVER ⇒ win_reason is not None`); `engine/actions.py` (add `AdvancePhase` frozen dataclass, no params); `engine/phase_machine.py` (add `AdvancePhase` to `LEGAL_ACTIONS` for the **automatic phases only**: REFRESH, DRAW, DON, END, BATTLE_DECLARED, BATTLE_WHEN_ATK, BATTLE_DAMAGE, BATTLE_CLEANUP — NOT BATTLE_TRIGGER); `tests/test_game_state.py` updates | Existing tests pass; new fields covered; `AdvancePhase` legality checked for each phase |
 | **W1.2** | RNG | `engine/rng.py`, `tests/test_rng.py` | `split_rng()` deterministic, advances state, returns distinct sub-RNGs on consecutive calls |
 | **W1.3** | Replay | `engine/replay.py`, `tests/test_replay.py` | Round-trip works; trace format matches §7.8 |
 | **W1.4** | Resolver stub | `engine/resolver.py`, `tests/test_resolver.py` | Empty stack passes through; non-empty raises `NotImplementedError` |
@@ -572,7 +621,7 @@ The work breaks into 4 waves. Within a wave, tasks have **no file conflicts** an
 
 | ID | Task | Files | Depends on | Acceptance |
 |---|---|---|---|---|
-| **W2.1** | Deck | `engine/deck.py`, `tests/test_deck.py` | W1.7 | All 5 validation rules covered (happy + error case each); both loaders work; rejects deck with wrong color, 5 of one card, banned card |
+| **W2.1** | Deck + Ruleset | `engine/ruleset.py` (the `Ruleset` dataclass + `RULESETS` registry per §7.7); `engine/deck.py`; `tests/test_deck.py`; `tests/test_ruleset.py` | W1.7 | All 5 validation rules covered (happy + error case each); both loaders work; rejects deck with wrong color, 5 of one card, banned card; `RULESETS["ST01-ST04-v1"]` resolves |
 | **W2.2** | Setup | `engine/setup.py`, `tests/test_setup.py` | W1.2, W1.7, W2.1 | `build_initial_state` produces valid state in `Phase.SETUP`; `ChooseFirst` shuffles + deals; mulligan flow works; life cards in correct order; auto-phases (REFRESH/DRAW/DON) correctly handle turn-1 special cases |
 | **W2.3** | Legal actions | `engine/legal_actions.py`, `tests/test_legal_actions.py` | W1.7, W1.1, `engine/keywords.py` | Returns `(AdvancePhase(),)` for auto-phases; covers all action types per phase; affordability filter correct; turn-1 attack restriction; `[Rush]` unlocks turn-of-play attacks; no illegal actions ever returned |
 
@@ -607,7 +656,7 @@ Each task spec for a sub-agent must include:
 The engine MVP is **done** when *all* of these hold:
 
 1. **CLI runs end-to-end**: `python -m engine.play --p1 ST-01 --p2 ST-02 --seed 42 --verbose` exits 0 with a winner and `win_reason`.
-2. **All tests pass**: `pytest tests/ -v` is green, including all 13 test files listed in §5.
+2. **All tests pass**: `pytest tests/ -v` is green, including all 14 test files listed in §5.
 3. **Property tests survive 100+ random seeds** with `max_examples=100` per Hypothesis run.
 4. **Deck validator rejects invalid decks** with specific error messages (wrong color, 5 of one card, banned card).
 5. **Replay round-trip works**: any game's trace can be saved and re-played to a bit-identical final state.
