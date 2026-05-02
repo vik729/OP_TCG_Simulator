@@ -24,7 +24,59 @@ from engine.replay import (
     record_action, record_result, save_trace, load_trace,
     deserialize_action,
 )
-from engine.game_state import Phase, PlayerID
+from engine.game_state import Phase, PlayerID, GameState
+from engine.card_db import CardDB
+from engine.actions import (
+    Action, PlayCard, AttachDon, DeclareAttack, DeclareBlocker,
+    PlayCounter, ActivateAbility, RespondInput, ChooseFirst,
+)
+
+
+def _card_label(state: GameState, db: CardDB, instance_id: str) -> str:
+    """'ST01-006 "Usopp"' if findable, else the bare instance_id."""
+    card = state.get_card(instance_id)
+    if card is None:
+        return instance_id
+    cdef = db.get(card.definition_id)
+    name = (cdef.name if cdef and cdef.name else "?").strip()
+    return f'{card.definition_id} "{name}"'
+
+
+def _format_action(action: Action, state: GameState, db: CardDB) -> str:
+    name = type(action).__name__
+    if isinstance(action, PlayCard):
+        extra = f" +{action.extra_don}don" if action.extra_don else ""
+        return f"PlayCard {_card_label(state, db, action.card_instance_id)}{extra}"
+    if isinstance(action, AttachDon):
+        return f"AttachDon -> {_card_label(state, db, action.target_instance_id)}"
+    if isinstance(action, DeclareAttack):
+        return (f"DeclareAttack {_card_label(state, db, action.attacker_instance_id)} "
+                f"-> {_card_label(state, db, action.target_instance_id)}")
+    if isinstance(action, DeclareBlocker):
+        return f"DeclareBlocker {_card_label(state, db, action.blocker_instance_id)}"
+    if isinstance(action, PlayCounter):
+        card = state.get_card(action.card_instance_id)
+        cdef = db.get(card.definition_id) if card else None
+        boost = (cdef.counter or 0) if cdef else 0
+        return f"PlayCounter {_card_label(state, db, action.card_instance_id)} (+{boost})"
+    if isinstance(action, ActivateAbility):
+        return f"ActivateAbility {_card_label(state, db, action.card_instance_id)}"
+    if isinstance(action, RespondInput):
+        return f"RespondInput {action.choices}"
+    if isinstance(action, ChooseFirst):
+        return f"ChooseFirst {action.first_player_id}"
+    return name
+
+
+def _turn_header(state: GameState) -> str:
+    p1, p2 = state.p1, state.p2
+    return (
+        f"=== Turn {state.turn_number} ({state.active_player_id.value}) "
+        f"| P1: life={len(p1.life)} hand={len(p1.hand)} field={len(p1.field)} "
+        f"don={p1.don_field.active}a/{p1.don_field.rested}r"
+        f" || P2: life={len(p2.life)} hand={len(p2.hand)} field={len(p2.field)} "
+        f"don={p2.don_field.active}a/{p2.don_field.rested}r ==="
+    )
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -56,11 +108,15 @@ def main(argv: list[str] | None = None) -> int:
     bot_rng = random.Random(bot_seed)
 
     trace: list[dict] = []
+    prev_turn = -1
     while not state.is_terminal():
+        if args.verbose and state.turn_number != prev_turn:
+            print(_turn_header(state))
+            prev_turn = state.turn_number
         action = random_legal_action(state, bot_rng, db)
         actor = state.active_player_id
         if args.verbose:
-            print(f"[turn {state.turn_number} phase {state.phase.value}] {actor.value}: {type(action).__name__}")
+            print(f"  [{state.phase.value}] {actor.value}: {_format_action(action, state, db)}")
         record_action(trace, action, turn=state.turn_number, phase=state.phase, actor=actor)
         state = step(state, action, db)
         if state.turn_number >= 500:
