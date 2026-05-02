@@ -90,3 +90,65 @@ class TestAdvanceBattleCleanup:
         new_state = advance_battle(state, db)
         assert new_state.phase == Phase.MAIN
         assert new_state.battle_context is None
+
+
+class TestAttachedDonPowerBoost:
+    """Rule 6-5-5-2: attached DON adds 1000 power *during the controller's turn*."""
+
+    def test_attached_don_does_not_boost_on_opponent_turn(self, db):
+        """P1 attacks P2's leader (5000). P2's leader has 2 attached DON.
+        P1's turn -> defender's DON gives 0 boost. 5000 vs 5000 -> HIT (tie)."""
+        life_card = make_card("p2-life-0", "ST01-002", Zone.LIFE, PlayerID.P2)
+        ctx = BattleContext(attacker_id="p1-leader", target_id="p2-leader")
+        state = make_state(
+            phase=Phase.BATTLE_DAMAGE,
+            battle_context=ctx,
+            active_player_id=PlayerID.P1,
+        )
+        boosted_defender_leader = dataclasses.replace(state.p2.leader, attached_don=2)
+        new_p2 = dataclasses.replace(state.p2, life=(life_card,),
+                                     leader=boosted_defender_leader)
+        state = dataclasses.replace(state, p2=new_p2)
+
+        new_state = advance_battle(state, db)
+        assert len(new_state.p2.life) == 0, \
+            "Defender's attached DON wrongly boosted on opponent turn — leader survived a tie"
+        assert len(new_state.p2.hand) == 1, "Life card should move to hand on hit"
+
+    def test_attached_don_boosts_on_controller_turn(self, db):
+        """Attacker's own DON does boost during their turn.
+        P1 leader (5000) + 1 attached DON = 6000 vs P2 leader 5000 -> HIT."""
+        life_card = make_card("p2-life-0", "ST01-002", Zone.LIFE, PlayerID.P2)
+        ctx = BattleContext(attacker_id="p1-leader", target_id="p2-leader")
+        state = make_state(
+            phase=Phase.BATTLE_DAMAGE,
+            battle_context=ctx,
+            active_player_id=PlayerID.P1,
+        )
+        boosted_attacker = dataclasses.replace(state.p1.leader, attached_don=1)
+        new_p1 = dataclasses.replace(state.p1, leader=boosted_attacker)
+        new_p2 = dataclasses.replace(state.p2, life=(life_card,))
+        state = dataclasses.replace(state, p1=new_p1, p2=new_p2)
+
+        new_state = advance_battle(state, db)
+        assert len(new_state.p2.life) == 0
+
+    def test_counter_boosts_target_regardless_of_turn(self, db):
+        """Counter cards boost the defender's power; this is independent of
+        the DON-during-your-turn rule. P1 leader 5000 vs P2 leader 5000 + 2000
+        counter = 7000 -> MISS."""
+        life_card = make_card("p2-life-0", "ST01-002", Zone.LIFE, PlayerID.P2)
+        ctx = BattleContext(
+            attacker_id="p1-leader", target_id="p2-leader",
+            power_boosts=(2000,),
+        )
+        state = make_state(
+            phase=Phase.BATTLE_DAMAGE,
+            battle_context=ctx,
+            active_player_id=PlayerID.P1,
+        )
+        new_p2 = dataclasses.replace(state.p2, life=(life_card,))
+        state = dataclasses.replace(state, p2=new_p2)
+
+        new_state = advance_battle(state, db)
+        assert len(new_state.p2.life) == 1, "Counter should have made attack MISS"

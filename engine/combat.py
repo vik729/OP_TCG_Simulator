@@ -99,6 +99,15 @@ def advance_battle(state: GameState, db: CardDB) -> GameState:
     raise ValueError(f"advance_battle called in non-auto battle phase: {state.phase}")
 
 
+def battle_power(card: CardInstance, cdef, state: GameState) -> int:
+    """Card's power during battle. Per rule 6-5-5-2, attached DON only adds
+    power during the controller's turn."""
+    base = cdef.power or 0
+    if card.controller == state.active_player_id:
+        return base + 1000 * card.attached_don
+    return base
+
+
 def _do_damage(state: GameState, db: CardDB) -> GameState:
     """Compute powers, apply damage, transition to CLEANUP (vanilla skips TRIGGER)."""
     assert state.battle_context is not None
@@ -109,8 +118,8 @@ def _do_damage(state: GameState, db: CardDB) -> GameState:
 
     atk_def = db.get(attacker.definition_id)
     tgt_def = db.get(target.definition_id)
-    atk_power = (atk_def.power or 0) + 1000 * attacker.attached_don
-    tgt_power = (tgt_def.power or 0) + 1000 * target.attached_don + sum(state.battle_context.power_boosts)
+    atk_power = battle_power(attacker, atk_def, state)
+    tgt_power = battle_power(target, tgt_def, state) + sum(state.battle_context.power_boosts)
 
     for te in state.temp_effects:
         if te.target_instance_id == attacker.instance_id:
