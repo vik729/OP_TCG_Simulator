@@ -152,11 +152,17 @@ def _battle_damage_delta(pre: GameState, cur: GameState, db: CardDB) -> str | No
     if a_power < t_power:
         return f"MISS ({power_str})"
     if t_def.type == "Leader":
-        pre_life = len(pre.get_player(target.controller).life)
-        cur_life = len(cur.get_player(target.controller).life)
-        damage = pre_life - cur_life
+        pre_p = pre.get_player(target.controller)
+        cur_p = cur.get_player(target.controller)
+        damage = len(pre_p.life) - len(cur_p.life)
+        moved = pre_p.life[:damage]
+        moved_ids = {c.instance_id for c in moved}
+        cur_hand_ids = {c.instance_id for c in cur_p.hand}
+        dest = "hand" if moved_ids and moved_ids.issubset(cur_hand_ids) else "trash"
+        names = ", ".join(_card_label(cur, db, c.instance_id) for c in moved) or "?"
         suffix = " (Double Attack)" if damage > 1 else ""
-        return f"HIT leader, {damage} life damage{suffix} ({power_str})"
+        return (f"HIT leader, {damage} life damage{suffix}"
+                f" -> {target.controller.value} life-to-{dest}: {names} ({power_str})")
     return f"KO'd {_card_label(pre, db, target.instance_id)} ({power_str})"
 
 
