@@ -64,6 +64,14 @@ class PlayerID(Enum):
         return PlayerID.P2 if self == PlayerID.P1 else PlayerID.P1
 
 
+class WinReason(Enum):
+    """Reason the game ended. Set on GameState when transitioning to GAME_OVER."""
+    LIFE_AND_LEADER_HIT = "life_and_leader_hit"   # rule 1-2-1-1-1
+    DECK_OUT            = "deck_out"              # rule 1-2-1-1-2
+    CONCESSION          = "concession"            # rule 1-2-3 (not used in MVP)
+    CARD_EFFECT         = "card_effect"           # rule 1-2-5 (not used in MVP, no DSL)
+
+
 # ── Card-level types ───────────────────────────────────────────────────────────
 
 @dataclass(frozen=True)
@@ -264,6 +272,7 @@ class GameState:
     rng_state:        int           # advances each time the engine needs randomness
     ruleset_id:       str           # e.g. "ST01-ST04-v1" — for future errata support
     winner:           Optional[PlayerID] = None
+    win_reason:       Optional[WinReason] = None
 
     # ── Convenience accessors ──────────────────────────────────────────────
 
@@ -331,9 +340,10 @@ def validate_invariants(state: GameState) -> None:
         assert 0 <= player.life_count <= 5, \
             f"Player {player.player_id} has {player.life_count} life cards (expected 0–5)"
 
-    # 5. If game is over, winner must be set
+    # 5. If game is over, winner and win_reason must be set
     if state.phase == Phase.GAME_OVER:
         assert state.winner is not None, "GAME_OVER phase but winner is None"
+        assert state.win_reason is not None, "GAME_OVER phase but win_reason is None"
 
     # 6. If pending_input is set, effect_stack must be non-empty
     if state.pending_input is not None:

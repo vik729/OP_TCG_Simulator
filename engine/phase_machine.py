@@ -16,6 +16,7 @@ from engine.game_state import Phase
 from engine.actions import (
     Action,
     ChooseFirst,
+    AdvancePhase,
     PlayCard, ActivateAbility, AttachDon, DeclareAttack, EndTurn,
     DeclareBlocker, PassBlocker,
     PlayCounter, PassCounter,
@@ -29,10 +30,10 @@ from engine.actions import (
 LEGAL_ACTIONS: dict[Phase, frozenset[type]] = {
     Phase.SETUP: frozenset({ChooseFirst}),
 
-    # Automatic phases — engine advances without player input
-    Phase.REFRESH: frozenset(),
-    Phase.DRAW:    frozenset(),
-    Phase.DON:     frozenset(),
+    # Automatic phases — only AdvancePhase is legal
+    Phase.REFRESH: frozenset({AdvancePhase}),
+    Phase.DRAW:    frozenset({AdvancePhase}),
+    Phase.DON:     frozenset({AdvancePhase}),
 
     Phase.MAIN: frozenset({
         PlayCard,
@@ -42,16 +43,16 @@ LEGAL_ACTIONS: dict[Phase, frozenset[type]] = {
         EndTurn,
     }),
 
-    Phase.END: frozenset(),
+    Phase.END: frozenset({AdvancePhase}),
 
     # Battle sub-phases
-    Phase.BATTLE_DECLARED: frozenset(),
-    Phase.BATTLE_WHEN_ATK: frozenset(),
+    Phase.BATTLE_DECLARED: frozenset({AdvancePhase}),
+    Phase.BATTLE_WHEN_ATK: frozenset({AdvancePhase}),
     Phase.BATTLE_BLOCKER:  frozenset({DeclareBlocker, PassBlocker}),
     Phase.BATTLE_COUNTER:  frozenset({PlayCounter, PassCounter}),
-    Phase.BATTLE_DAMAGE:   frozenset(),
+    Phase.BATTLE_DAMAGE:   frozenset({AdvancePhase}),
     Phase.BATTLE_TRIGGER:  frozenset({ActivateTrigger, PassTrigger}),
-    Phase.BATTLE_CLEANUP:  frozenset(),
+    Phase.BATTLE_CLEANUP:  frozenset({AdvancePhase}),
 
     Phase.GAME_OVER: frozenset(),
 }
@@ -60,8 +61,8 @@ LEGAL_ACTIONS: dict[Phase, frozenset[type]] = {
 # ── Core helpers ───────────────────────────────────────────────────────────────
 
 def is_automatic(phase: Phase) -> bool:
-    """True if this phase has no player decisions — engine advances automatically."""
-    return len(LEGAL_ACTIONS[phase]) == 0
+    """True if this phase's only legal action is AdvancePhase."""
+    return LEGAL_ACTIONS[phase] == frozenset({AdvancePhase})
 
 
 def legal_action_types(phase: Phase) -> frozenset[type]:

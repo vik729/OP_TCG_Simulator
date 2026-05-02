@@ -157,6 +157,15 @@ class TestConstruction:
         assert PlayerID.P1.opponent() == PlayerID.P2
         assert PlayerID.P2.opponent() == PlayerID.P1
 
+    def test_win_reason_default_is_none(self):
+        assert make_state().win_reason is None
+
+    def test_win_reason_settable(self):
+        from engine.game_state import WinReason
+        state = make_state(phase=Phase.GAME_OVER, winner=PlayerID.P1,
+                           win_reason=WinReason.LIFE_AND_LEADER_HIT)
+        assert state.win_reason == WinReason.LIFE_AND_LEADER_HIT
+
 
 # ── validate_invariants ────────────────────────────────────────────────────────
 
@@ -209,7 +218,21 @@ class TestInvariants:
             validate_invariants(state)
 
     def test_game_over_with_winner_passes(self):
-        state = make_state(phase=Phase.GAME_OVER, winner=PlayerID.P1)
+        from engine.game_state import WinReason
+        state = make_state(phase=Phase.GAME_OVER, winner=PlayerID.P1,
+                           win_reason=WinReason.LIFE_AND_LEADER_HIT)
+        validate_invariants(state)
+
+    def test_game_over_without_win_reason_fails(self):
+        from engine.game_state import WinReason
+        state = make_state(phase=Phase.GAME_OVER, winner=PlayerID.P1, win_reason=None)
+        with pytest.raises(AssertionError, match="win_reason is None"):
+            validate_invariants(state)
+
+    def test_game_over_with_win_reason_passes(self):
+        from engine.game_state import WinReason
+        state = make_state(phase=Phase.GAME_OVER, winner=PlayerID.P1,
+                           win_reason=WinReason.LIFE_AND_LEADER_HIT)
         validate_invariants(state)
 
     def test_battle_context_required_in_battle_phase(self):
@@ -305,3 +328,41 @@ class TestPhaseOrder:
         assert Phase.BATTLE_TRIGGER in dp
         assert Phase.MAIN not in dp
         assert Phase.BATTLE_DAMAGE not in dp
+
+
+class TestAdvancePhase:
+    def test_advance_phase_action_exists(self):
+        from engine.actions import AdvancePhase
+        action = AdvancePhase()
+        assert action is not None
+
+    def test_advance_phase_legal_in_refresh(self):
+        from engine.actions import AdvancePhase
+        assert is_legal_action(Phase.REFRESH, AdvancePhase(), False)
+
+    def test_advance_phase_legal_in_draw(self):
+        from engine.actions import AdvancePhase
+        assert is_legal_action(Phase.DRAW, AdvancePhase(), False)
+
+    def test_advance_phase_legal_in_don(self):
+        from engine.actions import AdvancePhase
+        assert is_legal_action(Phase.DON, AdvancePhase(), False)
+
+    def test_advance_phase_legal_in_end(self):
+        from engine.actions import AdvancePhase
+        assert is_legal_action(Phase.END, AdvancePhase(), False)
+
+    def test_advance_phase_legal_in_battle_auto_phases(self):
+        from engine.actions import AdvancePhase
+        for phase in (Phase.BATTLE_DECLARED, Phase.BATTLE_WHEN_ATK,
+                      Phase.BATTLE_DAMAGE, Phase.BATTLE_CLEANUP):
+            assert is_legal_action(phase, AdvancePhase(), False), f"AdvancePhase should be legal in {phase}"
+
+    def test_advance_phase_NOT_legal_in_main(self):
+        from engine.actions import AdvancePhase
+        assert not is_legal_action(Phase.MAIN, AdvancePhase(), False)
+
+    def test_advance_phase_NOT_legal_in_battle_trigger(self):
+        """BATTLE_TRIGGER is a defender decision phase (ActivateTrigger / PassTrigger)."""
+        from engine.actions import AdvancePhase
+        assert not is_legal_action(Phase.BATTLE_TRIGGER, AdvancePhase(), False)

@@ -28,6 +28,21 @@ class ChooseFirst(Action):
     first_player_id: str   # "P1" or "P2"
 
 
+@dataclass(frozen=True)
+class AdvancePhase(Action):
+    """
+    Advance the game past an automatic phase. Required for every automatic phase
+    (REFRESH, DRAW, DON, END, BATTLE_DECLARED, BATTLE_WHEN_ATK, BATTLE_DAMAGE,
+    BATTLE_CLEANUP). The handler for this action performs the phase's logic
+    (e.g. drawing the card during DRAW, unrooting during REFRESH) and transitions
+    to the next phase.
+
+    BATTLE_TRIGGER is NOT an automatic phase — it requires ActivateTrigger or
+    PassTrigger, not AdvancePhase.
+    """
+    pass
+
+
 # ── Main phase ─────────────────────────────────────────────────────────────────
 
 @dataclass(frozen=True)
