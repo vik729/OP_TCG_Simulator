@@ -27,9 +27,11 @@ from engine.replay import (
 from engine.game_state import Phase, PlayerID, GameState
 from engine.card_db import CardDB
 from engine.actions import (
-    Action, PlayCard, AttachDon, DeclareAttack, DeclareBlocker,
-    PlayCounter, ActivateAbility, RespondInput, ChooseFirst,
+    Action, AdvancePhase, PlayCard, AttachDon, DeclareAttack, DeclareBlocker,
+    PassBlocker, PlayCounter, PassCounter, ActivateAbility, ActivateTrigger,
+    PassTrigger, RespondInput, ChooseFirst,
 )
+from engine.combat import battle_power
 
 
 def _card_label(state: GameState, db: CardDB, instance_id: str) -> str:
@@ -42,11 +44,24 @@ def _card_label(state: GameState, db: CardDB, instance_id: str) -> str:
     return f'{card.definition_id} "{name}"'
 
 
+def _action_actor(state: GameState, action: Action) -> PlayerID:
+    """During blocker/counter/trigger windows, the *defender* acts."""
+    defender_actions = (DeclareBlocker, PassBlocker, PlayCounter, PassCounter,
+                        ActivateTrigger, PassTrigger)
+    if isinstance(action, defender_actions):
+        return state.active_player_id.opponent()
+    return state.active_player_id
+
+
 def _format_action(action: Action, state: GameState, db: CardDB) -> str:
     name = type(action).__name__
     if isinstance(action, PlayCard):
+        card = state.get_card(action.card_instance_id)
+        cdef = db.get(card.definition_id) if card else None
+        cost = (cdef.cost or 0) if cdef else 0
         extra = f" +{action.extra_don}don" if action.extra_don else ""
-        return f"PlayCard {_card_label(state, db, action.card_instance_id)}{extra}"
+        return (f"PlayCard {_card_label(state, db, action.card_instance_id)} "
+                f"(cost {cost}){extra}")
     if isinstance(action, AttachDon):
         return f"AttachDon -> {_card_label(state, db, action.target_instance_id)}"
     if isinstance(action, DeclareAttack):
@@ -68,14 +83,95 @@ def _format_action(action: Action, state: GameState, db: CardDB) -> str:
     return name
 
 
+def _phase_delta(prev: GameState, cur: GameState, db: CardDB) -> str | None:
+    """One-line summary of what an auto-phase did. None if not interesting."""
+    actor = prev.active_player_id
+    pp, pc = prev.get_player(actor), cur.get_player(actor)
+
+    if prev.phase == Phase.REFRESH:
+        don_returned = (pp.leader.attached_don
+                        + sum(c.attached_don for c in pp.field))
+        don_unrest_cost = pp.don_field.rested
+        char_unrest = sum(1 for c in pp.field if c.rested)
+        leader_unrest = 1 if pp.leader.rested else 0
+        parts = []
+        if leader_unrest:
+            parts.append("leader")
+        if char_unrest > 0:
+            parts.append(f"{char_unrest} char")
+        if don_returned > 0:
+            parts.append(f"{don_returned} don returned from board")
+        if don_unrest_cost > 0:
+            parts.append(f"{don_unrest_cost} don unrested in cost area")
+        return f"refreshed {', '.join(parts)}" if parts else "nothing to refresh"
+
+    if prev.phase == Phase.DRAW:
+        drew = len(pc.hand) - len(pp.hand)
+        if drew <= 0:
+            return "no draw (first turn)"
+        prev_ids = {c.instance_id for c in pp.hand}
+        new_cards = [c for c in pc.hand if c.instance_id not in prev_ids]
+        names = ", ".join(_card_label(cur, db, c.instance_id) for c in new_cards)
+        return f"drew {drew}: {names}"
+
+    if prev.phase == Phase.DON:
+        added = pc.don_field.total - pp.don_field.total
+        return (f"added {added} DON "
+                f"(now {pc.don_field.active}a/{pc.don_field.rested}r)")
+
+    if prev.phase == Phase.BATTLE_DAMAGE:
+        return _battle_damage_delta(prev, cur, db)
+
+    return None
+
+
+def _battle_damage_delta(pre: GameState, cur: GameState, db: CardDB) -> str | None:
+    """Describe the outcome of a battle: MISS, KO, leader hit, or GAME OVER."""
+    bc = pre.battle_context
+    if bc is None:
+        return None
+    attacker = pre.get_card(bc.attacker_id)
+    target = pre.get_card(bc.target_id)
+    if attacker is None or target is None:
+        return None
+
+    a_def = db.get(attacker.definition_id)
+    t_def = db.get(target.definition_id)
+    a_power = battle_power(attacker, a_def, pre)
+    t_power = battle_power(target, t_def, pre) + sum(bc.power_boosts)
+    for te in pre.temp_effects:
+        if te.target_instance_id == attacker.instance_id:
+            a_power += te.power_modifier
+        if te.target_instance_id == target.instance_id:
+            t_power += te.power_modifier
+
+    power_str = f"{a_power} vs {t_power}"
+
+    if cur.phase == Phase.GAME_OVER:
+        return f"HIT leader -> GAME OVER ({power_str})"
+    if a_power < t_power:
+        return f"MISS ({power_str})"
+    if t_def.type == "Leader":
+        pre_life = len(pre.get_player(target.controller).life)
+        cur_life = len(cur.get_player(target.controller).life)
+        damage = pre_life - cur_life
+        suffix = " (Double Attack)" if damage > 1 else ""
+        return f"HIT leader, {damage} life damage{suffix} ({power_str})"
+    return f"KO'd {_card_label(pre, db, target.instance_id)} ({power_str})"
+
+
+def _player_summary(p) -> str:
+    att = p.leader.attached_don + sum(c.attached_don for c in p.field)
+    att_str = f" att={att}" if att else ""
+    return (f"life={len(p.life)} hand={len(p.hand)} field={len(p.field)} "
+            f"don={p.don_field.active}a/{p.don_field.rested}r{att_str}")
+
+
 def _turn_header(state: GameState) -> str:
-    p1, p2 = state.p1, state.p2
     return (
         f"=== Turn {state.turn_number} ({state.active_player_id.value}) "
-        f"| P1: life={len(p1.life)} hand={len(p1.hand)} field={len(p1.field)} "
-        f"don={p1.don_field.active}a/{p1.don_field.rested}r"
-        f" || P2: life={len(p2.life)} hand={len(p2.hand)} field={len(p2.field)} "
-        f"don={p2.don_field.active}a/{p2.don_field.rested}r ==="
+        f"| P1: {_player_summary(state.p1)} "
+        f"|| P2: {_player_summary(state.p2)} ==="
     )
 
 
@@ -114,11 +210,17 @@ def main(argv: list[str] | None = None) -> int:
             print(_turn_header(state))
             prev_turn = state.turn_number
         action = random_legal_action(state, bot_rng, db)
-        actor = state.active_player_id
-        if args.verbose:
-            print(f"  [{state.phase.value}] {actor.value}: {_format_action(action, state, db)}")
+        actor = _action_actor(state, action)
+        pre = state
         record_action(trace, action, turn=state.turn_number, phase=state.phase, actor=actor)
         state = step(state, action, db)
+        if args.verbose:
+            line = f"  [{pre.phase.value}] {actor.value}: {_format_action(action, pre, db)}"
+            if isinstance(action, AdvancePhase):
+                delta = _phase_delta(pre, state, db)
+                if delta:
+                    line += f"  -> {delta}"
+            print(line)
         if state.turn_number >= 500:
             print(f"Aborted at turn {state.turn_number} (500-turn cap)", file=sys.stderr)
             return 1
