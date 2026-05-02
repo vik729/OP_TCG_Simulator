@@ -151,6 +151,7 @@ def _apply_leader_damage(state: GameState, leader_owner: PlayerID, damage: int,
                 phase=Phase.GAME_OVER,
                 winner=leader_owner.opponent(),
                 win_reason=WinReason.LIFE_AND_LEADER_HIT,
+                battle_context=None,
             )
         top = owner_state.life[0]
         rest = owner_state.life[1:]

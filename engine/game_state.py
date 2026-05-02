@@ -345,8 +345,10 @@ def validate_invariants(state: GameState) -> None:
         assert state.winner is not None, "GAME_OVER phase but winner is None"
         assert state.win_reason is not None, "GAME_OVER phase but win_reason is None"
 
-    # 6. If pending_input is set, effect_stack must be non-empty
-    if state.pending_input is not None:
+    # 6. If pending_input is set during effect resolution, the effect_stack
+    # must be non-empty. Setup-phase pending_input (mulligan) doesn't use the
+    # stack — only effect_stack-driven pending_inputs require a stack entry.
+    if state.pending_input is not None and state.phase != Phase.SETUP:
         assert len(state.effect_stack) > 0, \
             "pending_input is set but effect_stack is empty"
 
