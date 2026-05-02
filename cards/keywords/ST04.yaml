@@ -1,0 +1,30 @@
+# Hand-authored static keyword data for ST04 cards.
+#
+# Format: card_id: [list of keyword strings]
+# Empty list = no static keywords (vanilla card, or only triggered effects).
+#
+# Static keywords from rules section 10-1:
+#   Blocker, Rush, Rush:Character, Banish, Double Attack, Unblockable
+#
+# Cards with conditional keywords like [DON!! x2] [Rush] should still list []
+# here — conditional keyword extraction is deferred to the DSL phase.
+# Cards with effect-granted keywords (e.g. "your Leader gains [Blocker]")
+# also list [] here — those are L3 (runtime) grants, not L1.
+
+ST04-001: []
+ST04-002: []
+ST04-003: []
+ST04-004: []
+ST04-005: [Blocker]
+ST04-006: []
+ST04-007: []
+ST04-008: []
+ST04-009: []
+ST04-010: []
+ST04-011: [Blocker]
+ST04-012: []
+ST04-013: []
+ST04-014: []
+ST04-015: []
+ST04-016: []
+ST04-017: []

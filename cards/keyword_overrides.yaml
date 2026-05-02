@@ -1,0 +1,15 @@
+# Keyword override file.
+#
+# Loaded LAST after the per-set YAMLs. Used to fix classification mistakes
+# where the regex (or hand-authored YAML) wrongly tags a keyword.
+#
+# Format:
+#   <card_id>:
+#     remove: [Keyword1, Keyword2]   # remove from card.keywords
+#     add:    [Keyword3]             # add to card.keywords
+#
+# Currently empty. Will be populated when the smart regex lands and we want
+# to override its classifications for known edge cases.
+#
+# This file is for INTERPRETATION fixes only. For data-quality fixes (typos
+# in upstream effect_text), use the upstream cleaning script in tools/.
