@@ -54,23 +54,34 @@ class TestNormalizeColor:
 # ── normalize_subtypes ────────────────────────────────────────────────────────
 
 class TestNormalizeSubtypes:
+    REGISTRY = ["Straw Hat Crew", "Supernovas"]
+
     def test_single_word(self):
-        assert normalize_subtypes("Supernovas") == ["Supernovas"]
+        matched, unknowns = normalize_subtypes("Supernovas", self.REGISTRY)
+        assert matched == ["Supernovas"]
+        assert unknowns == []
 
     def test_known_multi_word(self):
-        result = normalize_subtypes("Straw Hat Crew")
-        assert "Straw Hat Crew" in result
+        matched, unknowns = normalize_subtypes("Straw Hat Crew", self.REGISTRY)
+        assert "Straw Hat Crew" in matched
+        assert unknowns == []
 
     def test_none_input(self):
-        assert normalize_subtypes(None) == []
+        assert normalize_subtypes(None, self.REGISTRY) == ([], [])
 
     def test_empty_string(self):
-        assert normalize_subtypes("") == []
+        assert normalize_subtypes("", self.REGISTRY) == ([], [])
 
     def test_multi_word_with_extra(self):
-        result = normalize_subtypes("Straw Hat Crew Supernovas")
-        assert "Straw Hat Crew" in result
-        assert "Supernovas" in result
+        matched, unknowns = normalize_subtypes("Straw Hat Crew Supernovas", self.REGISTRY)
+        assert "Straw Hat Crew" in matched
+        assert "Supernovas" in matched
+        assert unknowns == []
+
+    def test_unknown_token_recorded(self):
+        matched, unknowns = normalize_subtypes("Foo Supernovas", self.REGISTRY)
+        assert matched == ["Supernovas"]
+        assert unknowns == ["Foo"]
 
 
 # ── normalize_int ─────────────────────────────────────────────────────────────
@@ -151,9 +162,13 @@ class TestNormalizeCard:
         "card_image_id": "ST01-001",
         "card_text": "[Rush] When attacking, K.O. all your opponent's Characters with 3000 power or less.",
     }
+    REGISTRY = ["Straw Hat Crew"]
+
+    def _normalize(self):
+        return normalize_card(self.RAW_CARD, self.REGISTRY, [])
 
     def test_output_has_required_keys(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         required = ["id", "name", "type", "color", "cost", "power", "counter",
                     "life", "attribute", "subtypes", "rarity", "set_id",
                     "image_id", "effect_text", "keywords", "triggers", "dsl_status"]
@@ -161,25 +176,37 @@ class TestNormalizeCard:
             assert key in result, f"Missing key: {key}"
 
     def test_name_stripped(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         assert result["name"] == "Monkey D. Luffy"
 
     def test_color_normalized(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         assert result["color"] == ["Red"]
 
     def test_power_as_int(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         assert result["power"] == 5000
 
     def test_keywords_extracted(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         assert "Rush" in result["keywords"]
 
     def test_dsl_status_pending(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         assert result["dsl_status"] == "pending"
 
     def test_triggers_empty(self):
-        result = normalize_card(self.RAW_CARD)
+        result = self._normalize()
         assert result["triggers"] == []
+
+    def test_subtypes_resolved_via_registry(self):
+        result = self._normalize()
+        assert result["subtypes"] == ["Straw Hat Crew"]
+
+    def test_unknown_subtype_logged(self):
+        log = []
+        raw = dict(self.RAW_CARD, sub_types="Mystery Faction")
+        normalize_card(raw, self.REGISTRY, log)
+        assert len(log) == 1
+        assert log[0]["card_id"] == "ST01-001"
+        assert "Mystery" in log[0]["unknown_tokens"]
