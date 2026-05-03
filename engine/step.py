@@ -124,12 +124,18 @@ def _handle_advance_phase(state, action, db):
 
 def _do_refresh(state, db):
     """REFRESH: unrest all cards; return attached DON to cost area as active.
-    Per rules 6-2-3 and 6-2-4."""
+    Per rules 6-2-3 and 6-2-4. Then fire AtStartOfYourTurn triggers."""
     active = state.active_player()
     don_returned = active.leader.attached_don + sum(c.attached_don for c in active.field)
-    new_leader = dataclasses.replace(active.leader, attached_don=0, rested=False)
+    from engine.dsl.lookups import is_refresh_blocked
+    new_leader = dataclasses.replace(
+        active.leader, attached_don=0,
+        rested=is_refresh_blocked(state, active.leader.instance_id) and active.leader.rested,
+    )
     new_field = tuple(
-        dataclasses.replace(c, attached_don=0, rested=False) for c in active.field
+        dataclasses.replace(c, attached_don=0,
+                             rested=is_refresh_blocked(state, c.instance_id) and c.rested)
+        for c in active.field
     )
     new_don_field = DonField(
         active=active.don_field.active + active.don_field.rested + don_returned,
@@ -143,6 +149,27 @@ def _do_refresh(state, db):
         once_per_turn_used=frozenset(),
     )
     new_state = _replace_active_player(state, new_active)
+
+    # Fire AtStartOfYourTurn triggers (after refresh, before draw)
+    from engine.dsl.trigger_queue import find_triggers_for_event
+    from engine.game_state import StackEntry
+    from engine.dsl.resolver import resolve_top
+    triggers = find_triggers_for_event(new_state, "AtStartOfYourTurn",
+                                        new_state.active_player_id, db)
+    for card, trigger in triggers:
+        entry = StackEntry(
+            effect=trigger["effect"],
+            source_instance_id=card.instance_id,
+            controller=card.controller,
+            inputs_collected=(),
+            initial_state_ref=new_state,
+        )
+        new_state = dataclasses.replace(
+            new_state, effect_stack=new_state.effect_stack + (entry,)
+        )
+    new_state = resolve_top(new_state, db)
+    if new_state.pending_input is not None:
+        return new_state
     return dataclasses.replace(new_state, phase=Phase.DRAW)
 
 
@@ -183,7 +210,30 @@ def _do_don(state, db):
 
 
 def _do_end(state, db):
-    """END: expire end-of-turn temp effects; flip turn player; advance turn."""
+    """END: fire EndOfYourTurn triggers; expire end-of-turn temp effects;
+    flip turn player; advance turn."""
+    # Fire EndOfYourTurn triggers (in current turn player's context)
+    from engine.dsl.trigger_queue import find_triggers_for_event
+    from engine.game_state import StackEntry
+    from engine.dsl.resolver import resolve_top
+    triggers = find_triggers_for_event(state, "EndOfYourTurn",
+                                        state.active_player_id, db)
+    for card, trigger in triggers:
+        entry = StackEntry(
+            effect=trigger["effect"],
+            source_instance_id=card.instance_id,
+            controller=card.controller,
+            inputs_collected=(),
+            initial_state_ref=state,
+        )
+        state = dataclasses.replace(
+            state, effect_stack=state.effect_stack + (entry,)
+        )
+    state = resolve_top(state, db)
+    if state.pending_input is not None:
+        # Pause for player input; we'll resume here when RespondInput clears it.
+        return state
+
     new_scoped = tuple(
         se for se in state.scoped_effects
         if not (se.expires_at == "END_TURN"

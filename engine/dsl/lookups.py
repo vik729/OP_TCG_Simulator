@@ -44,6 +44,46 @@ def power_modifiers(state: GameState, instance_id: str) -> int:
     return total
 
 
+def is_refresh_blocked(state: GameState, instance_id: str) -> bool:
+    """v2: returns True if any active PreventRefresh ScopedEffect targets this card."""
+    for se in state.scoped_effects:
+        if se.target_instance_id != instance_id:
+            continue
+        if se.modification.get("type") != "PreventRefresh":
+            continue
+        if _is_active(se, state):
+            return True
+    return False
+
+
+def can_attack(state: GameState, instance_id: str) -> bool:
+    """v2: returns False if any active CantAttack ScopedEffect targets this card."""
+    for se in state.scoped_effects:
+        if se.target_instance_id != instance_id:
+            continue
+        if se.modification.get("type") != "CantAttack":
+            continue
+        if _is_active(se, state):
+            return False
+    return True
+
+
+def cost_reduction_for(state: GameState, controller: PlayerID, card_def) -> int:
+    """v2: sum of CostReduction modifications applying to a card play.
+    For v2 simplicity, only modifications without target_filter are considered;
+    target_filter support deferred."""
+    total = 0
+    for se in state.scoped_effects:
+        if se.modification.get("type") != "CostReduction":
+            continue
+        if not _is_active(se, state):
+            continue
+        if "target_filter" in se.modification:
+            continue
+        total += se.modification.get("amount", 0)
+    return total
+
+
 def granted_keywords(state: GameState, instance_id: str) -> frozenset[str]:
     found = set()
     for se in state.scoped_effects:
