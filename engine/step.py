@@ -252,13 +252,18 @@ def _do_end(state, db):
 
 
 def _handle_play_card(state, action: PlayCard, db):
-    """PlayCard: rest <cost> active DON, move card from hand to field, fire OnPlay triggers."""
+    """PlayCard: rest <cost> active DON, move card to its destination
+    (field for Character/Stage, trash for Event), fire OnPlay triggers."""
     active = state.active_player()
     card = state.get_card(action.card_instance_id)
     if card is None:
         raise IllegalActionError(f"PlayCard: {action.card_instance_id} not found")
     cdef = db.get(card.definition_id)
-    cost = cdef.cost or 0
+
+    from engine.dsl.lookups import cost_reduction_for
+    base_cost = cdef.cost or 0
+    reduction = cost_reduction_for(state, card.controller, cdef)
+    cost = max(0, base_cost + reduction)
     if active.don_field.active < cost:
         raise IllegalActionError(f"PlayCard: not enough DON ({active.don_field.active} < {cost})")
     new_don = DonField(
@@ -266,11 +271,21 @@ def _handle_play_card(state, action: PlayCard, db):
         rested=active.don_field.rested + cost,
     )
     new_hand = tuple(c for c in active.hand if c.instance_id != card.instance_id)
-    on_field = dataclasses.replace(card, zone=Zone.FIELD, rested=False)
-    new_field = active.field + (on_field,)
-    new_active = dataclasses.replace(
-        active, hand=new_hand, field=new_field, don_field=new_don,
-    )
+
+    # Event-card fix (T7): Events go to trash after their effect, not Field.
+    if cdef.type == "Event":
+        trashed = dataclasses.replace(card, zone=Zone.TRASH, rested=False, attached_don=0)
+        new_active = dataclasses.replace(
+            active, hand=new_hand, don_field=new_don,
+            trash=active.trash + (trashed,),
+        )
+    else:
+        # Character / Stage / Leader: move to Field
+        on_field = dataclasses.replace(card, zone=Zone.FIELD, rested=False)
+        new_field = active.field + (on_field,)
+        new_active = dataclasses.replace(
+            active, hand=new_hand, field=new_field, don_field=new_don,
+        )
     new_state = _replace_active_player(state, new_active)
 
     # Fire any OnPlay triggers on the played card.
