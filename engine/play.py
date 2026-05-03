@@ -75,7 +75,12 @@ def _format_action(action: Action, state: GameState, db: CardDB) -> str:
         boost = (cdef.counter or 0) if cdef else 0
         return f"PlayCounter {_card_label(state, db, action.card_instance_id)} (+{boost})"
     if isinstance(action, ActivateAbility):
-        return f"ActivateAbility {_card_label(state, db, action.card_instance_id)}"
+        return (f"ActivateAbility {_card_label(state, db, action.card_instance_id)}"
+                f"#{action.trigger_index}")
+    if isinstance(action, ActivateTrigger):
+        return "ActivateTrigger"
+    if isinstance(action, PassTrigger):
+        return "PassTrigger"
     if isinstance(action, RespondInput):
         return f"RespondInput {action.choices}"
     if isinstance(action, ChooseFirst):
