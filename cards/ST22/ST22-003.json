@@ -1,0 +1,25 @@
+{
+  "id": "ST22-003",
+  "name": "Edward.Newgate",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 9,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "C",
+  "set_id": "ST22",
+  "image_id": "ST22-003_p1",
+  "effect_text": "[Double Attack] (This card deals 2 damage.)\n[On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

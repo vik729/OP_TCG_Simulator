@@ -1,0 +1,23 @@
+{
+  "id": "OP04-026",
+  "name": "Senor Pink",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP04",
+  "image_id": "OP04-026",
+  "effect_text": "[When Attacking] (1) (You may rest the specified number of DON!! cards in your cost area.): If your Leader has the [Donquixote Pirates] type, rest up to 1 of your opponent's Characters with a cost of 4 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

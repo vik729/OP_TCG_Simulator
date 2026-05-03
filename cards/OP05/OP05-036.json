@@ -1,0 +1,25 @@
+{
+  "id": "OP05-036",
+  "name": "Monet",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-036",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Block] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

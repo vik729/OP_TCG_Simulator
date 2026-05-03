@@ -1,0 +1,21 @@
+{
+  "id": "EB01-059",
+  "name": "Kingdom Come",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB01",
+  "image_id": "EB01-059",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

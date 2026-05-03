@@ -1,0 +1,21 @@
+{
+  "id": "OP07-075",
+  "name": "Slow-Slow Beam",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-075",
+  "effect_text": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 each of your opponent's Leader and Character cards -2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

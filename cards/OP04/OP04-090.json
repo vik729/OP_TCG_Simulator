@@ -1,0 +1,23 @@
+{
+  "id": "OP04-090",
+  "name": "Monkey.D.Luffy (090)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "OP04",
+  "image_id": "OP04-090",
+  "effect_text": "This Character can also attack active Characters. [Activate:Main] [Once Per Turn] You may return 7 cards from your trash to the bottom of your deck in any order: Set this Character as active. Then, this Character will not become active in your next Refresh Phase.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

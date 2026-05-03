@@ -1,0 +1,21 @@
+{
+  "id": "ST05-015",
+  "name": "Dr. Indigo",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST05",
+  "image_id": "ST05-015",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

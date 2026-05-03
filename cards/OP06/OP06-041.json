@@ -1,0 +1,23 @@
+{
+  "id": "OP06-041",
+  "name": "The Ark Noah",
+  "type": "Stage",
+  "color": [
+    "Green"
+  ],
+  "cost": 6,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-041",
+  "effect_text": "[On Play] Rest all of your opponent's Characters.\n[Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

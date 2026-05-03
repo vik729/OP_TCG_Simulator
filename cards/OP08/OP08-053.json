@@ -1,0 +1,21 @@
+{
+  "id": "OP08-053",
+  "name": "Thank You...for Loving Me!!",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP08",
+  "image_id": "OP08-053",
+  "effect_text": "[Main] If your Leader's type includes \"Whitebeard Piratess\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Piratess\" or [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the top or bottom of your deck in any order. [Trigger] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

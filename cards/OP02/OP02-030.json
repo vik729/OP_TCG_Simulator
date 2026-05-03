@@ -1,0 +1,21 @@
+{
+  "id": "OP02-030",
+  "name": "Kouzuki Oden",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP02",
+  "image_id": "OP02-030",
+  "effect_text": "[Activate:Main] [Once Per Turn] (3) (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active. [On K.O.] Play up to 1 green \"Land of Wano\" type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

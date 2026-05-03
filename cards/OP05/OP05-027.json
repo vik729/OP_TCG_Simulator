@@ -1,0 +1,23 @@
+{
+  "id": "OP05-027",
+  "name": "Trafalgar Law (027)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-027",
+  "effect_text": "[Activate:Main] You may trash this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

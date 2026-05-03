@@ -1,0 +1,25 @@
+{
+  "id": "EB03-019",
+  "name": "Wanda",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-019",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

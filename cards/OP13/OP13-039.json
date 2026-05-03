@@ -1,0 +1,25 @@
+{
+  "id": "OP13-039",
+  "name": "Gum-Gum Snake Shot",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas",
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-039",
+  "effect_text": "[Counter] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.\n[Trigger] Activate this card's [Counter] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

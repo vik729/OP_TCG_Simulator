@@ -1,0 +1,23 @@
+{
+  "id": "ST19-002",
+  "name": "Sengoku - ST19-002 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST19-002_p3",
+  "effect_text": "[On Play] You may trash 2 black \"Navy\" type cards from your hand: If your Leader has the \"Navy\" type, draw 3 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

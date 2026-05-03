@@ -1,0 +1,23 @@
+{
+  "id": "EB02-033",
+  "name": "Klabautermann",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-033",
+  "effect_text": "If you have [Merry Go] on your field, this Character gains [Blocker].",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

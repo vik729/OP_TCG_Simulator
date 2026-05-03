@@ -1,0 +1,21 @@
+{
+  "id": "OP10-010",
+  "name": "Chadros.Higelyges (Brownbeard)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-010",
+  "effect_text": "[When Attacking] If you have 1 or less Characters with 6000 power or more, this Character gains +1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

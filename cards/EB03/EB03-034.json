@@ -1,0 +1,21 @@
+{
+  "id": "EB03-034",
+  "name": "Charlotte Linlin",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB03",
+  "image_id": "EB03-034",
+  "effect_text": "[On Play] Draw 1 card and place 1 card from your hand at the top of your deck. Then, add up to 1 DON!! card from your DON!! deck and set it as active.\n[On K.O.] DON!! 1: Add up to 1 card from the top of your deck to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

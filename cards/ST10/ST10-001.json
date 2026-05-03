@@ -1,0 +1,23 @@
+{
+  "id": "ST10-001",
+  "name": "Trafalgar Law (001)",
+  "type": "Leader",
+  "color": [
+    "Purple Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Slash",
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "L",
+  "set_id": "ST10",
+  "image_id": "ST10-001",
+  "effect_text": "[Activate:Main] [Once Per Turn] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

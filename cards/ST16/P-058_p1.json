@@ -1,0 +1,21 @@
+{
+  "id": "P-058_p1",
+  "name": "Where the Wind Blows",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "PR",
+  "set_id": "ST16",
+  "image_id": "P-058_p1",
+  "effect_text": "[Main] If your Leader is [Uta], set all of your \"FILM\" type Characters as active at the end of this turn.\n\n[Trigger] Set all of your \"FILM\" type Characters as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

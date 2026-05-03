@@ -1,0 +1,23 @@
+{
+  "id": "OP10-098",
+  "name": "Liberation",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-098",
+  "effect_text": "[Main] If the number of your Characters is at least 2 less than the number of your opponent's Characters, K.O. up to 1 of your opponent's Characters with a base cost of 6 or less and up to 1 of your opponent's Characters with a base cost of 4 or less.\n[Trigger] Negate the effect of up to 1 of each of your opponent's Leader and Character cards during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

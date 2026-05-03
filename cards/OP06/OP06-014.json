@@ -1,0 +1,21 @@
+{
+  "id": "OP06-014",
+  "name": "Ratchet",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-014",
+  "effect_text": "[On Your Opponent's Attack] You may trash any number of [FILM] type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

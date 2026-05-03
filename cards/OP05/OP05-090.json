@@ -1,0 +1,23 @@
+{
+  "id": "OP05-090",
+  "name": "Riku Doldo III",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-090",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] / [On K.O.] Up to 1 of your [Dressrosa] type Characters gains +2000 power during this turn.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

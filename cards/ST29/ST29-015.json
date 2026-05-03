@@ -1,0 +1,23 @@
+{
+  "id": "ST29-015",
+  "name": "Raw Heat Strike",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST29",
+  "image_id": "ST29-015",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 1 or less Life cards, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

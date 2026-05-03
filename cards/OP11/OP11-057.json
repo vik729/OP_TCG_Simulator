@@ -1,0 +1,25 @@
+{
+  "id": "OP11-057",
+  "name": "Pedro",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-057",
+  "effect_text": "If you have 4 or less cards in your hand, this Character gains [Blocker].\n(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

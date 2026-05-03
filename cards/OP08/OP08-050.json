@@ -1,0 +1,25 @@
+{
+  "id": "OP08-050",
+  "name": "Namule",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-050",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

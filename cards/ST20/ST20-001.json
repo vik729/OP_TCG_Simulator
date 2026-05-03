@@ -1,0 +1,23 @@
+{
+  "id": "ST20-001",
+  "name": "Charlotte Katakuri (ST20-001)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "ST20",
+  "image_id": "ST20-001",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)\n\n[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP06-112",
+  "name": "Raizo",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-112",
+  "effect_text": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.\n[Trigger] If your opponent has 3 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

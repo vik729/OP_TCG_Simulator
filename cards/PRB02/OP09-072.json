@@ -1,0 +1,25 @@
+{
+  "id": "OP09-072",
+  "name": "Franky - OP09-072 (Reprint)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "OP09-072_r1",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! 2, You may trash 1 card from your hand: Draw 2 cards.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

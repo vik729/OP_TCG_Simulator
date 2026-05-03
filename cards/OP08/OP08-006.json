@@ -1,0 +1,21 @@
+{
+  "id": "OP08-006",
+  "name": "Chessmarimo",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-006",
+  "effect_text": "[Your Turn] If you have [Kuromarimo] and [Chess] in your trash, this Character gains +2000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

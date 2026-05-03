@@ -1,0 +1,23 @@
+{
+  "id": "ST25-003",
+  "name": "Crocodile & Mihawk",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 8,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "SR",
+  "set_id": "ST25",
+  "image_id": "ST25-003",
+  "effect_text": "[On Play] Draw 2 cards and trash 1 card from your hand. Then, play up to 1 \"Cross Guild\" type Character card with a cost of 4 or less from your hand.\n[Once Per Turn] If your \"Cross Guild\" type Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

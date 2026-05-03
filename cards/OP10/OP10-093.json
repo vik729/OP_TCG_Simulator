@@ -1,0 +1,21 @@
+{
+  "id": "OP10-093",
+  "name": "Saint Homing",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-093",
+  "effect_text": "[Activate: Main] You may trash this Character: Up to 1 of your black Characters gains +3 cost until the end of your opponent's next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

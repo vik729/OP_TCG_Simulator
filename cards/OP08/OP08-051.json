@@ -1,0 +1,21 @@
+{
+  "id": "OP08-051",
+  "name": "Buckin",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-051",
+  "effect_text": "[Your Turn] [On Play] Up to 1 of your [Edward Weevil] cards gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

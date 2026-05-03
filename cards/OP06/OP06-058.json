@@ -1,0 +1,23 @@
+{
+  "id": "OP06-058",
+  "name": "Gravity Blade Raging Tiger",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-058",
+  "effect_text": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.\n[Trigger] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

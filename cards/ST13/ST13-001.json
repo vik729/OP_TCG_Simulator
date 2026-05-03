@@ -1,0 +1,23 @@
+{
+  "id": "ST13-001",
+  "name": "Sabo (001)",
+  "type": "Leader",
+  "color": [
+    "Red Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "L",
+  "set_id": "ST13",
+  "image_id": "ST13-001",
+  "effect_text": "[DON!! x1][Activate: Main][Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

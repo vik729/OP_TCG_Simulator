@@ -1,0 +1,25 @@
+{
+  "id": "EB03-001",
+  "name": "Nefeltari Vivi (001)",
+  "type": "Leader",
+  "color": [
+    "Blue Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": 0,
+  "life": 4,
+  "attribute": "Slash",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "L",
+  "set_id": "EB03",
+  "image_id": "EB03-001",
+  "effect_text": "[Once Per Turn] If your Character with a base cost of 4 or more would be K.O.'d, you may trash 1 card from your hand instead.\n[Activate: Main] You may rest this Leader: Give up to 1 of your opponent's Characters 2000 power during this turn. Then, up to 1 of your Characters without a [When Attacking] effect gains [Rush] during this turn.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

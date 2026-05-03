@@ -1,0 +1,21 @@
+{
+  "id": "OP12-029",
+  "name": "Shimotsuki Kouzaburou",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 2000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP12",
+  "image_id": "OP12-029",
+  "effect_text": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, K.O. up to 1 of your opponent's rested Characters with a base cost of 1 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP09-001",
+  "name": "Shanks (001)",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "OP09",
+  "image_id": "OP09-001",
+  "effect_text": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards 1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

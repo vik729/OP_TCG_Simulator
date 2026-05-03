@@ -1,0 +1,25 @@
+{
+  "id": "OP11-088",
+  "name": "Shu",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-088",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)\n[Once Per Turn] This effect can be activated when your opponent's Character attacks. If that Character has the (Slash) attribute, this Character gains +5000 power during this battle.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

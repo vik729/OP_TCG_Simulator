@@ -1,0 +1,23 @@
+{
+  "id": "OP03-041",
+  "name": "Usopp",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP03",
+  "image_id": "OP03-041",
+  "effect_text": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

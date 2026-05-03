@@ -1,0 +1,25 @@
+{
+  "id": "OP13-025",
+  "name": "Koby",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-025",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)\n[On Play] If your Leader has the \"FILM\" type or the \"Strike\" attribute, set up to 1 of your DON!! cards as active.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

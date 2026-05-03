@@ -1,0 +1,21 @@
+{
+  "id": "OP05-117",
+  "name": "Upper Yard",
+  "type": "Stage",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-117",
+  "effect_text": "[On Play] Look at the top 5 cards of your deck; reveal up to 1 [Sky Island] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

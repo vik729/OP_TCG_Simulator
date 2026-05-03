@@ -1,0 +1,23 @@
+{
+  "id": "OP05-007",
+  "name": "Sabo (OP05-007) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB01",
+  "image_id": "OP05-007_r1",
+  "effect_text": "[On Play] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

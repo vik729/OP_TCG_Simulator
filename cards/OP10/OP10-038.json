@@ -1,0 +1,24 @@
+{
+  "id": "OP10-038",
+  "name": "Roronoa Zoro (038)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-038",
+  "effect_text": "[Opponent's Turn] If you have 2 or more rested Characters, this Character gains +2000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

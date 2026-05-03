@@ -1,0 +1,23 @@
+{
+  "id": "ST12-011",
+  "name": "Sanji",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST12",
+  "image_id": "ST12-011",
+  "effect_text": "[DON!! x1][When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP11-047",
+  "name": "Vinsmoke Reiju",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP11",
+  "image_id": "OP11-047",
+  "effect_text": "[On Play] If your Leader has the \"The Vinsmoke Family\" type, look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, trash the rest.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "EB02-010",
+  "name": "Monkey.D.Luffy (010)",
+  "type": "Leader",
+  "color": [
+    "Green Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "EB02-010",
+  "effect_text": "[Activate: Main] [Once Per Turn] DON!! 2: If the only Characters on your field are \"Straw Hat Crew\" type Characters, set up to 2 of your DON!! cards as active. Then, this Leader gains +1000 power until the end of your opponent's next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

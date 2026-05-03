@@ -1,0 +1,23 @@
+{
+  "id": "OP07-055",
+  "name": "Snake Dance",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Kuja Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-055",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 of your Characters to the owner's hand. [Trigger] You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

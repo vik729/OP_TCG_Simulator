@@ -1,0 +1,23 @@
+{
+  "id": "OP01-013",
+  "name": "Sanji",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-013",
+  "effect_text": "[Activate:Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

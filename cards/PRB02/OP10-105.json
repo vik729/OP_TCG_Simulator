@@ -1,0 +1,23 @@
+{
+  "id": "OP10-105",
+  "name": "Cavendish - OP10-105 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "OP10-105_p1",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

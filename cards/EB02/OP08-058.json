@@ -1,0 +1,21 @@
+{
+  "id": "OP08-058",
+  "name": "Charlotte Pudding (SPR)",
+  "type": "Leader",
+  "color": [
+    "Purple Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP08-058",
+  "effect_text": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

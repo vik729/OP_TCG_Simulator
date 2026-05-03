@@ -1,0 +1,24 @@
+{
+  "id": "PRB02-017",
+  "name": "Boa Hancock",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Kuja Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "PRB02-017",
+  "effect_text": "[Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Your opponent's rested Leader or up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next End Phase.[Trigger] K.O up to 1 of your opponent's Characters with a cost of 4 or less",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

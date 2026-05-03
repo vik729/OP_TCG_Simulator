@@ -1,0 +1,24 @@
+{
+  "id": "OP01-106",
+  "name": "Basil Hawkins",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "Hawkins Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP01",
+  "image_id": "OP01-106",
+  "effect_text": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. [Trigger] Play this card.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

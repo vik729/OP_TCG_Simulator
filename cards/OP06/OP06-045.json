@@ -1,0 +1,23 @@
+{
+  "id": "OP06-045",
+  "name": "Kuzan",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-045",
+  "effect_text": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

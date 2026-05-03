@@ -1,0 +1,23 @@
+{
+  "id": "OP10-073",
+  "name": "Buffalo",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-073",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

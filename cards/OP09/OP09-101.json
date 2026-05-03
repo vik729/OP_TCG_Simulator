@@ -1,0 +1,23 @@
+{
+  "id": "OP09-101",
+  "name": "Kuzan",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP09",
+  "image_id": "OP09-101",
+  "effect_text": "[On Play] Place 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up: Your opponent trashes 1 card from their hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

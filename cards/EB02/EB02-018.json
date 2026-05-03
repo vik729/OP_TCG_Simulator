@@ -1,0 +1,23 @@
+{
+  "id": "EB02-018",
+  "name": "Buggy",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB02",
+  "image_id": "EB02-018",
+  "effect_text": "[On Play] If you have no other [Buggy] Characters, up to 1 of your Leader gains [Double Attack] during this turn.\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

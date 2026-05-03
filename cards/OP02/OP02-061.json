@@ -1,0 +1,25 @@
+{
+  "id": "OP02-061",
+  "name": "Morley",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-061",
+  "effect_text": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

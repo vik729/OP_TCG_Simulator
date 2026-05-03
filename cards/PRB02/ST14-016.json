@@ -1,0 +1,23 @@
+{
+  "id": "ST14-016",
+  "name": "I Have My Crew!! (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST14-016_p1",
+  "effect_text": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

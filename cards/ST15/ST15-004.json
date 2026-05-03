@@ -1,0 +1,21 @@
+{
+  "id": "ST15-004",
+  "name": "Thatch",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST15",
+  "image_id": "ST15-004",
+  "effect_text": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters 2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

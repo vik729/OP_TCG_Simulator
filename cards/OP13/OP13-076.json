@@ -1,0 +1,21 @@
+{
+  "id": "OP13-076",
+  "name": "Divine Departure",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 0,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-076",
+  "effect_text": "[Main] You may rest 5 of your DON!! cards: If you have any DON!! cards given, give up to 1 of your opponent's Characters 8000 power during this turn.\n[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

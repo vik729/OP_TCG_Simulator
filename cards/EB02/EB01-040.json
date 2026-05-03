@@ -1,0 +1,21 @@
+{
+  "id": "EB01-040",
+  "name": "Kyros (SPR)",
+  "type": "Leader",
+  "color": [
+    "Black Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "EB01-040_p2",
+  "effect_text": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

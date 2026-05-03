@@ -1,0 +1,21 @@
+{
+  "id": "OP07-100",
+  "name": "Edison",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-100",
+  "effect_text": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand. [Trigger] If your Leader is [Vegapunk], play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

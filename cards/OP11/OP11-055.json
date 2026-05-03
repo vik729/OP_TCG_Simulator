@@ -1,0 +1,23 @@
+{
+  "id": "OP11-055",
+  "name": "Bartolomeo",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-055",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

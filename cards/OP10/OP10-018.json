@@ -1,0 +1,23 @@
+{
+  "id": "OP10-018",
+  "name": "Ten-Layer Igloo",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-018",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards 2000 power during this turn.\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

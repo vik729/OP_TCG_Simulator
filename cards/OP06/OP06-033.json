@@ -1,0 +1,23 @@
+{
+  "id": "OP06-033",
+  "name": "Vander Decken IX",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-033",
+  "effect_text": "[On Play] You may trash 1 \"Fish-Man\" type card from your hand or 1 [The Ark Noah] from your hand or field: K.O. up to 1 of your opponent's rested Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

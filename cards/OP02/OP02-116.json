@@ -1,0 +1,23 @@
+{
+  "id": "OP02-116",
+  "name": "Yamakaji",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-116",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "PRB02-015",
+  "name": "Shiryu",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "PRB02-015",
+  "effect_text": "If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Blocker] and +4 cost.[On K.O.] If your Leader has the \"Blackbeard Pirates\" type, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

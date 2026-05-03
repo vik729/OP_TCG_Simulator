@@ -1,0 +1,23 @@
+{
+  "id": "OP11-100",
+  "name": "Otohime",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-100",
+  "effect_text": "[On Play] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

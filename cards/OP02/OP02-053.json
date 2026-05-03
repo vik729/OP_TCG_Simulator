@@ -1,0 +1,23 @@
+{
+  "id": "OP02-053",
+  "name": "Crocodile",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-053",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

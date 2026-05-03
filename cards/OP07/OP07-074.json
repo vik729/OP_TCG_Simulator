@@ -1,0 +1,23 @@
+{
+  "id": "OP07-074",
+  "name": "Monda",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-074",
+  "effect_text": "[Activate: Main] You may trash this Character: If your Leader has the [Foxy Pirates] type, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

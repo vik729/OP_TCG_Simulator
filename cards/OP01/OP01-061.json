@@ -1,0 +1,24 @@
+{
+  "id": "OP01-061",
+  "name": "Kaido (061)",
+  "type": "Leader",
+  "color": [
+    "Blue Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "OP01",
+  "image_id": "OP01-061",
+  "effect_text": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

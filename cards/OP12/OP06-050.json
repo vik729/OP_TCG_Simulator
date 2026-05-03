@@ -1,0 +1,23 @@
+{
+  "id": "OP06-050",
+  "name": "Tashigi (SP)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP12",
+  "image_id": "OP06-050_p2",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Navy\" type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

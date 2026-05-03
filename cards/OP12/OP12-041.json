@@ -1,0 +1,23 @@
+{
+  "id": "OP12-041",
+  "name": "Sanji (041)",
+  "type": "Leader",
+  "color": [
+    "Blue Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "OP12",
+  "image_id": "OP12-041",
+  "effect_text": "[Activate: Main] [Once Per Turn] DON!! 1: Activate up to 1 \"Straw Hat Crew\" type Event with a base cost of 3 or less from your hand.\n[When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP01-095",
+  "name": "Kyoshirou",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP01",
+  "image_id": "OP01-095",
+  "effect_text": "[On Play] Draw 1 card if you have 8 or more DON!! cards on your field.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

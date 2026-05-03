@@ -1,0 +1,23 @@
+{
+  "id": "EB03-035",
+  "name": "Charlotte Pudding",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB03",
+  "image_id": "EB03-035",
+  "effect_text": "[Blocker]\n[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP09-037",
+  "name": "Lim (SP)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP12",
+  "image_id": "OP09-037_p2",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"ODYSSEY\" type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\n[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

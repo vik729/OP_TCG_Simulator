@@ -1,0 +1,23 @@
+{
+  "id": "EB01-009",
+  "name": "Just Shut Up and Come with Us!!!! (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "EB01-009_p1",
+  "effect_text": "[Counter] Look at 5 cards from the top of your deck and play up to 1 [Animal] type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

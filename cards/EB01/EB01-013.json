@@ -1,0 +1,21 @@
+{
+  "id": "EB01-013",
+  "name": "Kouzuki Hiyori",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB01",
+  "image_id": "EB01-013",
+  "effect_text": "[Activate:Main] You may trash this Character: Play up to 1 [Land of Wano] type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

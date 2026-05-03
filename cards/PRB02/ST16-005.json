@@ -1,0 +1,24 @@
+{
+  "id": "ST16-005",
+  "name": "Monkey.D.Luffy - ST16-005 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST16-005_p1",
+  "effect_text": "If you have a rested [Uta], this Character gains +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

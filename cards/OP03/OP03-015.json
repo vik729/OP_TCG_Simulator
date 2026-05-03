@@ -1,0 +1,23 @@
+{
+  "id": "OP03-015",
+  "name": "Lim",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 2000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-015",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

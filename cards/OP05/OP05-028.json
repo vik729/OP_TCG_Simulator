@@ -1,0 +1,23 @@
+{
+  "id": "OP05-028",
+  "name": "Donquixote Doflamingo (028)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-028",
+  "effect_text": "[Activate:Main] You may trash this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

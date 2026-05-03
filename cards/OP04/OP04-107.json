@@ -1,0 +1,21 @@
+{
+  "id": "OP04-107",
+  "name": "Charlotte Perospero",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-107",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

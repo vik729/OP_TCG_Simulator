@@ -1,0 +1,24 @@
+{
+  "id": "OP08-119",
+  "name": "Kaido & Linlin",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 10,
+  "power": 12000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "SEC",
+  "set_id": "OP08",
+  "image_id": "OP08-119",
+  "effect_text": "[When Attacking] DON!! 10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

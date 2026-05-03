@@ -1,0 +1,23 @@
+{
+  "id": "ST14-017",
+  "name": "Thousand Sunny (Pirate Foil)",
+  "type": "Stage",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 0,
+  "life": 0,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST14-017_p1",
+  "effect_text": "All of your black \"Straw Hat Crew\" type Characters gain +1 cost.[On Play] If your Leader has the \"Straw Hat Crew\" type, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

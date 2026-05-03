@@ -1,0 +1,24 @@
+{
+  "id": "OP02-056",
+  "name": "Donquixote Doflamingo",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-056",
+  "effect_text": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "P-088",
+  "name": "Trafalgar Law - P-088 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Heart Pirates",
+    "Supernovas"
+  ],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-088_p3",
+  "effect_text": "[Trigger] If your Leader has the \"Supernovas\" type and you and your opponent have a total of 5 or less Life cards, play this card.Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

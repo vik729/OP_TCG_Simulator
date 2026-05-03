@@ -1,0 +1,26 @@
+{
+  "id": "OP10-108",
+  "name": "Scratchmen Apoo - OP10-108 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "On-Air Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "OP10-108_p1",
+  "effect_text": "If you have a yellow \"Supernovas\" type Character other than [Scratchmen Apoo], this Character gains [Blocker].",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

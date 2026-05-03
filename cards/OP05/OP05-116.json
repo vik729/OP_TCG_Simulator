@@ -1,0 +1,21 @@
+{
+  "id": "OP05-116",
+  "name": "Hino Bird Zap",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-116",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards. [Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

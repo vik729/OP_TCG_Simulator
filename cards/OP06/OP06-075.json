@@ -1,0 +1,21 @@
+{
+  "id": "OP06-075",
+  "name": "Count Battler",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-075",
+  "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

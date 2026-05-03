@@ -1,0 +1,24 @@
+{
+  "id": "OP07-043",
+  "name": "Salome",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal",
+    "Kuja Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-043",
+  "effect_text": "[Your Turn] [On Play] Up to 1 of your [Boa Hancock] cards gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

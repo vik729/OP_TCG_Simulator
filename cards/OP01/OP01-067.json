@@ -1,0 +1,26 @@
+{
+  "id": "OP01-067",
+  "name": "Crocodile (067)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "OP01",
+  "image_id": "OP01-067",
+  "effect_text": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [DON!! x1] Give blue Events in your hand -1 cost.",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

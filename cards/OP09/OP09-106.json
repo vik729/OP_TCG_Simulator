@@ -1,0 +1,21 @@
+{
+  "id": "OP09-106",
+  "name": "Nico Olvia",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-106",
+  "effect_text": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

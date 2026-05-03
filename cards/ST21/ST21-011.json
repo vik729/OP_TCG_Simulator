@@ -1,0 +1,23 @@
+{
+  "id": "ST21-011",
+  "name": "Franky",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST21",
+  "image_id": "ST21-011_p1",
+  "effect_text": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

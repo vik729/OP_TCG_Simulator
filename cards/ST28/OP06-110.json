@@ -1,0 +1,23 @@
+{
+  "id": "OP06-110",
+  "name": "Nekomamushi (Reprint)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "UC",
+  "set_id": "ST28",
+  "image_id": "OP06-110_r2",
+  "effect_text": "[DON!! x2] This Character can also attack your opponent's active Characters.[Trigger] If your opponent has 3 or less Life cards, play this card.DISCLAIMER: This card is a reprint of the pre-existing card in the OP06 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

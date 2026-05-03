@@ -1,0 +1,23 @@
+{
+  "id": "PRB02-003",
+  "name": "Lucky.Roux",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "PRB02-003",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may trash 1 Character card with 6000 power or more from your hand: Draw 2 cards.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

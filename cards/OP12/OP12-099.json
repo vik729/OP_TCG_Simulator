@@ -1,0 +1,21 @@
+{
+  "id": "OP12-099",
+  "name": "Kalgara",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP12",
+  "image_id": "OP12-099",
+  "effect_text": "[Your Turn] When a card is removed from your or your opponent's Life cards, draw 1 card. Then, you cannot draw cards using your own effects during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

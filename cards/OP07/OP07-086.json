@@ -1,0 +1,21 @@
+{
+  "id": "OP07-086",
+  "name": "Spandam",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-086",
+  "effect_text": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -2 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

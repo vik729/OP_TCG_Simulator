@@ -1,0 +1,23 @@
+{
+  "id": "OP13-009",
+  "name": "Curly.Dadan",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-009",
+  "effect_text": "If you have a \"Mountain Bandits\" type Character other than this card, this Character gains [Double Attack].",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

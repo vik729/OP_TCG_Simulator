@@ -1,0 +1,21 @@
+{
+  "id": "OP04-112",
+  "name": "Yamato (OP04-112) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 9,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "PRB01",
+  "image_id": "OP04-112_r1",
+  "effect_text": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

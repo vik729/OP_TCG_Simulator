@@ -1,0 +1,23 @@
+{
+  "id": "OP11-003",
+  "name": "Usopp",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-003",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

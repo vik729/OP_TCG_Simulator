@@ -1,0 +1,21 @@
+{
+  "id": "OP13-054",
+  "name": "Yamato",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP13",
+  "image_id": "OP13-054",
+  "effect_text": "[On Play] If you have 3 or less Life cards, draw 2 cards. Then, give up to 1 rested DON!! card to your Leader.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

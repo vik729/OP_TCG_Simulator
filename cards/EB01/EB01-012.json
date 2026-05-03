@@ -1,0 +1,23 @@
+{
+  "id": "EB01-012",
+  "name": "Cavendish",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "SR",
+  "set_id": "EB01",
+  "image_id": "EB01-012",
+  "effect_text": "[On Play]/[When Attacking] If your Leader has the [Supernovas] type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

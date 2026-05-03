@@ -1,0 +1,21 @@
+{
+  "id": "OP01-046",
+  "name": "Denjiro",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-046",
+  "effect_text": "[DON!! x1] [When Attacking] If your Leader is [Kouzuki Oden], set up to 2 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

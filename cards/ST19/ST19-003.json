@@ -1,0 +1,23 @@
+{
+  "id": "ST19-003",
+  "name": "Tashigi",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "ST19",
+  "image_id": "ST19-003",
+  "effect_text": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters 4 cost during this turn.\n\n[Activate: Main] [Once Per Turn] If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 0.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

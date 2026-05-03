@@ -1,0 +1,24 @@
+{
+  "id": "OP01-121",
+  "name": "Yamato (SP)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "OP05",
+  "image_id": "OP01-121_p2",
+  "effect_text": "Also treat this card's name as [Kouzuki Oden] according to the rules. [Double Attack] (This card deals 2 damage.) [Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+  "keywords": [
+    "Banish",
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

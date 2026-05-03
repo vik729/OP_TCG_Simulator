@@ -1,0 +1,23 @@
+{
+  "id": "OP09-027",
+  "name": "Sabo (027)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-027",
+  "effect_text": "[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

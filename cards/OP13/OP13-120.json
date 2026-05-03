@@ -1,0 +1,25 @@
+{
+  "id": "OP13-120",
+  "name": "Sabo (120) (SP)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "SEC",
+  "set_id": "OP13",
+  "image_id": "OP13-120",
+  "effect_text": "[Blocker]\n[Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

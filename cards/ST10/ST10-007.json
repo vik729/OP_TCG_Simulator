@@ -1,0 +1,23 @@
+{
+  "id": "ST10-007",
+  "name": "Killer",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Kid Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "ST10",
+  "image_id": "ST10-007",
+  "effect_text": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

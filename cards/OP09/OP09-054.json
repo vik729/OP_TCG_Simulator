@@ -1,0 +1,25 @@
+{
+  "id": "OP09-054",
+  "name": "Richie",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-054",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

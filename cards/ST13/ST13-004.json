@@ -1,0 +1,23 @@
+{
+  "id": "ST13-004",
+  "name": "Edward.Newgate",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "C",
+  "set_id": "ST13",
+  "image_id": "ST13-004",
+  "effect_text": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

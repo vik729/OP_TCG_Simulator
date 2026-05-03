@@ -1,0 +1,23 @@
+{
+  "id": "OP12-066",
+  "name": "Carne",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-066",
+  "effect_text": "If you have 4 or more Events in your trash, this Character gains [Blocker].\n(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

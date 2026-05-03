@@ -1,0 +1,23 @@
+{
+  "id": "OP10-029",
+  "name": "Dracule Mihawk",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-029",
+  "effect_text": "[On Play] If you have 2 or more rested Characters, set up to 1 of your rested \"ODYSSEY\" type Characters with a cost of 5 or less as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

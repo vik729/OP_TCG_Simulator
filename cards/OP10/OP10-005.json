@@ -1,0 +1,23 @@
+{
+  "id": "OP10-005",
+  "name": "Sanji",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "OP10",
+  "image_id": "OP10-005",
+  "effect_text": "[Your Turn] This Character gains +3000 power.\n[On K.O.] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

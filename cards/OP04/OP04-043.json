@@ -1,0 +1,23 @@
+{
+  "id": "OP04-043",
+  "name": "Ulti",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP04",
+  "image_id": "OP04-043",
+  "effect_text": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 2 or less to the owner's hand or the bottom of their deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

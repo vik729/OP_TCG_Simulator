@@ -1,0 +1,21 @@
+{
+  "id": "OP12-018",
+  "name": "Color of the Supreme King Haki",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP12",
+  "image_id": "OP12-018",
+  "effect_text": "[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle. Then, you may rest 1 of your DON!! cards. If you do, give your opponent's Leader and all of their Characters 1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

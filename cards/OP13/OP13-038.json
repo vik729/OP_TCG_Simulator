@@ -1,0 +1,24 @@
+{
+  "id": "OP13-038",
+  "name": "Gum-Gum Elephant Gun",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-038",
+  "effect_text": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

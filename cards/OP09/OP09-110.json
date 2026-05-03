@@ -1,0 +1,23 @@
+{
+  "id": "OP09-110",
+  "name": "Pierre",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-110",
+  "effect_text": "[On Play] Draw 2 cards and trash 2 cards from your hand.\n[Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

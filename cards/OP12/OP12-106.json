@@ -1,0 +1,26 @@
+{
+  "id": "OP12-106",
+  "name": "Trafalgar Law (106)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Heart Pirates",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP12",
+  "image_id": "OP12-106",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

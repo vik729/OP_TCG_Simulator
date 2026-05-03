@@ -1,0 +1,23 @@
+{
+  "id": "OP04-049",
+  "name": "Jack",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-049",
+  "effect_text": "[On K.O.] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

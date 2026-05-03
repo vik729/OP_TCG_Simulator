@@ -1,0 +1,21 @@
+{
+  "id": "ST16-003",
+  "name": "Charlotte Katakuri (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST16-003_p1",
+  "effect_text": "If your Leader has the \"FILM\" type and you have 6 or more rested cards, this Character gains +2000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

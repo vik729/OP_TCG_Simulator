@@ -1,0 +1,23 @@
+{
+  "id": "OP12-007",
+  "name": "Shanks (007)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-007",
+  "effect_text": "[On Play] Up to 1 of your Characters with a type including \"Roger Pirates\" other than [Shanks] gains [Rush] during this turn.\n(This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

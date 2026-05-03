@@ -1,0 +1,23 @@
+{
+  "id": "OP06-034",
+  "name": "Hyouzou",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-034",
+  "effect_text": "[Activate:Main][Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

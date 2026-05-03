@@ -1,0 +1,21 @@
+{
+  "id": "P-074",
+  "name": "Portgas.D.Ace - P-074 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-074_r1",
+  "effect_text": "[Activate:Main] You may return this Character to the owner's hand: Look at 5 cards from the top of your deck and place them as the top or bottom of the deck in any order.Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

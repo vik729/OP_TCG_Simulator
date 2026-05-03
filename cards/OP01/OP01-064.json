@@ -1,0 +1,21 @@
+{
+  "id": "OP01-064",
+  "name": "Alvida",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-064",
+  "effect_text": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

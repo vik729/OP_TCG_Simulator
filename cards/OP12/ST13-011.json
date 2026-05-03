@@ -1,0 +1,23 @@
+{
+  "id": "ST13-011",
+  "name": "Portgas.D.Ace (SP)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP12",
+  "image_id": "ST13-011_p2",
+  "effect_text": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

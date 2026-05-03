@@ -1,0 +1,23 @@
+{
+  "id": "OP10-086",
+  "name": "Shiryu",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-086",
+  "effect_text": "[Opponent's Turn] This Character gains +2000 power.\n[Activate: Main] [Once Per Turn] If your Leader has the \"Blackbeard Pirates\" type, and this Character was played on this turn, K.O. up to 1 of your opponent's Characters with a base cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "OP07-019",
+  "name": "Jewelry Bonney (SPR)",
+  "type": "Leader",
+  "color": [
+    "Green"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Bonney Pirates",
+    "Supernovas"
+  ],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP07-019",
+  "effect_text": "[On Your Opponent's Attack] [Once Per Turn] 1 (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Leader or Character cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

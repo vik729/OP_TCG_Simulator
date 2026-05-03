@@ -1,0 +1,23 @@
+{
+  "id": "OP05-001",
+  "name": "Sabo (SPR)",
+  "type": "Leader",
+  "color": [
+    "Red Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP05-001",
+  "effect_text": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character 1000 power during this turn instead of that Character being K.O.'d.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

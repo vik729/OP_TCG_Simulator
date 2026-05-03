@@ -1,0 +1,23 @@
+{
+  "id": "OP13-119",
+  "name": "Portgas.D.Ace (119)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "OP13",
+  "image_id": "OP13-119",
+  "effect_text": "If you have 3 or less Life cards, this Character gains [Rush].\n[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

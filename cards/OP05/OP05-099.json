@@ -1,0 +1,21 @@
+{
+  "id": "OP05-099",
+  "name": "Amazon",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-099",
+  "effect_text": "[On Your Opponent's Attack] You may rest this Character: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

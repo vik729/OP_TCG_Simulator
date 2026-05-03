@@ -1,0 +1,24 @@
+{
+  "id": "OP01-113",
+  "name": "Holedem",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-113",
+  "effect_text": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

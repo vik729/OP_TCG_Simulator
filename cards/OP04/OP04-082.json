@@ -1,0 +1,21 @@
+{
+  "id": "OP04-082",
+  "name": "Kyros",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP04",
+  "image_id": "OP04-082",
+  "effect_text": "If this Character would be K.O.'d, you may rest your Leader or 1 [Corrida Coliseum] instead. [On Play] If your Leader is [Rebecca], K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 1 card from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

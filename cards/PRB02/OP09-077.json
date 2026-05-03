@@ -1,0 +1,24 @@
+{
+  "id": "OP09-077",
+  "name": "Gum-Gum Lightning (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "The Four Emperors"
+  ],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP09-077_p1",
+  "effect_text": "[Main] DON!! 2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

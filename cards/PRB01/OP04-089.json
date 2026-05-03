@@ -1,0 +1,23 @@
+{
+  "id": "OP04-089",
+  "name": "Bartolomeo (OP04-089) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB01",
+  "image_id": "OP04-089_r1",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

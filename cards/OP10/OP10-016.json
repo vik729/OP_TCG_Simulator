@@ -1,0 +1,23 @@
+{
+  "id": "OP10-016",
+  "name": "Monet",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP10",
+  "image_id": "OP10-016",
+  "effect_text": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters 1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

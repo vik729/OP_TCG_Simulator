@@ -1,0 +1,21 @@
+{
+  "id": "ST09-006",
+  "name": "Kouzuki Momonosuke",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST09",
+  "image_id": "ST09-006",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

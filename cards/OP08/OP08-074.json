@@ -1,0 +1,23 @@
+{
+  "id": "OP08-074",
+  "name": "Black Maria",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 2000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP08",
+  "image_id": "OP08-074_p1",
+  "effect_text": "[Activate:Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

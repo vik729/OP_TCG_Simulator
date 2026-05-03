@@ -1,0 +1,23 @@
+{
+  "id": "OP11-094",
+  "name": "Morgan",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-094",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

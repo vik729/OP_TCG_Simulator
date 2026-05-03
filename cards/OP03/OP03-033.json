@@ -1,0 +1,23 @@
+{
+  "id": "OP03-033",
+  "name": "Hatchan",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-033",
+  "effect_text": "[Trigger] If your Leader has the [East Blue] type, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

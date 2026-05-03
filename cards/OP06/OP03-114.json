@@ -1,0 +1,23 @@
+{
+  "id": "OP03-114",
+  "name": "Charlotte Linlin (SP)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 10,
+  "power": 12000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP03-114_p2",
+  "effect_text": "[On Play] If your Leader has the [Big Mom Pirates] type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

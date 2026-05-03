@@ -1,0 +1,25 @@
+{
+  "id": "OP13-052",
+  "name": "Boa Marigold",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Kuja Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-052",
+  "effect_text": "[Blocker]\n[On Play] If your Leader is [Boa Hancock], play up to 1 [Boa Hancock] with a cost of 6 or less from your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

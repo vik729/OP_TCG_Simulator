@@ -1,0 +1,23 @@
+{
+  "id": "OP04-072",
+  "name": "Mr.5 (Gem) (Alternate Art)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "OP04",
+  "image_id": "OP04-072_p1",
+  "effect_text": "[On Your Opponent's Attack] [Once Per Turn] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "EB01-018",
+  "name": "Mountain God (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "EB01-018_r1",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

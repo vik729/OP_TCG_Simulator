@@ -1,0 +1,23 @@
+{
+  "id": "OP06-039",
+  "name": "You Ain't Even Worth Killing Time!!",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-039",
+  "effect_text": "[Main] Choose one:\n• Rest up to 1 of your opponent's Characters with a cost of 6 or less.\n• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.\n[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

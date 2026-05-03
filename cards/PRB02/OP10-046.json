@@ -1,0 +1,21 @@
+{
+  "id": "OP10-046",
+  "name": "Kyros (Reprint)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "OP10-046_r1",
+  "effect_text": "[On Play] Return up to 1 Character with a cost of 5 or less to the owner's hand.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP07-071",
+  "name": "Foxy (071)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP07",
+  "image_id": "OP07-071",
+  "effect_text": "[Opponent's Turn] If your Leader has the [Foxy Pirates] type, give all of your opponent's Characters -1000 power. [Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

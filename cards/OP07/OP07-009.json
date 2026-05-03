@@ -1,0 +1,23 @@
+{
+  "id": "OP07-009",
+  "name": "Dogura & Magura",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-009",
+  "effect_text": "[On Play] Up to 1 of your red Characters with a cost of 1 gains [Double Attack] during this turn. (This card deals 2 damage.)",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

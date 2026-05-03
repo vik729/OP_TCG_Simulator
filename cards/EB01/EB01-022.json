@@ -1,0 +1,23 @@
+{
+  "id": "EB01-022",
+  "name": "Inazuma",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "SR",
+  "set_id": "EB01",
+  "image_id": "EB01-022",
+  "effect_text": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

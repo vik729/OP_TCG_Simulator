@@ -1,0 +1,23 @@
+{
+  "id": "OP11-095",
+  "name": "Monkey.D.Garp",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "OP11",
+  "image_id": "OP11-095",
+  "effect_text": "[On Play] You may place 3 \"Navy\" type cards from your trash at the bottom of your deck in any order: Give up to 1 rested DON!! card to 1 of your Leader. Then, if there is a Character with a cost of 9 or more, K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

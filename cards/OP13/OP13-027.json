@@ -1,0 +1,23 @@
+{
+  "id": "OP13-027",
+  "name": "Sanji",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-027",
+  "effect_text": "[On Play] Set up to 2 of your DON!! cards as active.\n[End of Your Turn] If your Leader has the \"FILM\" or \"Straw Hat Crew\" type, set up to 1 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

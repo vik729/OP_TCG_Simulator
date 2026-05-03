@@ -1,0 +1,23 @@
+{
+  "id": "OP01-109",
+  "name": "Who's.Who (Box Topper)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP01",
+  "image_id": "OP01-109_p1",
+  "effect_text": "[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

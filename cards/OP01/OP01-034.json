@@ -1,0 +1,23 @@
+{
+  "id": "OP01-034",
+  "name": "Inuarashi",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-034",
+  "effect_text": "[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

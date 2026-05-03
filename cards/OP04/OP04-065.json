@@ -1,0 +1,23 @@
+{
+  "id": "OP04-065",
+  "name": "Miss.Goldenweek(Marianne)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-065",
+  "effect_text": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your opponent's Characters with a cost of 5 or less cannot attack until the start of your next turn. [Trigger] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

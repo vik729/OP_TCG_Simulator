@@ -1,0 +1,23 @@
+{
+  "id": "ST28-004",
+  "name": "Kouzuki Momonosuke",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "ST28",
+  "image_id": "ST28-004",
+  "effect_text": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power.\n[Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn.\n(This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

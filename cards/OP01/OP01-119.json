@@ -1,0 +1,24 @@
+{
+  "id": "OP01-119",
+  "name": "Thunder Bagua",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-119",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

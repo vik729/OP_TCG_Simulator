@@ -1,0 +1,25 @@
+{
+  "id": "OP04-001",
+  "name": "Nefeltari Vivi (001)",
+  "type": "Leader",
+  "color": [
+    "Blue Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "L",
+  "set_id": "OP04",
+  "image_id": "OP04-001",
+  "effect_text": "This Leader cannot attack. [Activate:Main] [Once Per Turn] (2) (You may rest the specified number of DON!! cards in your cost area.): Draw 1 card and up to 1 of your Characters gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

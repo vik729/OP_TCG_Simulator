@@ -1,0 +1,21 @@
+{
+  "id": "OP01-081",
+  "name": "Mocha",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-081",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

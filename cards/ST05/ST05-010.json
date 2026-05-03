@@ -1,0 +1,23 @@
+{
+  "id": "ST05-010",
+  "name": "Zephyr",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST05",
+  "image_id": "ST05-010",
+  "effect_text": "When this Character battles \"Strike\" attribute Characters, this Character gains +3000 power during this turn. [Activate:Main] [Once Per Turn] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

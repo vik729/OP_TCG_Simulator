@@ -1,0 +1,24 @@
+{
+  "id": "OP11-034",
+  "name": "Hatchan",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man",
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-034",
+  "effect_text": "[Activate: Main] You may rest this Character: If your Leader has the \"Fish-Man\" or \"Merfolk\" type, up to 1 of your opponent's Characters with a cost of 3 or less cannot be rested until the end of your opponent's next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

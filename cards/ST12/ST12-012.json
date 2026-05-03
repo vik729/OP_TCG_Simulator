@@ -1,0 +1,21 @@
+{
+  "id": "ST12-012",
+  "name": "Charlotte Pudding",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST12",
+  "image_id": "ST12-012",
+  "effect_text": "[Activate:Main] Return this Character to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

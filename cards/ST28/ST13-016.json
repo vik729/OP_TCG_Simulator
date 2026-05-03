@@ -1,0 +1,23 @@
+{
+  "id": "ST13-016",
+  "name": "Yamato (Reprint)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 4000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST28",
+  "image_id": "ST13-016_r1",
+  "effect_text": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.DISCLAIMER: This card is a reprint of the pre-existing card in the ST13 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

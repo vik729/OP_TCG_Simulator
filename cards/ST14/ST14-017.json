@@ -1,0 +1,23 @@
+{
+  "id": "ST14-017",
+  "name": "Thousand Sunny",
+  "type": "Stage",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST14",
+  "image_id": "ST14-017",
+  "effect_text": "All of your black \"Straw Hat Crew\" type Characters gain +1 cost.\n[On Play] If your Leader has the \"Straw Hat Crew\" type, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

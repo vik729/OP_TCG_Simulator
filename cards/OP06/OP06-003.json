@@ -1,0 +1,23 @@
+{
+  "id": "OP06-003",
+  "name": "Emporio.Ivankov",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-003",
+  "effect_text": "[On Play] Look at 3 cards from the top of your deck and play up to 1 [Revolutionary Army] type Character card with 5000 power or less. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

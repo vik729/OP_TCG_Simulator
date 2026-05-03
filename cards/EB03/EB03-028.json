@@ -1,0 +1,21 @@
+{
+  "id": "EB03-028",
+  "name": "Yu",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-028",
+  "effect_text": "[On Play] Trash 1 card from your hand. [Activate: Main] You may trash this Character: If you have 4 or less cards in your hand, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

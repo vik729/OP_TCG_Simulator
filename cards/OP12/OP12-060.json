@@ -1,0 +1,23 @@
+{
+  "id": "OP12-060",
+  "name": "Boeuf Burst",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP12",
+  "image_id": "OP12-060",
+  "effect_text": "[Main] If your Leader is multicolored, choose one:\n• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.\n• If you have 6 or less cards in your hand, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP03-073",
+  "name": "Hull Dismantler Slash",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-073",
+  "effect_text": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the [Water Seven] type, K.O. up to 1 of your opponent's Characters with a cost of 2 or less. [Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

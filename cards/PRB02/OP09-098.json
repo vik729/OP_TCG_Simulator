@@ -1,0 +1,23 @@
+{
+  "id": "OP09-098",
+  "name": "Black Hole (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP09-098_p1",
+  "effect_text": "[Main] If your Leader has the \"Blackbeard Pirates\" type, negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has a cost of 4 or less, K.O. it.[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

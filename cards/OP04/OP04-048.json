@@ -1,0 +1,23 @@
+{
+  "id": "OP04-048",
+  "name": "Sasaki",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-048",
+  "effect_text": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

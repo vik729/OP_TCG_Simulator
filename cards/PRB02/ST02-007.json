@@ -1,0 +1,24 @@
+{
+  "id": "ST02-007",
+  "name": "Jewelry Bonney - ST02-007 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Bonney Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST02-007_p3",
+  "effect_text": "[Activate: Main] (1) (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character Look at 5 cards from the top of your deck; reveal up to 1 \"Supernovas\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

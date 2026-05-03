@@ -1,0 +1,23 @@
+{
+  "id": "OP06-119",
+  "name": "Sanji (SP)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 9,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SEC",
+  "set_id": "OP11",
+  "image_id": "OP06-119_p2",
+  "effect_text": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

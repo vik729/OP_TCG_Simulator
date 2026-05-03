@@ -1,0 +1,23 @@
+{
+  "id": "OP06-059",
+  "name": "White Snake",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-059",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.\n[Trigger] Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

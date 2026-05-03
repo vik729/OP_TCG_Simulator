@@ -1,0 +1,21 @@
+{
+  "id": "OP02-019",
+  "name": "Rakuyo",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "ST15",
+  "image_id": "OP02-019",
+  "effect_text": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP06-036",
+  "name": "Ryuma",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-036",
+  "effect_text": "[On Play] / [On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

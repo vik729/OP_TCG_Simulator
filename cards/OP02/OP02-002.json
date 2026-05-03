@@ -1,0 +1,23 @@
+{
+  "id": "OP02-002",
+  "name": "Monkey.D.Garp (002)",
+  "type": "Leader",
+  "color": [
+    "Red Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "L",
+  "set_id": "OP02",
+  "image_id": "OP02-002",
+  "effect_text": "[Your Turn] When this Leader or 1 of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less -1 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

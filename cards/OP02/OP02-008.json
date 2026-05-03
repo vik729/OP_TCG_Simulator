@@ -1,0 +1,23 @@
+{
+  "id": "OP02-008",
+  "name": "Jozu",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP02",
+  "image_id": "OP02-008",
+  "effect_text": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

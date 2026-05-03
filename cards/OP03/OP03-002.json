@@ -1,0 +1,23 @@
+{
+  "id": "OP03-002",
+  "name": "Adio",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-002",
+  "effect_text": "[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP02-063",
+  "name": "Mr.1 (Daz.Bonez)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-063",
+  "effect_text": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

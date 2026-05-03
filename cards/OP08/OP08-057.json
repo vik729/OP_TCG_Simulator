@@ -1,0 +1,23 @@
+{
+  "id": "OP08-057",
+  "name": "King (057)",
+  "type": "Leader",
+  "color": [
+    "Blue Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "L",
+  "set_id": "OP08",
+  "image_id": "OP08-057",
+  "effect_text": "[Activate:Main] [Once Per Turn] DON!! 2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one: • If you have 5 or less cards in your hand, draw 1 card. • Give up to 1 of your opponent's Characters 2 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ST14-008",
+  "name": "Haredas",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST14",
+  "image_id": "ST14-008",
+  "effect_text": "[Activate:Main] You may rest this Character: Up to 1 of your black \"Straw Hat Crew\" type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "OP10-039",
+  "name": "Gum-Gum Dragon Fire Pistol Twister Star",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-039",
+  "effect_text": "[Main] If your Leader has the \"ODYSSEY\" type, look at 5 cards from the top of your deck; reveal up to 2 \"ODYSSEY\" type Character cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

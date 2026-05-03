@@ -1,0 +1,23 @@
+{
+  "id": "OP07-024",
+  "name": "Koala",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-024",
+  "effect_text": "[On Your Opponent's Attack] You may rest this Character: Up to 1 of your [Fish-Man] type Characters with a cost of 5 or less gains [Blocker] during this turn. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

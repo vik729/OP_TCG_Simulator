@@ -1,0 +1,21 @@
+{
+  "id": "OP01-059",
+  "name": "BE-BENG!!",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-059",
+  "effect_text": "[Main] You may trash 1 \"Land of Wano\" type card from your hand: Set up to 1 of your \"Land of Wano\" type Character cards with a cost of 3 or less as active.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

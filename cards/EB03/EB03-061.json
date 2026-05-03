@@ -1,0 +1,21 @@
+{
+  "id": "EB03-061",
+  "name": "Uta (061) (Alternate Art)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "EB03",
+  "image_id": "EB03-061_p1",
+  "effect_text": "[Activate: Main] [Once Per Turn] Set up to 1 of your DON!! cards as active. Then, rest up to 1 of your opponent's DON!! cards or Characters with a cost of 4 or less.\n[End of Your Turn] You may rest 1 of your DON!! cards: Set up to 1 of your {FILM} type Characters as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

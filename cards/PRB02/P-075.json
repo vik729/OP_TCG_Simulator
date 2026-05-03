@@ -1,0 +1,24 @@
+{
+  "id": "P-075",
+  "name": "Monkey.D.Luffy - P-075 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-075_r1",
+  "effect_text": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[When Attacking] If you have a Character with a cost of 8 or more on your field, draw 1 card and trash 1 card from your hand.Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

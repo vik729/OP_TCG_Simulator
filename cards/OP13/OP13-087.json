@@ -1,0 +1,23 @@
+{
+  "id": "OP13-087",
+  "name": "Saint Charlos",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-087",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from the top of your deck.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

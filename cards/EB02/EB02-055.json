@@ -1,0 +1,24 @@
+{
+  "id": "EB02-055",
+  "name": "Jinbe",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "EB02",
+  "image_id": "EB02-055",
+  "effect_text": "[Trigger] If your Leader has the \"Fish-Man\" or \"Merfolk\" type and you have 2 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

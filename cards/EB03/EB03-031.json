@@ -1,0 +1,21 @@
+{
+  "id": "EB03-031",
+  "name": "Vinsmoke Reiju",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "EB03",
+  "image_id": "EB03-031",
+  "effect_text": "[Your Turn] [On Play] DON!! 1: If your Leader is [Sanji], activate the [Main] effect of up to 1 Event card with a cost of 7 or less in your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

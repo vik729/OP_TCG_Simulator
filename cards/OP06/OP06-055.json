@@ -1,0 +1,25 @@
+{
+  "id": "OP06-055",
+  "name": "Monkey.D.Garp",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-055",
+  "effect_text": "[DON!! x2][When Attacking] If you have 4 or less cards in your hand, your opponent cannot activate [Blocker] during this battle.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

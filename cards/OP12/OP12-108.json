@@ -1,0 +1,24 @@
+{
+  "id": "OP12-108",
+  "name": "Donquixote Rosinante (108)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates",
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP12",
+  "image_id": "OP12-108",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Trafalgar Law] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

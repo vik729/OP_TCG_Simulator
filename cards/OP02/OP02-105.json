@@ -1,0 +1,23 @@
+{
+  "id": "OP02-105",
+  "name": "Tashigi",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-105",
+  "effect_text": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -3 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

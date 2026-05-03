@@ -1,0 +1,25 @@
+{
+  "id": "OP10-012",
+  "name": "Dragon Number Thirteen",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Biological Weapon"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-012",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

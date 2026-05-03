@@ -1,0 +1,21 @@
+{
+  "id": "OP03-112",
+  "name": "Charlotte Pudding (SP)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP08",
+  "image_id": "OP03-112_p4",
+  "effect_text": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or [Big Mom Pirates] type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

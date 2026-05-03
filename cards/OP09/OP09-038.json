@@ -1,0 +1,21 @@
+{
+  "id": "OP09-038",
+  "name": "Rob Lucci (038)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-038",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

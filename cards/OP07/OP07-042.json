@@ -1,0 +1,24 @@
+{
+  "id": "OP07-042",
+  "name": "Gecko Moria (042)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Seven Warlords of the Sea",
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-042",
+  "effect_text": "[Once Per Turn] If your Leader has the [The Seven Warlords of the Sea] type and this Character would be removed from the field by your opponent's effect, you may place 1 of your Characters other than [Gecko Moria] at the bottom of the owner's deck instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ST06-011",
+  "name": "Momonga",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST06",
+  "image_id": "ST06-011",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

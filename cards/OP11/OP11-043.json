@@ -1,0 +1,23 @@
+{
+  "id": "OP11-043",
+  "name": "Vinsmoke Ichiji",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-043",
+  "effect_text": "[Blocker]\n[On Your Opponent's Attack] [Once Per Turn] This effect can be activated when you only have Characters with a type including \"GERMA\". Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, trash 2 cards from the top of your deck.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

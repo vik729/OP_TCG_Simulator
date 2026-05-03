@@ -1,0 +1,24 @@
+{
+  "id": "OP10-051",
+  "name": "Hack",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-051",
+  "effect_text": "[DON!! x1] [When Attacking] Look at 3 cards from the top of your deck; reveal up to 1 \"Revolutionary Army\" type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "OP07-102",
+  "name": "Jinbe (102)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-102",
+  "effect_text": "[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

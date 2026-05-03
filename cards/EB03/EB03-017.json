@@ -1,0 +1,24 @@
+{
+  "id": "EB03-017",
+  "name": "Jewelry Bonney",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Bonney Pirates",
+    "Supernovas"
+  ],
+  "rarity": "R",
+  "set_id": "EB03",
+  "image_id": "EB03-017",
+  "effect_text": "[On Play] If your Leader has the {Supernovas} type, set up to 1 of your DON!! cards as active. Then, up to 1 of your opponent's Characters with a cost of 8 or less cannot be rested until the end of your opponent's next End Phase.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

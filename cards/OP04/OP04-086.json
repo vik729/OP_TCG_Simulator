@@ -1,0 +1,21 @@
+{
+  "id": "OP04-086",
+  "name": "Chinjao",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-086",
+  "effect_text": "[DON!! x1] When this Character battles and K.O.'s your opponent's Character, draw 2 cards and trash 2 cards from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ST08-007",
+  "name": "Nefeltari Vivi",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "C",
+  "set_id": "ST08",
+  "image_id": "ST08-007",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Trigger] Play this card.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

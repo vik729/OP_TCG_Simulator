@@ -1,0 +1,23 @@
+{
+  "id": "OP12-075",
+  "name": "Ms. All Sunday",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-075",
+  "effect_text": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, your opponent may add 1 DON!! card from their DON!! deck and set it as active.\n[Trigger] DON!! 1: Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

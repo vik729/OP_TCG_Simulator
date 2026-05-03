@@ -1,0 +1,23 @@
+{
+  "id": "OP11-061",
+  "name": "Gum-Gum Jet Culverin",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-061",
+  "effect_text": "[Main] Place up to 1 of your opponent's Characters with a base cost of 4 or less at the bottom of the owner's deck.\n[Trigger] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

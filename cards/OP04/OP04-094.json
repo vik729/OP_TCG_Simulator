@@ -1,0 +1,21 @@
+{
+  "id": "OP04-094",
+  "name": "Trueno Bastardo",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP04",
+  "image_id": "OP04-094",
+  "effect_text": "[Main] Choose up to 1 of your opponent's Characters with a cost of 4 or less and K.O. it. If you have 15 or more cards in your trash, choose up to 1 of your opponent's Characters with a cost of 6 or less instead of a Character with a cost of 4 or less. [Trigger] You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

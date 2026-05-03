@@ -1,0 +1,21 @@
+{
+  "id": "ST05-006",
+  "name": "Gild Tesoro",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST05",
+  "image_id": "ST05-006",
+  "effect_text": "[When Attacking] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "OP06-087",
+  "name": "Cerberus",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-087",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

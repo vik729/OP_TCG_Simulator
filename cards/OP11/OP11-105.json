@@ -1,0 +1,23 @@
+{
+  "id": "OP11-105",
+  "name": "Charlotte Chiffon",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Firetank Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-105",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

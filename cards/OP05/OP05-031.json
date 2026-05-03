@@ -1,0 +1,23 @@
+{
+  "id": "OP05-031",
+  "name": "Buffalo",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-031",
+  "effect_text": "[When Attacking][Once Per Turn] If you have 2 or more rested Characters, set up to 1 of your rested Characters with a cost of 1 as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

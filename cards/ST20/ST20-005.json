@@ -1,0 +1,23 @@
+{
+  "id": "ST20-005",
+  "name": "Charlotte Linlin",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "ST20",
+  "image_id": "ST20-005",
+  "effect_text": "[On Play] You may trash 1 card from your hand: Your opponent chooses one:\n\n• Your opponent trashes 2 cards from their hand.\n\n• Trash 1 card from the top of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

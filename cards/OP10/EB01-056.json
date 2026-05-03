@@ -1,0 +1,21 @@
+{
+  "id": "EB01-056",
+  "name": "Charlotte Flampe (SP)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "EB01-056_p2",
+  "effect_text": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

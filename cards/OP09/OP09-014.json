@@ -1,0 +1,23 @@
+{
+  "id": "OP09-014",
+  "name": "Limejuice",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-014",
+  "effect_text": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

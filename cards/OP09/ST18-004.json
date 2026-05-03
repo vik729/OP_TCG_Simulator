@@ -1,0 +1,23 @@
+{
+  "id": "ST18-004",
+  "name": "Zoro-Juurou (ST18-004)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "OP09",
+  "image_id": "ST18-004_p1",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple \"Straw Hat Crew\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

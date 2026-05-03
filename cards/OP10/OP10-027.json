@@ -1,0 +1,21 @@
+{
+  "id": "OP10-027",
+  "name": "Kin'emon (027)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-027",
+  "effect_text": "[Activate: Main] You may place this Character and 1 [Kin'emon] with 1000 power from your trash at the bottom of your deck in any order: Play up to 1 [Kin'emon] with a cost of 6 from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

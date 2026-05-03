@@ -1,0 +1,21 @@
+{
+  "id": "OP09-018",
+  "name": "Get Out of Here!",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-018",
+  "effect_text": "[Main] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

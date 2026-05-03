@@ -1,0 +1,23 @@
+{
+  "id": "OP05-029",
+  "name": "Donquixote Doflamingo (029)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-029",
+  "effect_text": "[On Your Opponent's Attack][Once Per Turn] (1) (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

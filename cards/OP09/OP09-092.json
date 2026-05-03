@@ -1,0 +1,21 @@
+{
+  "id": "OP09-092",
+  "name": "Marshall.D.Teach (092)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-092",
+  "effect_text": "[Activate: Main] You may rest this Character: If the number of cards in your hand is at least 3 less than the number in your opponent's hand, draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

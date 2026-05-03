@@ -1,0 +1,21 @@
+{
+  "id": "OP08-113",
+  "name": "S-Bear",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-113",
+  "effect_text": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card and K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

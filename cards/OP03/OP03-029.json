@@ -1,0 +1,23 @@
+{
+  "id": "OP03-029",
+  "name": "Chew",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-029",
+  "effect_text": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less. [Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

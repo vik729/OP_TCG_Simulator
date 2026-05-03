@@ -1,0 +1,23 @@
+{
+  "id": "EB01-035",
+  "name": "Ms. Monday",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "C",
+  "set_id": "EB01",
+  "image_id": "EB01-035",
+  "effect_text": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +1000 power during this turn.[Trigger] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

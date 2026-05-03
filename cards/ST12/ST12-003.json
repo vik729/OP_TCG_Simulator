@@ -1,0 +1,23 @@
+{
+  "id": "ST12-003",
+  "name": "Dracule Mihawk",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "ST12",
+  "image_id": "ST12-003",
+  "effect_text": "[On Play] If you have 2 or less Characters, play up to 1 [Muggy Kingdom] type or \"Slash\" attribute Character card with a cost of 4 or less other than [Dracule Mihawk] from your hand rested.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

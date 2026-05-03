@@ -1,0 +1,23 @@
+{
+  "id": "ST07-014",
+  "name": "Pekoms",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "C",
+  "set_id": "ST07",
+  "image_id": "ST07-014",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

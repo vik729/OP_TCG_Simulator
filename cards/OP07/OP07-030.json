@@ -1,0 +1,25 @@
+{
+  "id": "OP07-030",
+  "name": "Pappag",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-030",
+  "effect_text": "If you have a [Camie] Character, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ST06-010",
+  "name": "Helmeppo",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST06",
+  "image_id": "ST06-010",
+  "effect_text": "[On Play] Give up to 1 of your opponent's Characters -3 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

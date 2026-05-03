@@ -1,0 +1,23 @@
+{
+  "id": "P-044",
+  "name": "Sabo - P-044 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-044",
+  "effect_text": "[DON!! x1] If you have 4 or less cards in your hand, this Character gains +2000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

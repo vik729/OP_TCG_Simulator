@@ -1,0 +1,25 @@
+{
+  "id": "OP05-070",
+  "name": "Fra-Nosuke (Reprint)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 4000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "ST26",
+  "image_id": "OP05-070_r2",
+  "effect_text": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush]. (This card can attack on the turn in which it is played.)DISCLAIMER: This card is a reprint of the pre-existing card in the OP05 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

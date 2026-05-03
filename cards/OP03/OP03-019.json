@@ -1,0 +1,21 @@
+{
+  "id": "OP03-019",
+  "name": "Fiery Doll",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-019",
+  "effect_text": "[Main] Your Leader gains +4000 power during this turn. [Trigger] Give up to 1 of your opponent's Leader or Character cards -10000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

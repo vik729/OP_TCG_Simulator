@@ -1,0 +1,23 @@
+{
+  "id": "OP13-004",
+  "name": "Sabo (004) (Alternate Art)",
+  "type": "Leader",
+  "color": [
+    "Red Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "L",
+  "set_id": "OP13",
+  "image_id": "OP13-004_p1",
+  "effect_text": "If you have 4 or more Life cards, give this Leader 1000 power.\n[DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

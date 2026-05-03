@@ -1,0 +1,23 @@
+{
+  "id": "OP07-039",
+  "name": "Edward Weevil",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-039",
+  "effect_text": "[DON!! x1] [When Attacking] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "EB03-051",
+  "name": "Charlotte Smoothie",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-051",
+  "effect_text": "[On Play] If you have a face-up Life card, K.O. up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

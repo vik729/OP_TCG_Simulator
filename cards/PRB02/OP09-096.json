@@ -1,0 +1,23 @@
+{
+  "id": "OP09-096",
+  "name": "My Era...Begins!! (Reprint)",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP09-096_r1",
+  "effect_text": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 \"Blackbeard Pirates\" type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.[Trigger] Activate this card's [Main] effect.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

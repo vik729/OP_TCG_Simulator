@@ -1,0 +1,23 @@
+{
+  "id": "OP05-065",
+  "name": "San-Gorou",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-065",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

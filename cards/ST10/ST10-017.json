@@ -1,0 +1,23 @@
+{
+  "id": "ST10-017",
+  "name": "Punk Vise",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Kid Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "ST10",
+  "image_id": "ST10-017",
+  "effect_text": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

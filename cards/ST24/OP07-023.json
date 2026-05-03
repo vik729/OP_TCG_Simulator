@@ -1,0 +1,25 @@
+{
+  "id": "OP07-023",
+  "name": "Caribou (Reprint)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "ST24",
+  "image_id": "OP07-023_r1",
+  "effect_text": "If you have 6 or more rested DON!! cards, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

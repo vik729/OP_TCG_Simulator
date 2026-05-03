@@ -1,0 +1,23 @@
+{
+  "id": "P-069",
+  "name": "Koala (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-069_p3",
+  "effect_text": "[Activate:Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

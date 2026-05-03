@@ -1,0 +1,21 @@
+{
+  "id": "OP06-106",
+  "name": "Kouzuki Hiyori",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP06-106",
+  "effect_text": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

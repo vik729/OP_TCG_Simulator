@@ -1,0 +1,24 @@
+{
+  "id": "OP12-095",
+  "name": "Lindbergh",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Minks",
+    "Revolutionary Army"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-095",
+  "effect_text": "If your Leader has the \"Revolutionary Army\" type, this Character gains +4 cost.\n[On Play] Draw 1 card and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

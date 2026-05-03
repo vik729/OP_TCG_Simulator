@@ -1,0 +1,21 @@
+{
+  "id": "OP07-060",
+  "name": "Itomimizu",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-060",
+  "effect_text": "[Activate: Main][Once Per Turn] If your Leader has the [Foxy Pirates] type and you have no other [Itomimizu], add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

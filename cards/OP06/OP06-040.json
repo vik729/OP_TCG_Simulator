@@ -1,0 +1,24 @@
+{
+  "id": "OP06-040",
+  "name": "Shark Arrows",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Fish-Man",
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-040",
+  "effect_text": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 3 or less.\n[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

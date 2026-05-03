@@ -1,0 +1,24 @@
+{
+  "id": "OP04-007",
+  "name": "Sanji (007)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Alabasta",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-007",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "EB02-028",
+  "name": "Portgas.D.Ace - EB02-028 (SP)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "EB02-028_p1",
+  "effect_text": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", look at 5 cards from the top of your deck; reveal up to 1 Character card with a cost of 2 and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 Character card with a cost of 2 from your hand rested.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

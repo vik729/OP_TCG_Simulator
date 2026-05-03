@@ -1,0 +1,21 @@
+{
+  "id": "OP03-123",
+  "name": "Charlotte Katakuri (Reprint)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "PRB01",
+  "image_id": "OP03-123_r1",
+  "effect_text": "[On Play] Add up to 1 Character with a cost of 8 or less to the top or bottom of the owner's Life cards face-up.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

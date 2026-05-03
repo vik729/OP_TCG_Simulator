@@ -1,0 +1,23 @@
+{
+  "id": "OP05-032",
+  "name": "Pica",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP05",
+  "image_id": "OP05-032",
+  "effect_text": "[End of Your Turn] (1): Set this Character as active. [Once Per Turn] If this Character would be K.O.'d, you may rest up to 1 of your Characters with a cost of 3 or more other than [Pica] instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

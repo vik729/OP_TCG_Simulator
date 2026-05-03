@@ -1,0 +1,23 @@
+{
+  "id": "ST05-011",
+  "name": "Douglas Bullet",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 8,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "ST05",
+  "image_id": "ST05-011",
+  "effect_text": "[Activate:Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

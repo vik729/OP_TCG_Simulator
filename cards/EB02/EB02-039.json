@@ -1,0 +1,21 @@
+{
+  "id": "EB02-039",
+  "name": "GERMA 66",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-039",
+  "effect_text": "[Main] You may trash 1 \"GERMA 66\" type Character card with 4000 power or less from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, play up to 1 Character card with 5000 to 7000 power and the same card name as the trashed card from your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

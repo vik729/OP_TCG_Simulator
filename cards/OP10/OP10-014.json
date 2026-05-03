@@ -1,0 +1,24 @@
+{
+  "id": "OP10-014",
+  "name": "Franky (014)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-014",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

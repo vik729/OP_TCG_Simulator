@@ -1,0 +1,21 @@
+{
+  "id": "OP05-089",
+  "name": "Saint Mjosgard",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-089",
+  "effect_text": "[Activate:Main] (1) (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and 1 of your Characters: Add up to 1 black Character card with a cost of 1 from your trash to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

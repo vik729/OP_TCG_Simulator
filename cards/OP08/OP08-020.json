@@ -1,0 +1,21 @@
+{
+  "id": "OP08-020",
+  "name": "Drum Kingdom",
+  "type": "Stage",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-020",
+  "effect_text": "[Opponent's Turn] All of your [Drum Kingdom] type Characters gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "OP07-032",
+  "name": "Fisher Tiger",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "The Sun Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP07",
+  "image_id": "OP07-032",
+  "effect_text": "This Character can attack Characters on the turn in which it is played. [On Play] If your Leader has the [Fish-Man] or [Merfolk] type, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

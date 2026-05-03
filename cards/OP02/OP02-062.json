@@ -1,0 +1,25 @@
+{
+  "id": "OP02-062",
+  "name": "Monkey.D.Luffy (062)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "OP02",
+  "image_id": "OP02-062",
+  "effect_text": "[On Play] / [When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

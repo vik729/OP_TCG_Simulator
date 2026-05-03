@@ -1,0 +1,21 @@
+{
+  "id": "OP11-074",
+  "name": "Streusen",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-074",
+  "effect_text": "[Activate: Main] [Once Per Turn] DON!! 1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

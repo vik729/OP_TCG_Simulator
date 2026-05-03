@@ -1,0 +1,23 @@
+{
+  "id": "OP01-029",
+  "name": "Radical Beam!! (Jolly Roger Foil)",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "PRB01",
+  "image_id": "OP01-029_p2",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power.This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

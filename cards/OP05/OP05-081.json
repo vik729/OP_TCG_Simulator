@@ -1,0 +1,21 @@
+{
+  "id": "OP05-081",
+  "name": "One-Legged Toy Soldier",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-081",
+  "effect_text": "[Activate:Main] You may trash this Character: Give up to 1 of your opponent's Characters -3 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

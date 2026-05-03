@@ -1,0 +1,24 @@
+{
+  "id": "OP08-018",
+  "name": "Cloven Rose",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Animal",
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP08",
+  "image_id": "OP08-018",
+  "effect_text": "[Main] Up to 3 of your Characters gain +1000 power during this turn. Then, give up to 1 of your opponent's Characters 2000 power during this turn. [Trigger] Give up to 1 of your opponent's Leader or Character cards 3000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

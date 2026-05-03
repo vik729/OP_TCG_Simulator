@@ -1,0 +1,25 @@
+{
+  "id": "OP11-104",
+  "name": "Shirley",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "R",
+  "set_id": "OP11",
+  "image_id": "OP11-104",
+  "effect_text": "[Blocker]\n[On Play] You may turn 1 card from the top of your Life cards face-down: Look at 3 cards from the top of your deck; reveal up to 1 \"Fish-Man Island\" type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

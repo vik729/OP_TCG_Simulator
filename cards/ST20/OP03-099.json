@@ -1,0 +1,21 @@
+{
+  "id": "OP03-099",
+  "name": "Charlotte Katakuri (OP03-099)",
+  "type": "Leader",
+  "color": [
+    "Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "ST20",
+  "image_id": "OP03-099_p2",
+  "effect_text": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

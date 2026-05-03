@@ -1,0 +1,23 @@
+{
+  "id": "OP11-099",
+  "name": "I'm Gonna Be a Navy Officer!!!",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP11",
+  "image_id": "OP11-099",
+  "effect_text": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 \"Navy\" type card other than [I'm Gonna Be a Navy Officer!!!] and add it to your hand. Then, trash the rest.\n[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

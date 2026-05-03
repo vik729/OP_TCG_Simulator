@@ -1,0 +1,21 @@
+{
+  "id": "OP04-097",
+  "name": "Otama",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-097",
+  "effect_text": "[On Play] Add up to 1 of your opponent's [Animal] or [SMILE] type Characters with a cost of 3 or less to the top of your opponent's Life cards face-up.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

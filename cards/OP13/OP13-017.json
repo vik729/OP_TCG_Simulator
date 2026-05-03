@@ -1,0 +1,23 @@
+{
+  "id": "OP13-017",
+  "name": "Monkey.D.Dragon",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-017",
+  "effect_text": "[Once Per Turn] If your \"Revolutionary Army\" type Character would be removed from the field by your opponent's effect, you may give this Character 2000 power during this turn instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

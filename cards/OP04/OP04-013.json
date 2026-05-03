@@ -1,0 +1,23 @@
+{
+  "id": "OP04-013",
+  "name": "Pell",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "SR",
+  "set_id": "OP04",
+  "image_id": "OP04-013",
+  "effect_text": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

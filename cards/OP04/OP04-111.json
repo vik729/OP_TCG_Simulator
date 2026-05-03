@@ -1,0 +1,21 @@
+{
+  "id": "OP04-111",
+  "name": "Hera",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-111",
+  "effect_text": "[Activate:Main] You may trash 1 of your [Homies] type Characters other than this Character and rest this Character: Set up to 1 of your [Charlotte Linlin] Characters as active. [Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

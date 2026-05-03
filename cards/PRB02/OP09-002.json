@@ -1,0 +1,21 @@
+{
+  "id": "OP09-002",
+  "name": "Uta (Reprint)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP09-002_r1",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Red-Haired Pirates\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

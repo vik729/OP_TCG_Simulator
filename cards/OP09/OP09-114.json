@@ -1,0 +1,24 @@
+{
+  "id": "OP09-114",
+  "name": "Lindbergh",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Minks",
+    "Revolutionary Army"
+  ],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-114",
+  "effect_text": "[On Play] If you and your opponent have a total of 5 or less Life cards, K.O. up to 1 of your opponent's Characters with 2000 power or less.\n[Trigger] If you and your opponent have a total of 5 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

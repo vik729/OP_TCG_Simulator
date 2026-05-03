@@ -1,0 +1,23 @@
+{
+  "id": "EB01-046",
+  "name": "Brook - EB01-046 (Reprint)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "EB01-046_r1",
+  "effect_text": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters -1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

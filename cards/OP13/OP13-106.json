@@ -1,0 +1,25 @@
+{
+  "id": "OP13-106",
+  "name": "Conney",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Bonney Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-106",
+  "effect_text": "[Opponent's Turn] When a [Trigger] activates, this Character gains [Blocker] during this turn.\n[Trigger] Play this card.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

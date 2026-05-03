@@ -1,0 +1,23 @@
+{
+  "id": "OP13-046",
+  "name": "Vista",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-046",
+  "effect_text": "[Double Attack]\n[Once Per Turn] If this Character would be K.O.'d or would be removed from the field by your opponent's effect, you may trash 1 card with a type including \"Whitebeard Pirates\" from your hand instead.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP13-059",
+  "name": "Brilliant Punk",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-059",
+  "effect_text": "[Main] You may return 1 of your Characters to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

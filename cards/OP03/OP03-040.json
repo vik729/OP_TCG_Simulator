@@ -1,0 +1,21 @@
+{
+  "id": "OP03-040",
+  "name": "Nami (040)",
+  "type": "Leader",
+  "color": [
+    "Blue"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP03",
+  "image_id": "OP03-040",
+  "effect_text": "When your deck is reduced to 0, you win the game instead of losing, according to the rules. [DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP01-021",
+  "name": "Franky",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP01",
+  "image_id": "OP01-021",
+  "effect_text": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP13-066",
+  "name": "Silvers Rayleigh",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 8,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP13",
+  "image_id": "OP13-066",
+  "effect_text": "[Rush]\n[On Play] If you have any DON!! cards given, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active at the end of this turn.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

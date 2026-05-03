@@ -1,0 +1,23 @@
+{
+  "id": "OP11-081",
+  "name": "Cognac Mama-Mash",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-081",
+  "effect_text": "[Main] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 8 or less.\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

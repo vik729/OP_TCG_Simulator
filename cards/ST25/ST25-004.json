@@ -1,0 +1,23 @@
+{
+  "id": "ST25-004",
+  "name": "Buggy",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "ST25",
+  "image_id": "ST25-004",
+  "effect_text": "[Activate:Main] You may trash 1 card from your hand and trash this Character: If your Leader is [Buggy], play up to 1 \"Cross Guild\" type Character card with a cost of 6 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

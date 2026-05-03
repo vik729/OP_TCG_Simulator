@@ -1,0 +1,21 @@
+{
+  "id": "OP07-093",
+  "name": "Rob Lucci (093)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP07",
+  "image_id": "OP07-093",
+  "effect_text": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: Your opponent trashes 1 card from their hand. Then, you may place up to 1 card from your opponent's trash at the bottom of their deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

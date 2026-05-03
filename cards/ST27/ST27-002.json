@@ -1,0 +1,23 @@
+{
+  "id": "ST27-002",
+  "name": "Catarina Devon",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "ST27",
+  "image_id": "ST27-002",
+  "effect_text": "[Activate:Main] You may trash this Character: If your Leader has the \"Blackbeard Pirates\" type, give up to 1 of your opponent's Characters -1 cost during this turn.\n[On K.O.] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

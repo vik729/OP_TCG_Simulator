@@ -1,0 +1,21 @@
+{
+  "id": "OP07-068",
+  "name": "Hamburg",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-068",
+  "effect_text": "[DON!! x1] [When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

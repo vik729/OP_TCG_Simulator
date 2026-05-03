@@ -1,0 +1,25 @@
+{
+  "id": "OP11-014",
+  "name": "Borsalino",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP11",
+  "image_id": "OP11-014",
+  "effect_text": "[Blocker]\n[Activate: Main] You may rest this Character: Up to 1 of your \"Navy\" type Leader or Character cards can also attack active Characters during this turn.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

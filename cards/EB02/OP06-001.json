@@ -1,0 +1,21 @@
+{
+  "id": "OP06-001",
+  "name": "Uta (SPR)",
+  "type": "Leader",
+  "color": [
+    "Purple Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP06-001",
+  "effect_text": "[When Attacking] You may trash 1 \"FILM\" type card from your hand: Give up to 1 of your opponent's Characters 2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

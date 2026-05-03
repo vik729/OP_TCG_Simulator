@@ -1,0 +1,21 @@
+{
+  "id": "OP02-017",
+  "name": "Masked Deuce",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP02",
+  "image_id": "OP02-017",
+  "effect_text": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

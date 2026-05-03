@@ -1,0 +1,21 @@
+{
+  "id": "ST11-001",
+  "name": "Uta (001)",
+  "type": "Leader",
+  "color": [
+    "Green"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "ST11",
+  "image_id": "ST11-001",
+  "effect_text": "[DON!! x1][When Attacking][Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 [FILM] type card to your hand. Then, place the rest at the bottom of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

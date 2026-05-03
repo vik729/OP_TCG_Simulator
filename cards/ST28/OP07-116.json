@@ -1,0 +1,21 @@
+{
+  "id": "OP07-116",
+  "name": "Blaze Slice (Reprint)",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": null,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "ST28",
+  "image_id": "OP07-116_p1",
+  "effect_text": "[Main] / [Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.\n\nDISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP06-027",
+  "name": "Gyro",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-027",
+  "effect_text": "[On K.O.] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP02-055",
+  "name": "Dracule Mihawk",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-055",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

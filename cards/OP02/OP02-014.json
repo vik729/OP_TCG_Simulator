@@ -1,0 +1,21 @@
+{
+  "id": "OP02-014",
+  "name": "Whitey Bay",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-014",
+  "effect_text": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

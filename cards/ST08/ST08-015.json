@@ -1,0 +1,23 @@
+{
+  "id": "ST08-015",
+  "name": "Gum-Gum Pistol",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST08",
+  "image_id": "ST08-015",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less. [Trigger] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

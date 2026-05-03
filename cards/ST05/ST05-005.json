@@ -1,0 +1,21 @@
+{
+  "id": "ST05-005",
+  "name": "Carina",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST05",
+  "image_id": "ST05-005",
+  "effect_text": "[Activate:Main] [Once Per Turn] You may rest this Character and trash 1 \"FILM\" type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

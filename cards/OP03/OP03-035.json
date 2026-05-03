@@ -1,0 +1,23 @@
+{
+  "id": "OP03-035",
+  "name": "Momoo",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-035",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

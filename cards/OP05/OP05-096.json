@@ -1,0 +1,21 @@
+{
+  "id": "OP05-096",
+  "name": "I Bid 500 Million!!",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-096",
+  "effect_text": "[Main] Choose one: • K.O. up to 1 of your opponent's Characters with a cost of 1 or less. • Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand. • Place up to 1 of your opponent's Characters with a cost of 1 or less at the top or bottom of their Life cards face-up. Then, if you have a [Celestial Dragons] type Character, draw 1 card. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, or return it to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

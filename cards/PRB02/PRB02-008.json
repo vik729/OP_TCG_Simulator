@@ -1,0 +1,23 @@
+{
+  "id": "PRB02-008",
+  "name": "Marco",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "PRB02-008",
+  "effect_text": "[Blocker](After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Draw 2 cards.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

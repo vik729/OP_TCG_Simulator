@@ -1,0 +1,23 @@
+{
+  "id": "OP12-040",
+  "name": "Kuzan (040)",
+  "type": "Leader",
+  "color": [
+    "Blue"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "L",
+  "set_id": "OP12",
+  "image_id": "OP12-040",
+  "effect_text": "When a card is trashed from your hand by your \"Navy\" type card's effect, draw cards equal to the number of cards trashed.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

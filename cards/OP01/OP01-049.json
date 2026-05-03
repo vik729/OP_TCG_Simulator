@@ -1,0 +1,24 @@
+{
+  "id": "OP01-049",
+  "name": "Bepo",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Heart Pirates",
+    "Minks"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-049",
+  "effect_text": "[DON!! x1] [When Attacking] Play up to 1 \"Heart Pirates\" type card other than [Bepo] with a cost of 4 or less from your hand.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

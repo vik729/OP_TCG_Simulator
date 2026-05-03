@@ -1,0 +1,21 @@
+{
+  "id": "ST07-008",
+  "name": "Charlotte Pudding",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST07",
+  "image_id": "ST07-008",
+  "effect_text": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

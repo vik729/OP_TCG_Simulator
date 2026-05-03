@@ -1,0 +1,23 @@
+{
+  "id": "OP12-058",
+  "name": "I Will Make Whitebeard the King of the Pirates",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 9,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-058",
+  "effect_text": "[Main] If your Leader's type includes \"Whitebeard Pirates\", reveal 1 card from the top of your deck. If that card is a Character card with a type including \"Whitebeard Pirates\" and a cost of 9 or less, you may play that card. If you do, that Character gains [Rush] during this turn.\n[Trigger] Draw 1 card.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

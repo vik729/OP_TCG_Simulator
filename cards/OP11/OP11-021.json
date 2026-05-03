@@ -1,0 +1,24 @@
+{
+  "id": "OP11-021",
+  "name": "Jinbe (021) (Alternate Art)",
+  "type": "Leader",
+  "color": [
+    "Green"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "OP11",
+  "image_id": "OP11-021_p1",
+  "effect_text": "[End of Your Turn] If you have 6 or less cards in your hand, set up to 1 of your \"Fish-Man\" or \"Merfolk\" type Characters and up to 1 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

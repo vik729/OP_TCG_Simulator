@@ -1,0 +1,21 @@
+{
+  "id": "OP12-001",
+  "name": "Silvers Rayleigh",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP12",
+  "image_id": "OP12-001",
+  "effect_text": "Under the rules of this game, you cannot include cards with a cost of 5 or more in your deck.\n[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: Up to 1 of your Characters with 4000 base power or less gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

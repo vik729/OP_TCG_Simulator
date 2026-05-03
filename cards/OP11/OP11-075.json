@@ -1,0 +1,23 @@
+{
+  "id": "OP11-075",
+  "name": "Jaguar.D.Saul",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-075",
+  "effect_text": "[On Play] If your Leader is [Nico Robin] and you have 7 or more DON!! cards on your field, draw 2 cards.\n[Trigger] Activate this card's [On Play] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

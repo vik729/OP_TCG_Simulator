@@ -1,0 +1,23 @@
+{
+  "id": "EB01-046",
+  "name": "Brook (046)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "EB01",
+  "image_id": "EB01-046",
+  "effect_text": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters -1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

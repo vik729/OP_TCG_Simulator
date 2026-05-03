@@ -1,0 +1,24 @@
+{
+  "id": "OP05-119",
+  "name": "Monkey.D.Luffy (Wanted Poster)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 10,
+  "power": 12000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "The Four Emperors"
+  ],
+  "rarity": "SEC",
+  "set_id": "OP09",
+  "image_id": "OP05-119_p6",
+  "effect_text": "[On Play] DON!! 10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.\n[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

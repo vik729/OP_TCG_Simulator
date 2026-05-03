@@ -1,0 +1,25 @@
+{
+  "id": "ST21-015",
+  "name": "Roronoa Zoro",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "ST21",
+  "image_id": "ST21-015",
+  "effect_text": "[DON!! x2] This Character gains [Rush].\n[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

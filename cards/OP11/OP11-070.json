@@ -1,0 +1,21 @@
+{
+  "id": "OP11-070",
+  "name": "Charlotte Pudding",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP11",
+  "image_id": "OP11-070",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Big Mom Pirates\" type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! 1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

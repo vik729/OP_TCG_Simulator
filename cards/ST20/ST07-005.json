@@ -1,0 +1,21 @@
+{
+  "id": "ST07-005",
+  "name": "Charlotte Daifuku",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST20",
+  "image_id": "ST07-005_r1",
+  "effect_text": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

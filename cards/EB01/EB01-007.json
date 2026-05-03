@@ -1,0 +1,21 @@
+{
+  "id": "EB01-007",
+  "name": "Yamato",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB01",
+  "image_id": "EB01-007",
+  "effect_text": "[Activate:Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

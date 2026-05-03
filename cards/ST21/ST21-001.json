@@ -1,0 +1,24 @@
+{
+  "id": "ST21-001",
+  "name": "Monkey.D.Luffy (001)",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "ST21",
+  "image_id": "ST21-001",
+  "effect_text": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

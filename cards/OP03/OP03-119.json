@@ -1,0 +1,21 @@
+{
+  "id": "OP03-119",
+  "name": "Buzz Cut Mochi",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP03",
+  "image_id": "OP03-119",
+  "effect_text": "[Main] If you have less Life cards than your opponent, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP13-053",
+  "name": "Marshall.D.Teach",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-053",
+  "effect_text": "[When Attacking] You may trash 1 of your Characters with a type including \"Whitebeard Pirates\": Draw 1 card and this Character gains [Banish] during this turn.",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

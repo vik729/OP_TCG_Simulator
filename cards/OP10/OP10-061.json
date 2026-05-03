@@ -1,0 +1,23 @@
+{
+  "id": "OP10-061",
+  "name": "Special Long-Range Attack!! Bagworm",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-061",
+  "effect_text": "[Main] Draw 1 card. Then, return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.\n[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

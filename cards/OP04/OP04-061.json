@@ -1,0 +1,23 @@
+{
+  "id": "OP04-061",
+  "name": "Tom",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-061",
+  "effect_text": "[Activate:Main] You may trash this Character: If your Leader has the [Water Seven] type, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

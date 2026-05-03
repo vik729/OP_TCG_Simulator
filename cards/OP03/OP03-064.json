@@ -1,0 +1,21 @@
+{
+  "id": "OP03-064",
+  "name": "Tilestone",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-064",
+  "effect_text": "[On K.O.] If your Leader has the [Galley-La Company] type, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "PRB02-012",
+  "name": "Nami",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "PRB02-012",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Straw Hat Crew\" type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ST29-017",
+  "name": "Iai Death Lion Song",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST29",
+  "image_id": "ST29-017",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.\n[Trigger] Draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

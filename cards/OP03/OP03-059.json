@@ -1,0 +1,23 @@
+{
+  "id": "OP03-059",
+  "name": "Kaku (059)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-059",
+  "effect_text": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

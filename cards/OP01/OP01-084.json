@@ -1,0 +1,23 @@
+{
+  "id": "OP01-084",
+  "name": "Mr.2.Bon.Kurei (Bentham)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "UC",
+  "set_id": "OP01",
+  "image_id": "OP01-084",
+  "effect_text": "[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 \"Baroque Works\" type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

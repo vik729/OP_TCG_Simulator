@@ -1,0 +1,23 @@
+{
+  "id": "OP04-012",
+  "name": "Nefeltari Cobra",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-012",
+  "effect_text": "[Your Turn] All of your [Alabasta] type Characters other than this Character gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

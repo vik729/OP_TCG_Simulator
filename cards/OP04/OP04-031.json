@@ -1,0 +1,24 @@
+{
+  "id": "OP04-031",
+  "name": "Donquixote Doflamingo (031)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 10,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "OP04",
+  "image_id": "OP04-031",
+  "effect_text": "[On Play] Up to a total of 3 of your opponent's rested Leader and Character cards will not become active in your opponent's next Refresh Phase.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

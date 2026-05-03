@@ -1,0 +1,23 @@
+{
+  "id": "OP11-089",
+  "name": "Black Maria",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-089",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

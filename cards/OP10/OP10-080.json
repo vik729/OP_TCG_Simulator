@@ -1,0 +1,23 @@
+{
+  "id": "OP10-080",
+  "name": "Little Black Bears",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-080",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 7 or more DON!! cards on your field and 5 or less cards in your hand, draw 1 card.\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

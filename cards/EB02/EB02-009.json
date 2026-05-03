@@ -1,0 +1,23 @@
+{
+  "id": "EB02-009",
+  "name": "Thousand Sunny",
+  "type": "Stage",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-009",
+  "effect_text": "[Activate: Main] You may rest this Stage: Give up to 1 of your currently given DON!! cards to 1 of your \"Straw Hat Crew\" type Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

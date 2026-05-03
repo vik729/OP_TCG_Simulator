@@ -1,0 +1,23 @@
+{
+  "id": "OP09-042",
+  "name": "Buggy (042)",
+  "type": "Leader",
+  "color": [
+    "Blue"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "OP09",
+  "image_id": "OP09-042",
+  "effect_text": "[Activate: Main] You may rest 5 of your DON!! cards and trash 1 card from your hand: Play up to 1 \"Cross Guild\" type Character card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "PRB01-001",
+  "name": "Sanji (PRB01-001)",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "PRB01",
+  "image_id": "PRB01-001",
+  "effect_text": "[Activate:Main] [Once Per Turn] Up to 1 of your Characters without an [On Play] effect and with a cost of 8 or less gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

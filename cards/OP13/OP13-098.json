@@ -1,0 +1,21 @@
+{
+  "id": "OP13-098",
+  "name": "Never Existed... in the First Place...",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-098",
+  "effect_text": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Imu], K.O. up to 1 of your opponent's Stages with a cost of 7.\n[Counter] If your Leader is [Imu], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

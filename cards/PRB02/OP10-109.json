@@ -1,0 +1,24 @@
+{
+  "id": "OP10-109",
+  "name": "Basil Hawkins - OP10-109 (Reprint)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Hawkins Pirates",
+    "Supernovas"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP10-109_r1",
+  "effect_text": "[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.[Trigger] Draw 2 cards and trash 1 card from your hand.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

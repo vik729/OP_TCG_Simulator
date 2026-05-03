@@ -1,0 +1,23 @@
+{
+  "id": "OP11-022",
+  "name": "Shirahoshi (022) (Alternate Art)",
+  "type": "Leader",
+  "color": [
+    "Green Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "L",
+  "set_id": "OP11",
+  "image_id": "OP11-022_p1",
+  "effect_text": "This Leader cannot attack.\n[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards and turn 1 card from the top of your Life cards face-up: Play up to 1 \"Neptunian\" type Character card or \"Megalo\" with a cost equal to or less than the number of DON!! cards on your field from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

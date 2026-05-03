@@ -1,0 +1,21 @@
+{
+  "id": "EB03-059",
+  "name": "S-Snake",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB03",
+  "image_id": "EB03-059",
+  "effect_text": "[On Play] If your Leader has the {Egghead} type and you have 2 or more Life cards, add up to 1 Character card with a [Trigger] from your hand to the top of your Life cards face-up.\n[Trigger] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

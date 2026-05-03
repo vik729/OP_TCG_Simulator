@@ -1,0 +1,21 @@
+{
+  "id": "OP05-104",
+  "name": "Conis",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-104",
+  "effect_text": "[On Play] You may place 1 of your Stages at the bottom of your deck: Draw 1 card and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

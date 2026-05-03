@@ -1,0 +1,21 @@
+{
+  "id": "OP03-056",
+  "name": "Sanji's Pilaf",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-056",
+  "effect_text": "[Main] Draw 2 cards. [Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

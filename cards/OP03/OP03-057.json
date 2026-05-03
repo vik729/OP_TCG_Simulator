@@ -1,0 +1,23 @@
+{
+  "id": "OP03-057",
+  "name": "Three Thousand Worlds",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP03",
+  "image_id": "OP03-057",
+  "effect_text": "[Main] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck. [Trigger] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

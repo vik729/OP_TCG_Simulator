@@ -1,0 +1,23 @@
+{
+  "id": "OP13-005",
+  "name": "Inazuma",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-005",
+  "effect_text": "[On Play] Give up to 1 rested DON!! card to your Leader.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

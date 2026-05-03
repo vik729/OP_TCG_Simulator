@@ -1,0 +1,21 @@
+{
+  "id": "OP09-010",
+  "name": "Bonk Punch",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-010",
+  "effect_text": "[On Play] Play up to 1 [Monster] from your hand.\n[DON!! x1] [When Attacking] This Character gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

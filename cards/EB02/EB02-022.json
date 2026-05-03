@@ -1,0 +1,23 @@
+{
+  "id": "EB02-022",
+  "name": "Usopp",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "EB02",
+  "image_id": "EB02-022",
+  "effect_text": "[On Play] If you have 2 or less Characters with 5000 power or more, play up to 1 Character card with 6000 power or less and no base effect from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

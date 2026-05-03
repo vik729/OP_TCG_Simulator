@@ -1,0 +1,24 @@
+{
+  "id": "OP11-109",
+  "name": "Pappag",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Animal",
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-109",
+  "effect_text": "[On Play] If you have [Camie], draw 2 cards and trash 2 cards from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

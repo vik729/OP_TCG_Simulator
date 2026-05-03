@@ -1,0 +1,21 @@
+{
+  "id": "OP03-027",
+  "name": "Sham",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-027",
+  "effect_text": "[On Play] If your Leader has the [East Blue] type, rest up to 1 of your opponent's Characters with a cost of 2 or less and, if you don't have [Buchi], play up to 1 [Buchi] from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

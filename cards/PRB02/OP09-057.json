@@ -1,0 +1,21 @@
+{
+  "id": "OP09-057",
+  "name": "Cross Guild (Manga)",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP09-057_r2",
+  "effect_text": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

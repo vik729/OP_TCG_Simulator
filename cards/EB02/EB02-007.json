@@ -1,0 +1,24 @@
+{
+  "id": "EB02-007",
+  "name": "Cloven Rose Blizzard",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Animal",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-007",
+  "effect_text": "[Main] Up to a total of 3 of your Leader and Character cards gain +1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.\n[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

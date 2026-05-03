@@ -1,0 +1,23 @@
+{
+  "id": "OP10-035",
+  "name": "Brook (035)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-035",
+  "effect_text": "[On K.O.] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

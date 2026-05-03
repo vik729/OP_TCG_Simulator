@@ -1,0 +1,21 @@
+{
+  "id": "OP13-075",
+  "name": "Guess We'll Have Another Scrap. You Can Only Risk Death While You're Still Alive!!",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-075",
+  "effect_text": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Gol.D.Roger] and you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.\n[Counter] Your Leader gains +3000 power during this battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

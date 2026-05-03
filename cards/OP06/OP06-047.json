@@ -1,0 +1,21 @@
+{
+  "id": "OP06-047",
+  "name": "Charlotte Pudding",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-047",
+  "effect_text": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

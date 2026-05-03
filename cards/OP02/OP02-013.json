@@ -1,0 +1,23 @@
+{
+  "id": "OP02-013",
+  "name": "Portgas.D.Ace",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP02",
+  "image_id": "OP02-013",
+  "effect_text": "[On Play] Give up to 2 of your opponent's Characters -3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

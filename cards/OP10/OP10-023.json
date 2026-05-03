@@ -1,0 +1,23 @@
+{
+  "id": "OP10-023",
+  "name": "Issho",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-023",
+  "effect_text": "[On Play] If your Leader has the \"Navy\" type, rest up to 2 of your opponent's Characters with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

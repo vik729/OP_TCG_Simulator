@@ -1,0 +1,25 @@
+{
+  "id": "OP09-004",
+  "name": "Shanks - OP09-004 (SP) (Silver)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 10,
+  "power": 12000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "OP13",
+  "image_id": "OP09-004_p6",
+  "effect_text": "Give all of your opponent's Characters 1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

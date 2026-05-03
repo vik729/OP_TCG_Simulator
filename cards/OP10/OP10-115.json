@@ -1,0 +1,24 @@
+{
+  "id": "OP10-115",
+  "name": "Let's Meet Again in the New World",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Kid Pirates",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-115",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 0 Life cards, draw 1 card.\n[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

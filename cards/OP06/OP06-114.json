@@ -1,0 +1,21 @@
+{
+  "id": "OP06-114",
+  "name": "Wyper",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-114",
+  "effect_text": "[On Play] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] or [Shandian Warrior] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

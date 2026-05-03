@@ -1,0 +1,24 @@
+{
+  "id": "OP11-020",
+  "name": "X Calibur",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Drake Pirates",
+    "Navy"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-020",
+  "effect_text": "[Main] Give up to 2 of your opponent's Characters 2000 power during this turn. Then, up to 1 of your \"Navy\" type Characters gains +1000 power during this turn.\n[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

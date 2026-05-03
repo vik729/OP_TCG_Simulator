@@ -1,0 +1,21 @@
+{
+  "id": "ST13-019",
+  "name": "The Three Brothers' Bond (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST13-019_p1",
+  "effect_text": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

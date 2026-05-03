@@ -1,0 +1,23 @@
+{
+  "id": "EB02-026",
+  "name": "Nefeltari Vivi",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "SR",
+  "set_id": "EB02",
+  "image_id": "EB02-026",
+  "effect_text": "[On Play] If your Leader is multicolored and you have 5 or less cards in your hand, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

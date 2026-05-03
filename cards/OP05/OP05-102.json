@@ -1,0 +1,21 @@
+{
+  "id": "OP05-102",
+  "name": "Gedatsu",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP05",
+  "image_id": "OP05-102",
+  "effect_text": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

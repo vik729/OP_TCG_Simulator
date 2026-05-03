@@ -1,0 +1,23 @@
+{
+  "id": "OP06-093",
+  "name": "Perona (093)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP06-093",
+  "effect_text": "[On Play] If your opponent has 5 or more cards in their hand, choose one:\n• Your opponent trashes 1 card from their hand.\n• Give up to 1 of your opponent's Characters -3 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

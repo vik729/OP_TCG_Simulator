@@ -1,0 +1,21 @@
+{
+  "id": "OP03-060",
+  "name": "Kalifa (060)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-060",
+  "effect_text": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

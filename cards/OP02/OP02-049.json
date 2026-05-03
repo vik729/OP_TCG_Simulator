@@ -1,0 +1,23 @@
+{
+  "id": "OP02-049",
+  "name": "Emporio.Ivankov (049)",
+  "type": "Leader",
+  "color": [
+    "Blue"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "L",
+  "set_id": "OP02",
+  "image_id": "OP02-049",
+  "effect_text": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

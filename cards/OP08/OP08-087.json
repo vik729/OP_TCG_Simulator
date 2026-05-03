@@ -1,0 +1,26 @@
+{
+  "id": "OP08-087",
+  "name": "Scratchmen Apoo",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "On-Air Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-087",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate:Main] [Once Per Turn] Give up to 1 of your opponent's Characters 1 cost during this turn.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

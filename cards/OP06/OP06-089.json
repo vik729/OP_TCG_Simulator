@@ -1,0 +1,23 @@
+{
+  "id": "OP06-089",
+  "name": "Taralan",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-089",
+  "effect_text": "[On Play] / [On K.O.] Trash 3 cards from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP02-024",
+  "name": "Moby Dick",
+  "type": "Stage",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-024",
+  "effect_text": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power. [Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

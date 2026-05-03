@@ -1,0 +1,24 @@
+{
+  "id": "OP06-080",
+  "name": "Gecko Moria (080) (Alternate Art)",
+  "type": "Leader",
+  "color": [
+    "Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "The Seven Warlords of the Sea",
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "L",
+  "set_id": "OP06",
+  "image_id": "OP06-080_p1",
+  "effect_text": "[DON!!×1] [When Attacking] 2 (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 \"Thriller Bark Pirates\" type Character card with a cost of 4 or less from your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

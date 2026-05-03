@@ -1,0 +1,23 @@
+{
+  "id": "P-029_r1",
+  "name": "Bartolomeo",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "PR",
+  "set_id": "ST16",
+  "image_id": "P-029_r1",
+  "effect_text": "[End of Your Turn] You may rest this Character: Set up to 1 of your \"FILM\" type Characters other than [Bartolomeo] as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

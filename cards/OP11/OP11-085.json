@@ -1,0 +1,21 @@
+{
+  "id": "OP11-085",
+  "name": "Kurozumi Orochi",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-085",
+  "effect_text": "[On Play] Add up to 1 \"SMILE\" type card with a cost of 5 or less from your trash to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

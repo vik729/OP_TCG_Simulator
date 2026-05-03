@@ -1,0 +1,21 @@
+{
+  "id": "EB03-038",
+  "name": "Thanks for the Treat.",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-038",
+  "effect_text": "[Main] You may rest 1 of your DON!! cards: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you only have Characters with a type including \"GERMA\", add up to 2 DON!! cards from your DON!! deck and rest them. [Counter] Your Leader gains +3000 power during this battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

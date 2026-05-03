@@ -1,0 +1,21 @@
+{
+  "id": "OP05-082",
+  "name": "Shirahoshi (OP05-082) (Jolly Roger Foil)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB01",
+  "image_id": "OP05-082_p2",
+  "effect_text": "[Activate:Main] You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

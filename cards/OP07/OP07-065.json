@@ -1,0 +1,21 @@
+{
+  "id": "OP07-065",
+  "name": "Gina",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-065",
+  "effect_text": "[On Play] If your Leader has the [Foxy Pirates] type and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

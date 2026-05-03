@@ -1,0 +1,24 @@
+{
+  "id": "EB03-026",
+  "name": "Boa Hancock",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Kuja Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "EB03",
+  "image_id": "EB03-026",
+  "effect_text": "[On Play] If your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck.\n[Activate: Main] [Once Per Turn] You may place 1 of your Characters at the bottom of the owner's deck: Give your Leader and 1 Character up to 1 rested DON!! card each.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

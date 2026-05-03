@@ -1,0 +1,21 @@
+{
+  "id": "OP13-043",
+  "name": "Otama",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-043",
+  "effect_text": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

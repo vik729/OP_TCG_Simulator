@@ -1,0 +1,23 @@
+{
+  "id": "OP06-013",
+  "name": "Monkey.D.Luffy",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-013",
+  "effect_text": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 \"FILM\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\n[Trigger] Activate this card's [On Play] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

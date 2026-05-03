@@ -1,0 +1,23 @@
+{
+  "id": "OP07-107",
+  "name": "Franky",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP07",
+  "image_id": "OP07-107",
+  "effect_text": "[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

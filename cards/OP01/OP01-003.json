@@ -1,0 +1,24 @@
+{
+  "id": "OP01-003",
+  "name": "Monkey.D.Luffy (003)",
+  "type": "Leader",
+  "color": [
+    "Green Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "L",
+  "set_id": "OP01",
+  "image_id": "OP01-003",
+  "effect_text": "[Activate:Main] [Once Per Turn] (4) (You may rest the specified number of DON!! cards in your cost area): Set up to 1 of your \"Supernova\" or \"Straw Hat Crew\" type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

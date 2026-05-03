@@ -1,0 +1,23 @@
+{
+  "id": "OP02-004",
+  "name": "Edward.Newgate (Reprint)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 9,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB01",
+  "image_id": "OP02-004_r1",
+  "effect_text": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

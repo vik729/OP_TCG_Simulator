@@ -1,0 +1,23 @@
+{
+  "id": "OP09-047",
+  "name": "Kouzuki Oden",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 9,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-047",
+  "effect_text": "[Double Attack] (This card deals 2 damage.)\n[On K.O.] Draw 2 cards and trash 1 card from your hand.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

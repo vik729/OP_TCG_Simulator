@@ -1,0 +1,21 @@
+{
+  "id": "OP13-048",
+  "name": "Blamenco",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-048",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

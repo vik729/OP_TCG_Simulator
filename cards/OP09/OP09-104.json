@@ -1,0 +1,23 @@
+{
+  "id": "OP09-104",
+  "name": "Sabo (104)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "R",
+  "set_id": "OP09",
+  "image_id": "OP09-104",
+  "effect_text": "[On Play] Add up to 1 \"Revolutionary Army\" type Character card from your hand to the top of your Life cards face-up. Then, if you have 2 or more Life cards, add 1 card from the top or bottom of your Life cards to your hand.\n[Trigger] If your Leader is multicolored, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

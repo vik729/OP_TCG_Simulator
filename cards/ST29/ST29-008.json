@@ -1,0 +1,23 @@
+{
+  "id": "ST29-008",
+  "name": "Nami (Full Art)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST29",
+  "image_id": "ST29-008_p1",
+  "effect_text": "If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.\n[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

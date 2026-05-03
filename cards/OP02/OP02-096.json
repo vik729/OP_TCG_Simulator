@@ -1,0 +1,23 @@
+{
+  "id": "OP02-096",
+  "name": "Kuzan (096)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "OP02",
+  "image_id": "OP02-096",
+  "effect_text": "[On Play] Draw 1 card. [When Attacking] Give up to 1 of your opponent's Characters -4 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

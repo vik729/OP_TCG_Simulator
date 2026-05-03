@@ -1,0 +1,24 @@
+{
+  "id": "OP12-020",
+  "name": "Roronoa Zoro (020)",
+  "type": "Leader",
+  "color": [
+    "Green"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "L",
+  "set_id": "OP12",
+  "image_id": "OP12-020",
+  "effect_text": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

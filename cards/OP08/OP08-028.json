@@ -1,0 +1,25 @@
+{
+  "id": "OP08-028",
+  "name": "Nekomamushi",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-028",
+  "effect_text": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

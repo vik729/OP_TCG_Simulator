@@ -1,0 +1,21 @@
+{
+  "id": "OP11-027",
+  "name": "Bulge-Eyed Neptunian",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-027",
+  "effect_text": "If your Leader is [Shirahoshi], this Character can attack Characters on the turn in which it is played.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

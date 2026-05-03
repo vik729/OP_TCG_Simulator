@@ -1,0 +1,21 @@
+{
+  "id": "ST09-001",
+  "name": "Yamato (001)",
+  "type": "Leader",
+  "color": [
+    "Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "ST09",
+  "image_id": "ST09-001",
+  "effect_text": "[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

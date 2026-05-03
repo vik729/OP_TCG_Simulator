@@ -1,0 +1,21 @@
+{
+  "id": "OP04-042",
+  "name": "Ipponmatsu",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-042",
+  "effect_text": "[On Play] Up to 1 of your \"Slash\" attribute Characters gains +3000 power during this turn. Then, trash 1 card from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

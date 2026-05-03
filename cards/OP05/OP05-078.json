@@ -1,0 +1,23 @@
+{
+  "id": "OP05-078",
+  "name": "Punk Rotten",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Kid Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-078",
+  "effect_text": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your [Kid Pirates] type Leader or Character cards gains +5000 power during this turn. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

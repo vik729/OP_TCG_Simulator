@@ -1,0 +1,23 @@
+{
+  "id": "P-063",
+  "name": "Jinbe - P-063 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-063_p1",
+  "effect_text": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

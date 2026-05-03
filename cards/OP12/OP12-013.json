@@ -1,0 +1,23 @@
+{
+  "id": "OP12-013",
+  "name": "Hatchan",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-013",
+  "effect_text": "[Activate: Main] You may rest this Character and reveal 2 Events from your hand: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

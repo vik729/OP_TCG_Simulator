@@ -1,0 +1,21 @@
+{
+  "id": "OP09-057",
+  "name": "Cross Guild (Reprint)",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "ST25",
+  "image_id": "OP09-057_r1",
+  "effect_text": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\n[Trigger] Activate this card's [Main] effect.\n\nDISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

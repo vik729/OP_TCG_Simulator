@@ -1,0 +1,23 @@
+{
+  "id": "OP05-025",
+  "name": "Gladius",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-025",
+  "effect_text": "[Activate:Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

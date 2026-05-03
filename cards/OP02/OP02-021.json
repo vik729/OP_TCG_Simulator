@@ -1,0 +1,23 @@
+{
+  "id": "OP02-021",
+  "name": "Seaquake",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "R",
+  "set_id": "OP02",
+  "image_id": "OP02-021",
+  "effect_text": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less. [Trigger] Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

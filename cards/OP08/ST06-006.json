@@ -1,0 +1,23 @@
+{
+  "id": "ST06-006",
+  "name": "Tashigi (SP)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "ST06-006_p2",
+  "effect_text": "[Activate:Main] You may rest this Character: Give up to 1 of your opponent's Characters 2 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

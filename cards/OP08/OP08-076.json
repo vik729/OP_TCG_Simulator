@@ -1,0 +1,23 @@
+{
+  "id": "OP08-076",
+  "name": "It's to Die For",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-076",
+  "effect_text": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

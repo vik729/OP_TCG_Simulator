@@ -1,0 +1,21 @@
+{
+  "id": "EB01-033",
+  "name": "Blueno (033)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "EB01",
+  "image_id": "EB01-033",
+  "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the [Water Seven] type, play up to 1 [Water Seven] type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

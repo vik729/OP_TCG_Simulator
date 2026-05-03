@@ -1,0 +1,23 @@
+{
+  "id": "OP02-069",
+  "name": "DEATH WINK",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-069",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, draw cards so that you have 2 cards in your hand. [Trigger] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

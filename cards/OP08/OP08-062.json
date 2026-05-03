@@ -1,0 +1,21 @@
+{
+  "id": "OP08-062",
+  "name": "Charlotte Katakuri (062)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-062",
+  "effect_text": "[Activate:Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

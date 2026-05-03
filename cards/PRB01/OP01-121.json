@@ -1,0 +1,24 @@
+{
+  "id": "OP01-121",
+  "name": "Yamato (OP01-121) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "PRB01",
+  "image_id": "OP01-121_p7",
+  "effect_text": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)Disclaimer: This card was reprinted from the original set with an additional security stamp on the bottom-left corner (note that this difference is not visible in official sample images).",
+  "keywords": [
+    "Banish",
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

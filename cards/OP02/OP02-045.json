@@ -1,0 +1,24 @@
+{
+  "id": "OP02-045",
+  "name": "Three Sword Style Oni Giri",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-045",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, play up to 1 Character card with a cost of 3 or less and no base effect from your hand. [Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

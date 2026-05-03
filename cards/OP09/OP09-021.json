@@ -1,0 +1,21 @@
+{
+  "id": "OP09-021",
+  "name": "Red Force",
+  "type": "Stage",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-021",
+  "effect_text": "[Activate: Main] You may rest this Stage: If your Leader has the \"Red-Haired Pirates\" type, give up to 1 of your opponent's Characters 1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

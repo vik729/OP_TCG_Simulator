@@ -1,0 +1,23 @@
+{
+  "id": "OP08-079",
+  "name": "Kaido",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 9,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP08",
+  "image_id": "OP08-079_p1",
+  "effect_text": "[Activate:Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

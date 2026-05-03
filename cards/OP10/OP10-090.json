@@ -1,0 +1,25 @@
+{
+  "id": "OP10-090",
+  "name": "Franky (090)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-090",
+  "effect_text": "[Blocker]\n[On K.O.] Play up to 1 \"Dressrosa\" type Character card with a cost of 3 or less from your trash rested.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

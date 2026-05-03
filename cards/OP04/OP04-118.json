@@ -1,0 +1,25 @@
+{
+  "id": "OP04-118",
+  "name": "Nefeltari Vivi (118)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 7,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "SEC",
+  "set_id": "OP04",
+  "image_id": "OP04-118",
+  "effect_text": "All of your red Characters with a cost of 3 or more other than this Character gain [Rush]. (This card can attack on the turn in which it is played.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

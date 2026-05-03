@@ -1,0 +1,21 @@
+{
+  "id": "OP03-109",
+  "name": "Charlotte Chiffon",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-109",
+  "effect_text": "[On Play] You may trash 1 card from the top or bottom of your Life cards: Add up to 1 card from the top of your deck to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP09-090",
+  "name": "Doc Q (Reprint)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "ST27",
+  "image_id": "OP09-090_r1",
+  "effect_text": "[Activate: Main] You may rest this Character: If your Leader has the \"Blackbeard Pirates\" type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.[On K.O.] Draw 1 card.DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

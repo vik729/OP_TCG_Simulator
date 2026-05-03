@@ -1,0 +1,21 @@
+{
+  "id": "OP13-094",
+  "name": "York",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-094",
+  "effect_text": "[On Play] Up to 1 of your \"Celestial Dragons\" type Characters gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

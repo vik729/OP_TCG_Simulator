@@ -1,0 +1,24 @@
+{
+  "id": "OP10-112",
+  "name": "Eustass\"Captain\"Kid (112)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 8,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Kid Pirates",
+    "Supernovas"
+  ],
+  "rarity": "SR",
+  "set_id": "OP10",
+  "image_id": "OP10-112",
+  "effect_text": "[On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards.\n[End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

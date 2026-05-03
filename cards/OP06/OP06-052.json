@@ -1,0 +1,23 @@
+{
+  "id": "OP06-052",
+  "name": "Tokikake",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-052",
+  "effect_text": "[DON!! x1] If you have 4 or less cards in your hand, this Character cannot be K.O.'d in battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

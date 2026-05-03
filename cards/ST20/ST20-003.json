@@ -1,0 +1,21 @@
+{
+  "id": "ST20-003",
+  "name": "Charlotte Brulee",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST20",
+  "image_id": "ST20-003",
+  "effect_text": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

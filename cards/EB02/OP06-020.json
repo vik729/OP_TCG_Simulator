@@ -1,0 +1,24 @@
+{
+  "id": "OP06-020",
+  "name": "Hody Jones (SPR)",
+  "type": "Leader",
+  "color": [
+    "Green"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Fish-Man"
+  ],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP06-020",
+  "effect_text": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

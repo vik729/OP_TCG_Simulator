@@ -1,0 +1,21 @@
+{
+  "id": "OP03-098",
+  "name": "Enies Lobby",
+  "type": "Stage",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-098",
+  "effect_text": "[Activate:Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters -2 cost during this turn. [Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

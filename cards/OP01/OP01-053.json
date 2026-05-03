@@ -1,0 +1,23 @@
+{
+  "id": "OP01-053",
+  "name": "Wire",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Kid Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-053",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

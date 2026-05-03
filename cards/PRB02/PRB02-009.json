@@ -1,0 +1,25 @@
+{
+  "id": "PRB02-009",
+  "name": "Mr.3(Galdino) - PRB02-009",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "PRB02-009",
+  "effect_text": "This effect can be activated when this Character is rested by your opponent's effect. You may trash this Character and draw 2 cards.[Blocker]",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

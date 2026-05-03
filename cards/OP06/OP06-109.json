@@ -1,0 +1,21 @@
+{
+  "id": "OP06-109",
+  "name": "Denjiro",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-109",
+  "effect_text": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.\n[Trigger] If your opponent has 3 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

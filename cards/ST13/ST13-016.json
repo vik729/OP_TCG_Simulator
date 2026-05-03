@@ -1,0 +1,23 @@
+{
+  "id": "ST13-016",
+  "name": "Yamato",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST13",
+  "image_id": "ST13-016_p1",
+  "effect_text": "[Rush] (This card can attack on the turn in which it is played.)\n[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

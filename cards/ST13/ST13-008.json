@@ -1,0 +1,23 @@
+{
+  "id": "ST13-008",
+  "name": "Sabo (008)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "SR",
+  "set_id": "ST13",
+  "image_id": "ST13-008",
+  "effect_text": "[On Play]You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

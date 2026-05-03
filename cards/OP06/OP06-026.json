@@ -1,0 +1,21 @@
+{
+  "id": "OP06-026",
+  "name": "Koushirou",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-026",
+  "effect_text": "[On Play] Set up to 1 of your \"Slash\" attribute Characters with a cost of 4 or less as active. Then, you cannot attack a Leader during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

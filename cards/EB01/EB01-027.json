@@ -1,0 +1,23 @@
+{
+  "id": "EB01-027",
+  "name": "Mr. 1 (Daz.Bonez)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "EB01",
+  "image_id": "EB01-027",
+  "effect_text": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash.[On Play] Draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

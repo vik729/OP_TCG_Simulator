@@ -1,0 +1,26 @@
+{
+  "id": "OP01-075",
+  "name": "Pacifista",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Biological Weapon",
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-075",
+  "effect_text": "Under the rules of this game, you may have any number of this card in your deck. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

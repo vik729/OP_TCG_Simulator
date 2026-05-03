@@ -1,0 +1,23 @@
+{
+  "id": "OP05-049",
+  "name": "Haccha",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-049",
+  "effect_text": "[DON!! x1][When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

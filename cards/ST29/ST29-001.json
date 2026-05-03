@@ -1,0 +1,24 @@
+{
+  "id": "ST29-001",
+  "name": "Monkey.D.Luffy (001)",
+  "type": "Leader",
+  "color": [
+    "Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": 0,
+  "life": 6,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "ST29",
+  "image_id": "ST29-001",
+  "effect_text": "[When Attacking] If you have 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

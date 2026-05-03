@@ -1,0 +1,23 @@
+{
+  "id": "EB01-004",
+  "name": "Koza",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "C",
+  "set_id": "EB01",
+  "image_id": "EB01-004",
+  "effect_text": "[When Attacking] You may give your 1 active Leader -5000 power during this turn: Give up to 1 of your opponent's Characters -3000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

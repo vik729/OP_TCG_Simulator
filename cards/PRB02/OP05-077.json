@@ -1,0 +1,23 @@
+{
+  "id": "OP05-077",
+  "name": "Gamma Knife (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "OP05-077_p1",
+  "effect_text": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters -5000 power during this turn.[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

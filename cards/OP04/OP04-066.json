@@ -1,0 +1,23 @@
+{
+  "id": "OP04-066",
+  "name": "Miss.Valentine(Mikita)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "OP04",
+  "image_id": "OP04-066",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP06-077",
+  "name": "Black Bug",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-077",
+  "effect_text": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, place up to 1 of your opponent's Characters with a cost of 5 or less at the bottom of the owner's deck.\n[Trigger] Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

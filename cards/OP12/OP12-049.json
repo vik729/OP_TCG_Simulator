@@ -1,0 +1,23 @@
+{
+  "id": "OP12-049",
+  "name": "Buggy (049)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "UC",
+  "set_id": "OP12",
+  "image_id": "OP12-049",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

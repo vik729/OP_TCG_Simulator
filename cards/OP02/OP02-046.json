@@ -1,0 +1,23 @@
+{
+  "id": "OP02-046",
+  "name": "Diable Jambe Venaison Shoot",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-046",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less. [Trigger] Play up to 1 Character card with a cost of 4 or less and no base effect from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

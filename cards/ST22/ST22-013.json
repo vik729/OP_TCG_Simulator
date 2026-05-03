@@ -1,0 +1,21 @@
+{
+  "id": "ST22-013",
+  "name": "LittleOars Jr.",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST22",
+  "image_id": "ST22-013_p1",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "OP04-005",
+  "name": "Kung Fu Jugon",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal",
+    "Alabasta"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-005",
+  "effect_text": "If you have a [Kung Fu Jugon] other than this Character, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

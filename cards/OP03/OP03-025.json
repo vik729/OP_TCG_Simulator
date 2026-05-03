@@ -1,0 +1,23 @@
+{
+  "id": "OP03-025",
+  "name": "Krieg",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP03",
+  "image_id": "OP03-025",
+  "effect_text": "[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less. [DON!! x1] This Character gains [Double Attack]. (This card deals 2 damage.)",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

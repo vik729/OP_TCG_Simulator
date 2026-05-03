@@ -1,0 +1,23 @@
+{
+  "id": "OP06-085",
+  "name": "Kumacy",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-085",
+  "effect_text": "[DON!! x2][Your Turn] This Character gains +1000 power for every 5 cards in your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

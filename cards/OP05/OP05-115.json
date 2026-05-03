@@ -1,0 +1,21 @@
+{
+  "id": "OP05-115",
+  "name": "Two-Hundred Million Volts Amaru",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP05",
+  "image_id": "OP05-115",
+  "effect_text": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP09-022",
+  "name": "Lim (022)",
+  "type": "Leader",
+  "color": [
+    "Green Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP09",
+  "image_id": "OP09-022_p1",
+  "effect_text": "Your Character cards are played rested.\n[Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and rest it, and play up to 1 \"ODYSSEY\" type Character card with a cost of 5 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

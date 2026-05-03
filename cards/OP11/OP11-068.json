@@ -1,0 +1,21 @@
+{
+  "id": "OP11-068",
+  "name": "Charlotte Daifuku",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-068",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

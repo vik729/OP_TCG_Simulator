@@ -1,0 +1,23 @@
+{
+  "id": "OP05-069",
+  "name": "Trafalgar Law (069)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP05",
+  "image_id": "OP05-069",
+  "effect_text": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 [Heart Pirates] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

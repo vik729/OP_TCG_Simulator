@@ -1,0 +1,21 @@
+{
+  "id": "OP13-002",
+  "name": "Portgas.D.Ace (002)",
+  "type": "Leader",
+  "color": [
+    "Blue Red"
+  ],
+  "cost": null,
+  "power": 6000,
+  "counter": null,
+  "life": 3,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP13",
+  "image_id": "OP13-002",
+  "effect_text": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards 2000 power during this battle.\n[DON!! x1] [Once Per Turn] When you take damage or your Character with 6000 base power or more is K.O.'d, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

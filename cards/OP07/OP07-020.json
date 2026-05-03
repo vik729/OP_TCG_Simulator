@@ -1,0 +1,25 @@
+{
+  "id": "OP07-020",
+  "name": "Aladine",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Sun Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-020",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the [Fish-Man] type, play up to 1 [Fish-Man] or [Merfolk] type Character card with a cost of 3 or less from your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

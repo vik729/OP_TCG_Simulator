@@ -1,0 +1,23 @@
+{
+  "id": "OP02-044",
+  "name": "Wanda",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-044",
+  "effect_text": "[On Play] Play up to 1 [Minks] type Character card other than [Wanda] with a cost of 3 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

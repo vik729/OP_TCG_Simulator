@@ -1,0 +1,23 @@
+{
+  "id": "OP10-047",
+  "name": "Koala",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-047",
+  "effect_text": "[When Attacking] You may return 1 of your \"Revolutionary Army\" type Characters with a cost of 3 or more to the owner's hand: This Character gains +3000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

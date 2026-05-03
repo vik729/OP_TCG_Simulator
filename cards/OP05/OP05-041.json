@@ -1,0 +1,23 @@
+{
+  "id": "OP05-041",
+  "name": "Sakazuki",
+  "type": "Leader",
+  "color": [
+    "Blue Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "L",
+  "set_id": "OP05",
+  "image_id": "OP05-041",
+  "effect_text": "[Activate:Main][Once Per Turn] You may trash 1 card from your hand: Draw 1 card. [When Attacking] Give up to 1 of your opponent's Characters -1 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

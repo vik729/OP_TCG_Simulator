@@ -1,0 +1,21 @@
+{
+  "id": "OP09-019",
+  "name": "Nobody Hurts a Friend of Mine!!!!",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-019",
+  "effect_text": "[Main] If your Leader has the \"Red-Haired Pirates\" type, give up to 1 of your opponent's Characters -3000 power during this turn. Then, if your opponent has a Character with 5000 or more power, draw 1 card.\n[Trigger] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

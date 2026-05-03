@@ -1,0 +1,23 @@
+{
+  "id": "ST21-002",
+  "name": "Usopp",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST21",
+  "image_id": "ST21-002_p1",
+  "effect_text": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

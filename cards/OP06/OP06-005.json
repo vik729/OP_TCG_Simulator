@@ -1,0 +1,23 @@
+{
+  "id": "OP06-005",
+  "name": "Gasparde",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-005",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

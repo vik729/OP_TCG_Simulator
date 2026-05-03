@@ -1,0 +1,23 @@
+{
+  "id": "EB03-002",
+  "name": "Ain",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-002",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

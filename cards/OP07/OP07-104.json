@@ -1,0 +1,23 @@
+{
+  "id": "OP07-104",
+  "name": "Nico Robin",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-104",
+  "effect_text": "[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

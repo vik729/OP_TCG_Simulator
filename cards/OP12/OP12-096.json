@@ -1,0 +1,24 @@
+{
+  "id": "OP12-096",
+  "name": "Ursa Shock",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Revolutionary Army",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-096",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 4 or less. If you have a Character with a cost of 8 or more, you may select your opponent's Character with a cost of 6 or less instead.\n[Trigger] Draw 1 card and trash 1 card from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

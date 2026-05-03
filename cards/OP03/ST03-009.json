@@ -1,0 +1,24 @@
+{
+  "id": "ST03-009",
+  "name": "Donquixote Doflamingo (Wanted Poster)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "OP03",
+  "image_id": "ST03-009_p1",
+  "effect_text": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

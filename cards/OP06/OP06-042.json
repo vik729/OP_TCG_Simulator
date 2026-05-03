@@ -1,0 +1,21 @@
+{
+  "id": "OP06-042",
+  "name": "Vinsmoke Reiju (042)",
+  "type": "Leader",
+  "color": [
+    "Blue Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP06",
+  "image_id": "OP06-042",
+  "effect_text": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP08-071",
+  "name": "Count Niwatori",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-071",
+  "effect_text": "[Opponent's Turn] [On K.O.] DON!! 1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

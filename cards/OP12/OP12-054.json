@@ -1,0 +1,24 @@
+{
+  "id": "OP12-054",
+  "name": "Marshall.D.Teach",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Blackbeard Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-054",
+  "effect_text": "[On Play] If your Leader has the \"The Seven Warlords of the Sea\" type, return up to 1 Character with a cost of 1 or less other than this Character to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

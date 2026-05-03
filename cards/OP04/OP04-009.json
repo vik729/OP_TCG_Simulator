@@ -1,0 +1,24 @@
+{
+  "id": "OP04-009",
+  "name": "Super Spot-Billed Duck Troops",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal",
+    "Alabasta"
+  ],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-009",
+  "effect_text": "[When Attacking] You may give your 1 active Leader -5000 power during this turn: Return this Character to the owner's hand at the end of this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

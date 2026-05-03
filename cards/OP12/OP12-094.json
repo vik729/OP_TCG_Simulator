@@ -1,0 +1,23 @@
+{
+  "id": "OP12-094",
+  "name": "Monkey.D.Dragon",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "SR",
+  "set_id": "OP12",
+  "image_id": "OP12-094",
+  "effect_text": "[On Play] You may place 3 \"Revolutionary Army\" type cards from your trash at the bottom of your deck in any order: If your Leader has the \"Revolutionary Army\" type, play up to 1 Character card with a cost of 6 or less from your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

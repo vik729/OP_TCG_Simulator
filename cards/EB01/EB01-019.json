@@ -1,0 +1,24 @@
+{
+  "id": "EB01-019",
+  "name": "Off-White",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Donquixote Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "R",
+  "set_id": "EB01",
+  "image_id": "EB01-019",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at 3 cards from the top of your deck; reveal up to 1 [Donquixote Pirates] type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

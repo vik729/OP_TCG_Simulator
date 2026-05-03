@@ -1,0 +1,25 @@
+{
+  "id": "OP12-077",
+  "name": "The \"Extinguishes All Sound Created by Your Influence\" Technique",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-077",
+  "effect_text": "[Main] Select up to 1 of your [Trafalgar Law] cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker].\n[Trigger] Draw 1 card.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

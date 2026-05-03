@@ -1,0 +1,21 @@
+{
+  "id": "OP07-014",
+  "name": "Moda (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP07-014_r1",
+  "effect_text": "[Your Turn][On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

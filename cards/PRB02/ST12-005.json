@@ -1,0 +1,23 @@
+{
+  "id": "ST12-005",
+  "name": "Perona (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST12-005_p1",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

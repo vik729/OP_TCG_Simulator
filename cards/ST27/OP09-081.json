@@ -1,0 +1,24 @@
+{
+  "id": "OP09-081",
+  "name": "Marshall.D.Teach (OP09-081)",
+  "type": "Leader",
+  "color": [
+    "Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Blackbeard Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "ST27",
+  "image_id": "OP09-081_p2",
+  "effect_text": "Your [On Play] effects are negated.\n[Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

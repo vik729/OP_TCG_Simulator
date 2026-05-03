@@ -1,0 +1,23 @@
+{
+  "id": "OP01-091",
+  "name": "King (091)",
+  "type": "Leader",
+  "color": [
+    "Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "L",
+  "set_id": "OP01",
+  "image_id": "OP01-091",
+  "effect_text": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters -1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

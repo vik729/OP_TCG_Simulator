@@ -1,0 +1,21 @@
+{
+  "id": "OP07-096",
+  "name": "Tempest Kick",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP07",
+  "image_id": "OP07-096",
+  "effect_text": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters -3 cost during this turn. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

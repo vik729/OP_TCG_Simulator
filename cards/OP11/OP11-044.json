@@ -1,0 +1,21 @@
+{
+  "id": "OP11-044",
+  "name": "Vinsmoke Judge",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-044",
+  "effect_text": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: All of your \"GERMA 66\" type Characters gain +1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

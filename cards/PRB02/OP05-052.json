@@ -1,0 +1,25 @@
+{
+  "id": "OP05-052",
+  "name": "Maynard (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "OP05-052_p1",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

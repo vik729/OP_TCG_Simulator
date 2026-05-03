@@ -1,0 +1,23 @@
+{
+  "id": "ST23-001",
+  "name": "Uta",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 6,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "ST23",
+  "image_id": "ST23-001",
+  "effect_text": "If you have a Character with 10000 power or more, give this card in your hand -4 cost.\n[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

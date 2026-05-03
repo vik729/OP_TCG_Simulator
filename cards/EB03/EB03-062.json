@@ -1,0 +1,25 @@
+{
+  "id": "EB03-062",
+  "name": "Trafalgar Law (Alternate Art)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 8,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "SEC",
+  "set_id": "EB03",
+  "image_id": "EB03-062_p1",
+  "effect_text": "[Rush]\n[Activate: Main] You may trash 1 card from your hand and trash this Character: Add up to 1 card from the top of your deck to the top of your Life cards. Then, play up to 1 [Trafalgar Law] with a cost of 7 or less from your hand.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

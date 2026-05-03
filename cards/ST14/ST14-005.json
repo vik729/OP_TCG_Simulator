@@ -1,0 +1,24 @@
+{
+  "id": "ST14-005",
+  "name": "Tony Tony.Chopper",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Animal",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST14",
+  "image_id": "ST14-005",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

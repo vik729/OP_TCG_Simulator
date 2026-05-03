@@ -1,0 +1,23 @@
+{
+  "id": "EB02-042",
+  "name": "All-Hunt Grount",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-042",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

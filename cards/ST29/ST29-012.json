@@ -1,0 +1,24 @@
+{
+  "id": "ST29-012",
+  "name": "Monkey.D.Luffy (012) (Full Art)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew",
+    "The Four Emperors"
+  ],
+  "rarity": "C",
+  "set_id": "ST29",
+  "image_id": "ST29-012_p1",
+  "effect_text": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards.\n[Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

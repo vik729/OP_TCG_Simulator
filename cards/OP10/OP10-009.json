@@ -1,0 +1,23 @@
+{
+  "id": "OP10-009",
+  "name": "Smiley",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Biological Weapon"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-009",
+  "effect_text": "[On Play] If your Leader has the \"Punk Hazard\" type, give up to 1 of your opponent's Characters 3000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

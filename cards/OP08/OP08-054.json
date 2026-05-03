@@ -1,0 +1,21 @@
+{
+  "id": "OP08-054",
+  "name": "You Can't Take Our King This Early in the Game.",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-054",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Piratess\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

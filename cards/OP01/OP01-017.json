@@ -1,0 +1,23 @@
+{
+  "id": "OP01-017",
+  "name": "Nico Robin",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-017",
+  "effect_text": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

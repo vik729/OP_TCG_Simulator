@@ -1,0 +1,24 @@
+{
+  "id": "OP06-024",
+  "name": "Ikaros Much",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man",
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP06",
+  "image_id": "OP06-024",
+  "effect_text": "[On Play] If your Leader has the [New FIsh-Man Pirates] type, play up to 1 [Fish-Man] type Character card with a cost of 4 or less from your hand. Then, add 1 card from the top of your Life cards to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

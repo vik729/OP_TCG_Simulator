@@ -1,0 +1,21 @@
+{
+  "id": "EB02-038",
+  "name": "Magellan",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-038",
+  "effect_text": "[On Play] Play up to 1 \"Impel Down\" type Character card with a cost of 2 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

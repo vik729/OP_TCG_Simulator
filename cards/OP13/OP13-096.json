@@ -1,0 +1,21 @@
+{
+  "id": "OP13-096",
+  "name": "The Five Elders Are at Your Service!!!",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-096",
+  "effect_text": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 \"Celestial Dragons\" type card other than [The Five Elders Are at Your Service!!!] and add it to your hand. Then, trash the rest.\n[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

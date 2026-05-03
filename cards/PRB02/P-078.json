@@ -1,0 +1,21 @@
+{
+  "id": "P-078",
+  "name": "Adio (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-078_p6",
+  "effect_text": "If you have 2 or more rested \"ODYSSEY\" type Characters, this Character gains +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

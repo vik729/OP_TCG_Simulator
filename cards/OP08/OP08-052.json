@@ -1,0 +1,21 @@
+{
+  "id": "OP08-052",
+  "name": "Portgas.D.Ace",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP08",
+  "image_id": "OP08-052",
+  "effect_text": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

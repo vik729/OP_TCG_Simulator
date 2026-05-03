@@ -1,0 +1,23 @@
+{
+  "id": "ST10-008",
+  "name": "Shachi & Penguin (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST10-008_p3",
+  "effect_text": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

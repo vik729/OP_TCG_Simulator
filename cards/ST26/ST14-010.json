@@ -1,0 +1,23 @@
+{
+  "id": "ST14-010",
+  "name": "Brook (Reprint)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST26",
+  "image_id": "ST14-010",
+  "effect_text": "DISCLAIMER: This card is a reprint of the pre-existing card in the ST14 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP09-046",
+  "name": "Crocodile - OP09-046 (Reprint)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "OP09-046_r1",
+  "effect_text": "[On Play] Play up to 1 \"Cross Guild\" type Character card or Character card with a type including \"Baroque Works\" with a cost of 5 or less from your hand.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

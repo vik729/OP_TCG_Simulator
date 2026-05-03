@@ -1,0 +1,23 @@
+{
+  "id": "ST07-013",
+  "name": "Prometheus",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST07",
+  "image_id": "ST07-013",
+  "effect_text": "[Activate:Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn. (This card deals 2 damage.) [Trigger] Play this card.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "OP11-058",
+  "name": "Monkey.D.Luffy - OP11-058 (TR)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "TR",
+  "set_id": "OP13",
+  "image_id": "OP11-058_p1",
+  "effect_text": "If you have 5 or more cards in your hand, this Character cannot attack.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

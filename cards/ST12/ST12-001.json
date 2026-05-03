@@ -1,0 +1,23 @@
+{
+  "id": "ST12-001",
+  "name": "Roronoa Zoro & Sanji",
+  "type": "Leader",
+  "color": [
+    "Blue Green"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Slash Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "ST12",
+  "image_id": "ST12-001",
+  "effect_text": "[DON!! x1][When Attacking][Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "OP13-042",
+  "name": "Edward.Newgate",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 10,
+  "power": 12000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "OP13",
+  "image_id": "OP13-042",
+  "effect_text": "[Blocker]\n[On Play] Draw 2 cards and trash 1 card from your hand. Then, give your Leader and 1 Character up to 2 rested DON!! cards each.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

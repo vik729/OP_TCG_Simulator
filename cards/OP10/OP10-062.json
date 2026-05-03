@@ -1,0 +1,25 @@
+{
+  "id": "OP10-062",
+  "name": "Violet",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-062",
+  "effect_text": "[Blocker]\n[On K.O.] DON!! 1: If your Leader has the \"Donquixote Pirates\" type, add up to 1 purple Event from your trash to your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

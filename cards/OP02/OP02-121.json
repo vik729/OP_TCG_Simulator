@@ -1,0 +1,23 @@
+{
+  "id": "OP02-121",
+  "name": "Kuzan (121)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 10,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SEC",
+  "set_id": "OP02",
+  "image_id": "OP02-121",
+  "effect_text": "[Your Turn] Give all of your opponent's Characters -5 cost. [On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

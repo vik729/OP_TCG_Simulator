@@ -1,0 +1,21 @@
+{
+  "id": "OP07-114",
+  "name": "He Possesses the World's Most Brilliant Mind",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-114",
+  "effect_text": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Egghead] type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

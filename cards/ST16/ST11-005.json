@@ -1,0 +1,21 @@
+{
+  "id": "ST11-005",
+  "name": "I'm invincible",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST16",
+  "image_id": "ST11-005_p2",
+  "effect_text": "[Main] Set up to 1 of your [Uta] Leader as active.\n\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

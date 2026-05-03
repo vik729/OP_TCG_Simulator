@@ -1,0 +1,23 @@
+{
+  "id": "OP11-067",
+  "name": "Charlotte Katakuri (067)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP11",
+  "image_id": "OP11-067",
+  "effect_text": "[Blocker]\n[End of Your Turn] Set up to 2 of your \"Big Mom Pirates\" type Characters with a cost of 3 or more as active. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

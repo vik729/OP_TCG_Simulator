@@ -1,0 +1,21 @@
+{
+  "id": "OP06-063",
+  "name": "Vinsmoke Sora (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP06-063_r1",
+  "effect_text": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 [The Vinsmoke Family] type Character card with 4000 power or less from your trash to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

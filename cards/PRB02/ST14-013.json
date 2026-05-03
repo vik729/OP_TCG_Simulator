@@ -1,0 +1,23 @@
+{
+  "id": "ST14-013",
+  "name": "Roronoa Zoro - ST14-013 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "ST14-013_p1",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

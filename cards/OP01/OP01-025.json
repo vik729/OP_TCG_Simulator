@@ -1,0 +1,26 @@
+{
+  "id": "OP01-025",
+  "name": "Roronoa Zoro (025)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "SR",
+  "set_id": "OP01",
+  "image_id": "OP01-025",
+  "effect_text": "[Rush] (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

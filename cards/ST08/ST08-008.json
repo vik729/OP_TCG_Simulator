@@ -1,0 +1,21 @@
+{
+  "id": "ST08-008",
+  "name": "Higuma",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST08",
+  "image_id": "ST08-008",
+  "effect_text": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

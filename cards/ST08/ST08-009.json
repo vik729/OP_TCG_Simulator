@@ -1,0 +1,21 @@
+{
+  "id": "ST08-009",
+  "name": "Makino",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST08",
+  "image_id": "ST08-009",
+  "effect_text": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

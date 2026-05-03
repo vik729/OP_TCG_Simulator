@@ -1,0 +1,24 @@
+{
+  "id": "ST28-002",
+  "name": "Izo",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST28",
+  "image_id": "ST28-002",
+  "effect_text": "[DON!! x2] This Character gains [Blocker].\n[On Play] Your \"Land of Wano\" type Leader gains [Banish] during this turn.",
+  "keywords": [
+    "Blocker",
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

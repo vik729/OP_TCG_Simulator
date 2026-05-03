@@ -1,0 +1,23 @@
+{
+  "id": "OP13-057",
+  "name": "If I Bowed Down to Power, What's the Point in Living?",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP13",
+  "image_id": "OP13-057",
+  "effect_text": "[Main] You may rest 1 of your DON!! cards: If you have 1 or less Life cards, your opponent cannot activate [Blocker] whenever your Leader attacks during this turn.\n[Counter] Your Leader gains +3000 power during this battle.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

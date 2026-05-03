@@ -1,0 +1,23 @@
+{
+  "id": "OP11-050",
+  "name": "Gotti",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Firetank Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-050",
+  "effect_text": "[When Attacking] You may trash 1 \"Firetank Pirates\" type card from your hand: Return up to 1 Character with a cost of 1 or less to the owner's hand or place it at the bottom of their deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

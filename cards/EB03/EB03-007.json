@@ -1,0 +1,23 @@
+{
+  "id": "EB03-007",
+  "name": "Baccarat",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-007",
+  "effect_text": "[Blocker] [On K.O.] Play up to 1 Character card with 6000 power or less and no base effect from your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

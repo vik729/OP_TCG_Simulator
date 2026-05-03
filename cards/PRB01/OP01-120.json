@@ -1,0 +1,26 @@
+{
+  "id": "OP01-120",
+  "name": "Shanks (OP01-120) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 9,
+  "power": 10000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SEC",
+  "set_id": "PRB01",
+  "image_id": "OP01-120_p7",
+  "effect_text": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [
+    "Rush",
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

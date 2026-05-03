@@ -1,0 +1,21 @@
+{
+  "id": "OP08-001",
+  "name": "Tony Tony.Chopper (001)",
+  "type": "Leader",
+  "color": [
+    "Green Red"
+  ],
+  "cost": null,
+  "power": 4,
+  "counter": null,
+  "life": 1,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP08",
+  "image_id": "OP08-001",
+  "effect_text": "[Activate:Main] [Once Per Turn] Give up to 3 of your [Animal] or [Drum Kingdom] type Characters up to 1 rested DON!! card each.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

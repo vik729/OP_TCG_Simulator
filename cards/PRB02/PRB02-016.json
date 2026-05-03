@@ -1,0 +1,21 @@
+{
+  "id": "PRB02-016",
+  "name": "Otama",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "PRB02-016",
+  "effect_text": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: Up to 1 of your Leader or Character cards gains +3000 power during this turn.[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

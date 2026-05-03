@@ -1,0 +1,21 @@
+{
+  "id": "OP04-079",
+  "name": "Orlumbus",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-079",
+  "effect_text": "[Activate:Main] [Once Per Turn] Give up to 1 of your opponent's Characters -4 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your [Dressrosa] type Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

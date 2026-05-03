@@ -1,0 +1,21 @@
+{
+  "id": "OP02-047",
+  "name": "Paradise Totsuka",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP02",
+  "image_id": "OP02-047",
+  "effect_text": "[Main] Rest up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

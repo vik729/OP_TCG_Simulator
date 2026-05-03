@@ -1,0 +1,23 @@
+{
+  "id": "EB02-052",
+  "name": "Enel",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 10,
+  "power": 11000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "EB02",
+  "image_id": "EB02-052",
+  "effect_text": "If your Leader has the \"Sky Island\" type, this Character gains [Rush].\n[When Attacking] You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards. Then, this Character gains +1000 power during this turn.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP08-092",
+  "name": "Page One",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP08",
+  "image_id": "OP08-092",
+  "effect_text": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

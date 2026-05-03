@@ -1,0 +1,21 @@
+{
+  "id": "OP03-018",
+  "name": "Fire Fist",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP03",
+  "image_id": "OP03-018",
+  "effect_text": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less. [Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ST09-009",
+  "name": "Fugetsu Omusubi",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST09",
+  "image_id": "ST09-009",
+  "effect_text": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

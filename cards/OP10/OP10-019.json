@@ -1,0 +1,23 @@
+{
+  "id": "OP10-019",
+  "name": "Divine Departure",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "R",
+  "set_id": "OP10",
+  "image_id": "OP10-019",
+  "effect_text": "[Main] You may rest 5 of your DON!! cards: K.O. up to 1 of your opponent's Characters with 8000 power or less.\n[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

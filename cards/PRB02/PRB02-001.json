@@ -1,0 +1,23 @@
+{
+  "id": "PRB02-001",
+  "name": "Koby",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "PRB02-001",
+  "effect_text": "[Opponent's Turn] If your Leader has the \"Navy\" type, this Character gains +1000 power.[When Attacking] K.O. up to 1 of your opponent's Characters with 3000 base power or less. Then, if you have 6 or less cards in your hand, draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

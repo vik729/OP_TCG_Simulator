@@ -1,0 +1,23 @@
+{
+  "id": "OP04-032",
+  "name": "Baby 5",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-032",
+  "effect_text": "[End of Your Turn] You may trash this Character: Set up to 2 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

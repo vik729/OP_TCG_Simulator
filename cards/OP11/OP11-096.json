@@ -1,0 +1,25 @@
+{
+  "id": "OP11-096",
+  "name": "Ripper",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-096",
+  "effect_text": "If you have a black \"Navy\" type Character other than [Ripper], this Character gains [Blocker].\n(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

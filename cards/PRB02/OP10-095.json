@@ -1,0 +1,24 @@
+{
+  "id": "OP10-095",
+  "name": "Roronoa Zoro - OP10-095 (Alternate Art)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP10-095_p1",
+  "effect_text": "[On Play] You may rest 1 of your \"Dressrosa\" type Leader or Stage cards: K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, trash 2 cards from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

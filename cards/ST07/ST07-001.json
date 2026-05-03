@@ -1,0 +1,23 @@
+{
+  "id": "ST07-001",
+  "name": "Charlotte Linlin",
+  "type": "Leader",
+  "color": [
+    "Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "ST07",
+  "image_id": "ST07-001",
+  "effect_text": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

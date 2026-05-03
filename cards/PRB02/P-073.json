@@ -1,0 +1,23 @@
+{
+  "id": "P-073",
+  "name": "Sabo - P-073 (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "PR",
+  "set_id": "PRB02",
+  "image_id": "P-073_r1",
+  "effect_text": "[Activate:Main][Once Per Turn] You may add 1 card from the top or bottom of your Life cards to your hand: This character gains +1000 power during this turn.Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

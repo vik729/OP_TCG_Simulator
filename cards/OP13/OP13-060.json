@@ -1,0 +1,21 @@
+{
+  "id": "OP13-060",
+  "name": "Amatsuki Toki",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-060",
+  "effect_text": "If your Character with a type including \"Roger Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

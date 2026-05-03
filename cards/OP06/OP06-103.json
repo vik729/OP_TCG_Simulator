@@ -1,0 +1,23 @@
+{
+  "id": "OP06-103",
+  "name": "Kawamatsu",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-103",
+  "effect_text": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

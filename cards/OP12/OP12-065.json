@@ -1,0 +1,25 @@
+{
+  "id": "OP12-065",
+  "name": "Emporio.Ivankov (065)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "OP12",
+  "image_id": "OP12-065",
+  "effect_text": "If you have 4 or more Events in your trash, this Character gains [Blocker].\n[On K.O.] Add up to 1 Event from your trash to your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

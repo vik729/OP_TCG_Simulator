@@ -1,0 +1,21 @@
+{
+  "id": "OP06-004",
+  "name": "Baron Omatsuri",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-004",
+  "effect_text": "[On Play] Play up to 1 [Lily Carnation] from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

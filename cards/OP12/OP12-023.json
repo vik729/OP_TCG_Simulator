@@ -1,0 +1,23 @@
+{
+  "id": "OP12-023",
+  "name": "Kawamatsu",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP12",
+  "image_id": "OP12-023",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

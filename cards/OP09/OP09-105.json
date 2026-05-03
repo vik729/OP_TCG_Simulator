@@ -1,0 +1,23 @@
+{
+  "id": "OP09-105",
+  "name": "Sanji (105)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-105",
+  "effect_text": "[Trigger] If your Leader has the \"Egghead\" type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

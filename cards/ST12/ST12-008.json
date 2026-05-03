@@ -1,0 +1,23 @@
+{
+  "id": "ST12-008",
+  "name": "Roronoa Zoro",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST12",
+  "image_id": "ST12-008",
+  "effect_text": "[DON!! x1][When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "OP01-039",
+  "name": "Killer (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Kid Pirates",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP01-039_p1",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

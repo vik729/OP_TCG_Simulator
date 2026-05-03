@@ -1,0 +1,23 @@
+{
+  "id": "OP10-053",
+  "name": "Bian",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-053",
+  "effect_text": "If you have a \"The Tontattas\" type Character other than [Bian], this Character gains [Blocker].",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

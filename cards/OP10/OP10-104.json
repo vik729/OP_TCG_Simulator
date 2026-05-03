@@ -1,0 +1,23 @@
+{
+  "id": "OP10-104",
+  "name": "Caribou",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-104",
+  "effect_text": "[DON!! x1] If your Leader has the \"Supernovas\" type and your opponent has 3 or more Life cards, this Character cannot be K.O.'d in battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

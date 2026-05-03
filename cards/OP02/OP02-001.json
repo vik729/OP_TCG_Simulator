@@ -1,0 +1,23 @@
+{
+  "id": "OP02-001",
+  "name": "Edward.Newgate (001)",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 6000,
+  "counter": null,
+  "life": 6,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "OP02",
+  "image_id": "OP02-001",
+  "effect_text": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

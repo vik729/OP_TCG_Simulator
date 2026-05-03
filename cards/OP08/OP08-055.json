@@ -1,0 +1,21 @@
+{
+  "id": "OP08-055",
+  "name": "Phoenix Brand",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-055",
+  "effect_text": "[Main] You may reveal 2 cards with a type including \"Whitebeard Piratess\" from your hand: Place up to 1 Character with a cost of 6 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

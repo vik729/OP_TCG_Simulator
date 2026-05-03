@@ -1,0 +1,24 @@
+{
+  "id": "OP01-115",
+  "name": "Elephant's Marchoo",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-115",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less, then add up to 1 DON!! card from your DON!! deck and set it as active. [Trigger] Activate this card's [Main] effect.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

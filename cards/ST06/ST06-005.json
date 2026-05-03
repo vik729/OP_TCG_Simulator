@@ -1,0 +1,23 @@
+{
+  "id": "ST06-005",
+  "name": "Sengoku",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST06",
+  "image_id": "ST06-005",
+  "effect_text": "[When Attacking] Give up to 1 of your opponent's Characters -4 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

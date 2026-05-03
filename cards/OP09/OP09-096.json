@@ -1,0 +1,23 @@
+{
+  "id": "OP09-096",
+  "name": "My Era...Begins!!",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP09",
+  "image_id": "OP09-096",
+  "effect_text": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 \"Blackbeard Pirates\" type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.\n[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

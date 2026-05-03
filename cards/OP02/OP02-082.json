@@ -1,0 +1,21 @@
+{
+  "id": "OP02-082",
+  "name": "Byrnndi World",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-082",
+  "effect_text": "[Activate:Main] DON!! -8 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

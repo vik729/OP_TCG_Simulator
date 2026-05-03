@@ -1,0 +1,21 @@
+{
+  "id": "OP04-039",
+  "name": "Rebecca (039)",
+  "type": "Leader",
+  "color": [
+    "Blue Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP04",
+  "image_id": "OP04-039",
+  "effect_text": "This Leader cannot attack. [Activate:Main] [Once Per Turn] (1) (You may rest the specified number of DON!! cards in your cost area.): If you have 6 or less cards in your hand, look at 2 cards from the top of your deck; reveal up to 1 [Dressrosa] type card and add it to your hand. Then, trash the rest.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

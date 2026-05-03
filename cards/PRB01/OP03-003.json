@@ -1,0 +1,21 @@
+{
+  "id": "OP03-003",
+  "name": "Izo (OP03-003) (Jolly Roger Foil)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "PRB01",
+  "image_id": "OP03-003_p4",
+  "effect_text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

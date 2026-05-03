@@ -1,0 +1,24 @@
+{
+  "id": "OP04-016",
+  "name": "Bad Manners Kick Course (Reprint)",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 0,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Alabasta",
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP04-016_r1",
+  "effect_text": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.[Trigger] Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

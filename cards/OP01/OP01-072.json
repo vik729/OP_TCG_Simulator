@@ -1,0 +1,23 @@
+{
+  "id": "OP01-072",
+  "name": "Smiley",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Biological Weapon"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-072",
+  "effect_text": "[DON!! x1] [Your Turn] This Character gains +1000 power for every card in your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

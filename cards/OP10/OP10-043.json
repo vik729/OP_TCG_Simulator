@@ -1,0 +1,25 @@
+{
+  "id": "OP10-043",
+  "name": "Moocy",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-043",
+  "effect_text": "[On Play] You may rest 1 of your \"Dressrosa\" type Leader or Stage cards: Up to 1 of your [Monkey.D.Luffy] Characters gains [Banish] during this turn.",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

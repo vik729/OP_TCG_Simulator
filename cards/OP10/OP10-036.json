@@ -1,0 +1,23 @@
+{
+  "id": "OP10-036",
+  "name": "Perona (036)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-036",
+  "effect_text": "[Your Turn] [Once Per Turn] If a Character is rested by your effect, set up to 1 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

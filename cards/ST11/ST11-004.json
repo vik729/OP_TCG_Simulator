@@ -1,0 +1,21 @@
+{
+  "id": "ST11-004",
+  "name": "New Genesis",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "ST11",
+  "image_id": "ST11-004",
+  "effect_text": "[Main] If your Leader is [Uta], look at 3 cards from the top of your deck, reveal up to 1 [FILM] type card other than [New Genesis] and add it to your hand. Then, place the rest at the bottom of your deck in any order and set up to 1 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

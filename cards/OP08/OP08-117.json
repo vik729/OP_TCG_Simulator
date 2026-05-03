@@ -1,0 +1,21 @@
+{
+  "id": "OP08-117",
+  "name": "Burn Blade",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-117",
+  "effect_text": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 7 or less. [Trigger] You may add 1 card from the top of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

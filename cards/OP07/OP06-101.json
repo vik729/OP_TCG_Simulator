@@ -1,0 +1,25 @@
+{
+  "id": "OP06-101",
+  "name": "O-Nami (SP)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP07",
+  "image_id": "OP06-101_p2",
+  "effect_text": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.) [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

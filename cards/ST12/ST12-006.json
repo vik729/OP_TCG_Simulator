@@ -1,0 +1,21 @@
+{
+  "id": "ST12-006",
+  "name": "Yosaku & Johnny",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST12",
+  "image_id": "ST12-006",
+  "effect_text": "[DON!! x1][When Attacking] Choose one: • Rest up to 1 of your opponent's Characters with a cost of 2 or less. • K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

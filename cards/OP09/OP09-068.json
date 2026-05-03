@@ -1,0 +1,26 @@
+{
+  "id": "OP09-068",
+  "name": "Tony Tony.Chopper (068)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal",
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-068",
+  "effect_text": "[End of Your Turn] You may return 1 or more DON!! cards from your field to your DON!! deck: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next turn.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P-060_p1",
+  "name": "Tot Musica",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "PR",
+  "set_id": "ST16",
+  "image_id": "P-060_p1",
+  "effect_text": "[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

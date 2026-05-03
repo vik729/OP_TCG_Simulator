@@ -1,0 +1,21 @@
+{
+  "id": "OP13-105",
+  "name": "Kouzuki Momonosuke",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-105",
+  "effect_text": "[On Play] Look at all of your Life cards and place them back in your Life area in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

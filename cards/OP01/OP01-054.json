@@ -1,0 +1,25 @@
+{
+  "id": "OP01-054",
+  "name": "X.Drake (054)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Drake Pirates",
+    "Navy",
+    "Supernovas"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-054",
+  "effect_text": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

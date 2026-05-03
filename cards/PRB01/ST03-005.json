@@ -1,0 +1,23 @@
+{
+  "id": "ST03-005",
+  "name": "Dracule Mihawk (ST03-005) (Full Art)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "C",
+  "set_id": "PRB01",
+  "image_id": "ST03-005_p5",
+  "effect_text": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "PRB02-010",
+  "name": "Charlotte Pudding - PRB02-010",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 7,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "PRB02",
+  "image_id": "PRB02-010",
+  "effect_text": "[On Play] DON!! -2: If your Leader has the \"Big Mom Pirates\" type and your opponent has 6 or more DON!! cards on their field, draw 2 cards. Then, play up to 1 \"Big Mom Pirates\" type Character card with 6000 to 8000 power from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

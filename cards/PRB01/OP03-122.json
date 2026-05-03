@@ -1,0 +1,21 @@
+{
+  "id": "OP03-122",
+  "name": "Sogeking (Manga)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "PRB01",
+  "image_id": "OP03-122_r1",
+  "effect_text": "Also treat this card's name as [Usopp] according to the rules.[On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand.Disclaimer: This card was reprinted from the original set without the original textured foil.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

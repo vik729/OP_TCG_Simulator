@@ -1,0 +1,23 @@
+{
+  "id": "OP09-056",
+  "name": "Mr.3(Galdino) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "ST25",
+  "image_id": "OP09-056_r1",
+  "effect_text": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

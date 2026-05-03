@@ -1,0 +1,21 @@
+{
+  "id": "OP09-077",
+  "name": "Gum-Gum Lightning (Reprint)",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "ST26",
+  "image_id": "OP09-077_r1",
+  "effect_text": "[Main] DON!! 2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\n\nDISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

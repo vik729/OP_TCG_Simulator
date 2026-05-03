@@ -1,0 +1,21 @@
+{
+  "id": "OP13-013",
+  "name": "Higuma",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 3000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-013",
+  "effect_text": "[On Play] K.O. up to 1 of your opponent's Characters with 0 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

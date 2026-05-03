@@ -1,0 +1,23 @@
+{
+  "id": "ST15-002",
+  "name": "Edward.Newgate (SP)",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "OP10",
+  "image_id": "ST15-002_p1",
+  "effect_text": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.\n[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

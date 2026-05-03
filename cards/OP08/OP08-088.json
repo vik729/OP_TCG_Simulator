@@ -1,0 +1,21 @@
+{
+  "id": "OP08-088",
+  "name": "Duval",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-088",
+  "effect_text": "[On Play] Up to 1 of your Characters gains +1 cost until the end of your opponent's next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

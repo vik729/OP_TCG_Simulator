@@ -1,0 +1,21 @@
+{
+  "id": "OP03-116",
+  "name": "Shirahoshi (OP03-116) (Jolly Roger Foil)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "PRB01",
+  "image_id": "OP03-116_p5",
+  "effect_text": "[On Play] Draw 3 cards and trash 2 cards from your hand.[Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

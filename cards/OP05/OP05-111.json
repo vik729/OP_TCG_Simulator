@@ -1,0 +1,21 @@
+{
+  "id": "OP05-111",
+  "name": "Hotori",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-111",
+  "effect_text": "[On Play] You may play 1 [Kotori] from your hand: Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP11-076",
+  "name": "Hannyabal",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-076",
+  "effect_text": "[Blocker]\n[On Play] If your Leader has the \"Impel Down\" type, play up to 1 \"Impel Down\" type Character card with a cost of 3 or less from your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

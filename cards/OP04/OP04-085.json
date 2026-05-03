@@ -1,0 +1,21 @@
+{
+  "id": "OP04-085",
+  "name": "Suleiman",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-085",
+  "effect_text": "[On Play] [When Attacking] If your Leader has the [Dressrosa] type, give up to 1 of your opponent's Characters -2 cost during this turn. Then, trash 1 card from the top of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

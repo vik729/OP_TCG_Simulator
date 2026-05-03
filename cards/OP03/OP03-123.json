@@ -1,0 +1,21 @@
+{
+  "id": "OP03-123",
+  "name": "Charlotte Katakuri (123)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "SEC",
+  "set_id": "OP03",
+  "image_id": "OP03-123",
+  "effect_text": "[On Play] Add up to 1 Character with a cost of 8 or less to the top or bottom of the owner's Life cards face-up.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP13-033",
+  "name": "Franky",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-033",
+  "effect_text": "[On K.O.] Rest up to 2 of your opponent's cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

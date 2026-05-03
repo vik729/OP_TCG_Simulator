@@ -1,0 +1,24 @@
+{
+  "id": "OP01-058",
+  "name": "Punk Gibson",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Kid Pirates",
+    "Supernovas"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-058",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] Rest up to 1 of your opponent's Characters.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

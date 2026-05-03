@@ -1,0 +1,25 @@
+{
+  "id": "EB03-044",
+  "name": "Black Maria",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "EB03",
+  "image_id": "EB03-044",
+  "effect_text": "If your Leader is multicolored, this Character gains [Blocker]. [On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Onigashima Island] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Onigashima Island] from your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

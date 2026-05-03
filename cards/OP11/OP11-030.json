@@ -1,0 +1,23 @@
+{
+  "id": "OP11-030",
+  "name": "Shirahoshi (030)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "R",
+  "set_id": "OP11",
+  "image_id": "OP11-030",
+  "effect_text": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 \"Neptunian\" or \"Fish-Man Island\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

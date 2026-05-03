@@ -1,0 +1,23 @@
+{
+  "id": "OP03-004",
+  "name": "Curiel",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-004",
+  "effect_text": "This Character cannot attack a Leader on the turn in which it is played. [DON!! x1] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

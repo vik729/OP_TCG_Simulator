@@ -1,0 +1,21 @@
+{
+  "id": "OP07-081",
+  "name": "Kalifa",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP07",
+  "image_id": "OP07-081",
+  "effect_text": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

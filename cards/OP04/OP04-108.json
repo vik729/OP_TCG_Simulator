@@ -1,0 +1,23 @@
+{
+  "id": "OP04-108",
+  "name": "Charlotte Moscato",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP04",
+  "image_id": "OP04-108",
+  "effect_text": "[DON!! x1] This Character gains [Banish]. (When this card deals damage, the target card is trashed without activating its Trigger.) [Trigger] You may trash 1 card from your hand: Play this card.",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P-057_p1",
+  "name": "Fleeting Lullaby",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "PR",
+  "set_id": "ST16",
+  "image_id": "P-057_p1",
+  "effect_text": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.\n\n[Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP06-099",
+  "name": "Aisa",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-099",
+  "effect_text": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

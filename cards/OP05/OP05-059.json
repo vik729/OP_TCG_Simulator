@@ -1,0 +1,24 @@
+{
+  "id": "OP05-059",
+  "name": "Let Us Begin the World of Violence!!",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 5,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "UC",
+  "set_id": "OP05",
+  "image_id": "OP05-059",
+  "effect_text": "[Main] If your Leader is multicolored, draw 1 card. Then, return up to 1 Character with a cost of 5 or less to the owner's hand. [Trigger] If your Leader is multicolored, draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

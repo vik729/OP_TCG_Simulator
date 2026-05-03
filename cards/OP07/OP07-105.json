@@ -1,0 +1,21 @@
+{
+  "id": "OP07-105",
+  "name": "Pythagoras",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-105",
+  "effect_text": "[On K.O.] If you have 2 or less Life cards, play up to 1 {Egghead} type Character card with a cost of 4 or less from your trash rested. [Trigger] If your Leader is [Vegapunk], play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

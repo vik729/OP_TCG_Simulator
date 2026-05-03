@@ -1,0 +1,23 @@
+{
+  "id": "OP07-025",
+  "name": "Coribou (Reprint)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Supernovas"
+  ],
+  "rarity": "C",
+  "set_id": "ST24",
+  "image_id": "OP07-025_r1",
+  "effect_text": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.\n\nDISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

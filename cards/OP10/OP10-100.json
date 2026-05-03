@@ -1,0 +1,23 @@
+{
+  "id": "OP10-100",
+  "name": "Inazuma",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-100",
+  "effect_text": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.\n[Trigger] If your Leader has the \"Revolutionary Army\" type and you and your opponent have a total of 5 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

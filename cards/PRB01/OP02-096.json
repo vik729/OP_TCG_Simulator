@@ -1,0 +1,23 @@
+{
+  "id": "OP02-096",
+  "name": "Kuzan (OP02-096) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB01",
+  "image_id": "OP02-096_r1",
+  "effect_text": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters -4 cost during this turn.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

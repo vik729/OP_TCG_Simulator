@@ -1,0 +1,26 @@
+{
+  "id": "OP07-083",
+  "name": "Gecko Moria (083)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Seven Warlords of the Sea",
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-083",
+  "effect_text": "[Activate: Main] You may place 4 [Thriller Bark Pirates] type cards from your trash at the bottom of your deck in any order: This Character gains [Banish] and +1000 power during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

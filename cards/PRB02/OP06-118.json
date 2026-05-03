@@ -1,0 +1,23 @@
+{
+  "id": "OP06-118",
+  "name": "Roronoa Zoro - OP06-118 (Reprint)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 9,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SEC",
+  "set_id": "PRB02",
+  "image_id": "OP06-118_r2",
+  "effect_text": "[When Attacking][Once Per Turn](1)(You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate:Main][Once Per Turn](2)(You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

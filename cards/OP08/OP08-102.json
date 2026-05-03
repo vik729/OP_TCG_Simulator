@@ -1,0 +1,21 @@
+{
+  "id": "OP08-102",
+  "name": "Charlotte Opera",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-102",
+  "effect_text": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "OP08-013",
+  "name": "Robson",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-013",
+  "effect_text": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

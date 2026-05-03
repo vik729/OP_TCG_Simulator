@@ -1,0 +1,21 @@
+{
+  "id": "OP03-075",
+  "name": "Galley-La Company",
+  "type": "Stage",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-075",
+  "effect_text": "[Activate:Main] You may rest this Stage: If your Leader is [Iceburg], add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

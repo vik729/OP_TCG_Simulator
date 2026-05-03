@@ -1,0 +1,24 @@
+{
+  "id": "OP11-024",
+  "name": "Aladine",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Sun Pirates",
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-024",
+  "effect_text": "When this Character is K.O.'d by your opponent's effect, you may trash 1 card from your hand and rest 1 of your DON!! cards. If you do, play up to 1 \"Fish-Man\" or \"Merfolk\" type Character card with a cost of 6 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

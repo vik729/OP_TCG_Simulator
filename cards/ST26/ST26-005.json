@@ -1,0 +1,23 @@
+{
+  "id": "ST26-005",
+  "name": "Monkey.D.Luffy (ST26-005)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "ST26",
+  "image_id": "ST26-005",
+  "effect_text": "[On Play] / [When Attacking] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your \"Straw Hat Crew\" type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

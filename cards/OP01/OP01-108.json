@@ -1,0 +1,25 @@
+{
+  "id": "OP01-108",
+  "name": "Hitokiri Kamazo",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 5000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Kid Pirates",
+    "Supernovas",
+    "SMILE"
+  ],
+  "rarity": "UC",
+  "set_id": "OP01",
+  "image_id": "OP01-108",
+  "effect_text": "[On K.O.] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

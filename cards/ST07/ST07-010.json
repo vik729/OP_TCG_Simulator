@@ -1,0 +1,23 @@
+{
+  "id": "ST07-010",
+  "name": "Charlotte Linlin (010)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "ST07",
+  "image_id": "ST07-010",
+  "effect_text": "[On Play] Your opponent chooses one: • Trash 1 card from the top of your opponent's Life cards. • Add 1 card from the top of your deck to the top of your Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

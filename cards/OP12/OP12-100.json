@@ -1,0 +1,25 @@
+{
+  "id": "OP12-100",
+  "name": "Sabo",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "R",
+  "set_id": "OP12",
+  "image_id": "OP12-100",
+  "effect_text": "If you have 3 or less Life cards, this Character gains [Blocker] and +3 cost.\n[On Play] You may add 1 card from the top of your Life cards to your hand: Draw 2 cards and trash 1 card from your hand.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

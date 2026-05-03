@@ -1,0 +1,23 @@
+{
+  "id": "OP06-044",
+  "name": "Gion (Pirate Foil)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP06-044_p1",
+  "effect_text": "[Your Turn][Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

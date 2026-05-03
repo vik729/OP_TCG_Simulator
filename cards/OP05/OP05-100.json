@@ -1,0 +1,23 @@
+{
+  "id": "OP05-100",
+  "name": "Enel (100)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP05",
+  "image_id": "OP05-100",
+  "effect_text": "[Rush] [Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

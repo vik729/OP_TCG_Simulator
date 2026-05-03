@@ -1,0 +1,23 @@
+{
+  "id": "OP02-067",
+  "name": "Arabesque Brick Fist",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP02",
+  "image_id": "OP02-067",
+  "effect_text": "[Main] Return up to 1 Character with a cost of 4 or less to the owner's hand. [Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

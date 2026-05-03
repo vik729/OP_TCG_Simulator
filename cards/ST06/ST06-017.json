@@ -1,0 +1,23 @@
+{
+  "id": "ST06-017",
+  "name": "Navy HQ",
+  "type": "Stage",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST06",
+  "image_id": "ST06-017",
+  "effect_text": "[On Play] Give up to 1 of your opponent's Characters -1 cost during this turn. [Activate:Main] You may rest this Stage: If your Leader has the [Navy] type, give up to 1 of your opponent's Characters -1 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

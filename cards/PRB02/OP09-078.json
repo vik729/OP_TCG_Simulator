@@ -1,0 +1,24 @@
+{
+  "id": "OP09-078",
+  "name": "Gum-Gum Giant (Reprint)",
+  "type": "Event",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "The Four Emperors"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP09-078-r1",
+  "effect_text": "[Counter] DON!! 2, You may trash 1 card from your hand: If your Leader has the \"Straw Hat Crew\" type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

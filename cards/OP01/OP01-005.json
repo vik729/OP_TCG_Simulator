@@ -1,0 +1,21 @@
+{
+  "id": "OP01-005",
+  "name": "Uta",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 4000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-005",
+  "effect_text": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

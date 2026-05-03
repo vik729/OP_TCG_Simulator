@@ -1,0 +1,24 @@
+{
+  "id": "OP09-030",
+  "name": "Trafalgar Law",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Heart Pirates",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-030",
+  "effect_text": "[On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 \"ODYSSEY\" type Character card with a cost of 3 or less other than [Trafalgar Law] from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

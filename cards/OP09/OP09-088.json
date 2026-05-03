@@ -1,0 +1,23 @@
+{
+  "id": "OP09-088",
+  "name": "Shiryu",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-088",
+  "effect_text": "[DON!! x1] [When Attacking] You may trash 2 cards from your hand: Draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

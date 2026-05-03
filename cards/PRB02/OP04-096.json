@@ -1,0 +1,21 @@
+{
+  "id": "OP04-096",
+  "name": "Corrida Coliseum (Pirate Foil)",
+  "type": "Stage",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 0,
+  "life": 0,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "OP04-096_p1",
+  "effect_text": "If your Leader has the [Dressrosa] type, your [Dressrosa] type Characters can attack Characters on the turn in which they are played.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "OP09-040",
+  "name": "Thunder Lance Flip Caliber Phoenix Shot",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-040",
+  "effect_text": "[Main] If you have 2 or more rested Characters, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

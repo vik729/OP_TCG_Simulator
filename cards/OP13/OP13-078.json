@@ -1,0 +1,21 @@
+{
+  "id": "OP13-078",
+  "name": "Oro Jackson",
+  "type": "Stage",
+  "color": [
+    "Purple"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-078",
+  "effect_text": "[Once Per Turn] When your Character with a type including \"Roger Pirates\" is removed from the field by your opponent's effect, add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

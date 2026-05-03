@@ -1,0 +1,23 @@
+{
+  "id": "OP01-004",
+  "name": "Usopp",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-004",
+  "effect_text": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

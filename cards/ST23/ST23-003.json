@@ -1,0 +1,21 @@
+{
+  "id": "ST23-003",
+  "name": "Benn.Beckman",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST23",
+  "image_id": "ST23-003",
+  "effect_text": "[On Play] You may trash 1 card from your hand: If your Leader has the \"Red-Haired Pirates\" type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

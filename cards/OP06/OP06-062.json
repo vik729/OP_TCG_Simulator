@@ -1,0 +1,21 @@
+{
+  "id": "OP06-062",
+  "name": "Vinsmoke Judge",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP06-062",
+  "effect_text": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 \"GERMA 66\" type Character cards with different card names and 4000 power or less from your trash.\n[Activate:Main] [Once Per Turn] DON!! -1: Rest up to 1 of your opponent's DON!! cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

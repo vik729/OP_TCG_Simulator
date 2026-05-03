@@ -1,0 +1,25 @@
+{
+  "id": "OP01-050",
+  "name": "Penguin",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Heart Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-050",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you don't have [Shachi], play up to 1 [Shachi] from your hand.  This card has been officially errata'd.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

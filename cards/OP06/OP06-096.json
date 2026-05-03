@@ -1,0 +1,23 @@
+{
+  "id": "OP06-096",
+  "name": "...Nothing...at All!!!",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-096",
+  "effect_text": "[Counter] You may add 1 card from the top of your Life cards to your hand.: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.\n[Trigger] Activate this card's [Counter] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

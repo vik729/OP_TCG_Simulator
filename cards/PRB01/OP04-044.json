@@ -1,0 +1,24 @@
+{
+  "id": "OP04-044",
+  "name": "Kaido (OP04-044) (Reprint)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 10,
+  "power": 12000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB01",
+  "image_id": "OP04-044_r1",
+  "effect_text": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.Disclaimer: This card was reprinted from the original set with changes to the artist credit (note the lack of pen symbol next to the artist name).",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ST13-009",
+  "name": "Shanks",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 7,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "C",
+  "set_id": "ST13",
+  "image_id": "ST13-009",
+  "effect_text": "[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

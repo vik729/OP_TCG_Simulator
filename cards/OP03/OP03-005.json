@@ -1,0 +1,21 @@
+{
+  "id": "OP03-005",
+  "name": "Thatch",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP03",
+  "image_id": "OP03-005",
+  "effect_text": "[Activate:Main] [Once Per Turn] This Character gains +2000 power during this turn. Then, trash this Character at the end of this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

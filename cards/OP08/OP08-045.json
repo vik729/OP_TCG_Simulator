@@ -1,0 +1,21 @@
+{
+  "id": "OP08-045",
+  "name": "Thatch",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "UC",
+  "set_id": "OP08",
+  "image_id": "OP08-045",
+  "effect_text": "If this Character would be removed from the field by your opponent's effect or K.O.'d, trash this Character and draw 1 card instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP11-010",
+  "name": "Hibari",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "OP11",
+  "image_id": "OP11-010",
+  "effect_text": "[On Play] Give up to 1 of your opponent's Characters 2000 power during this turn.\n[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your \"Navy\" type Leader can also attack active Characters during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

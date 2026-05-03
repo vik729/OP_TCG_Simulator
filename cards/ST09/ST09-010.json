@@ -1,0 +1,21 @@
+{
+  "id": "ST09-010",
+  "name": "Portgas.D.Ace",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 7000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "ST09",
+  "image_id": "ST09-010",
+  "effect_text": "[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

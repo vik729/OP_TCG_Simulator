@@ -1,0 +1,23 @@
+{
+  "id": "OP08-082",
+  "name": "Sasaki",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP08",
+  "image_id": "OP08-082",
+  "effect_text": "[Activate:Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters 2 cost during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

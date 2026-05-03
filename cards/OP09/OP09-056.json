@@ -1,0 +1,23 @@
+{
+  "id": "OP09-056",
+  "name": "Mr.3(Galdino)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "OP09",
+  "image_id": "OP09-056",
+  "effect_text": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

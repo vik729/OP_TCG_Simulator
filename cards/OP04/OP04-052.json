@@ -1,0 +1,23 @@
+{
+  "id": "OP04-052",
+  "name": "Black Maria",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-052",
+  "effect_text": "[Activate:Main] (2) (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Draw 1 card. [Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

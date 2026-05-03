@@ -1,0 +1,25 @@
+{
+  "id": "OP09-103",
+  "name": "Koala",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "SR",
+  "set_id": "OP09",
+  "image_id": "OP09-103",
+  "effect_text": "[Blocker]\n[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 \"Revolutionary Army\" type Character card with a cost of 4 or less from your hand. If you do, draw 1 card.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

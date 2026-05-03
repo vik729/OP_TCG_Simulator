@@ -1,0 +1,24 @@
+{
+  "id": "ST29-005",
+  "name": "Jinbe",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST29",
+  "image_id": "ST29-005",
+  "effect_text": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

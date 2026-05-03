@@ -1,0 +1,23 @@
+{
+  "id": "OP05-009",
+  "name": "Toh-Toh",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Alabasta"
+  ],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-009",
+  "effect_text": "[On Play] Draw 1 card if your Leader has 0 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

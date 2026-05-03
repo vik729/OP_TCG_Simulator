@@ -1,0 +1,23 @@
+{
+  "id": "ST14-001",
+  "name": "Monkey.D.Luffy (001)",
+  "type": "Leader",
+  "color": [
+    "Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "ST14",
+  "image_id": "ST14-001",
+  "effect_text": "[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

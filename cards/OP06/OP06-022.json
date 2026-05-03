@@ -1,0 +1,23 @@
+{
+  "id": "OP06-022",
+  "name": "Yamato",
+  "type": "Leader",
+  "color": [
+    "Green Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP06",
+  "image_id": "OP06-022",
+  "effect_text": "[Double Attack] (This card deals 2 damage.)\n[Activate:Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

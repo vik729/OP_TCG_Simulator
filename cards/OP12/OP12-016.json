@@ -1,0 +1,23 @@
+{
+  "id": "OP12-016",
+  "name": "To Never Doubt--That Is Power!",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-016",
+  "effect_text": "[Main] You may give 2 active DON!! cards to 1 of your [Silvers Rayleigh]: Your opponent cannot activate [Blocker] when the card given these DON!! cards attacks during this turn.\n[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "OP09-062",
+  "name": "Nico Robin (062)",
+  "type": "Leader",
+  "color": [
+    "Purple Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "L",
+  "set_id": "OP09",
+  "image_id": "OP09-062",
+  "effect_text": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)\n[When Attacking] You may trash 1 card with a [Trigger] from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

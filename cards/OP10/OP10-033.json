@@ -1,0 +1,23 @@
+{
+  "id": "OP10-033",
+  "name": "Nami (033)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-033",
+  "effect_text": "[On Play] If you have 2 or more rested \"ODYSSEY\" type Characters, up to 1 of your opponent's rested DON!! cards will not become active in your opponent's next Refresh Phase.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

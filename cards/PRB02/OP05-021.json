@@ -1,0 +1,23 @@
+{
+  "id": "OP05-021",
+  "name": "Revolutionary Army HQ (Pirate Foil)",
+  "type": "Stage",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 0,
+  "counter": 0,
+  "life": 0,
+  "attribute": null,
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "UC",
+  "set_id": "PRB02",
+  "image_id": "OP05-021_p1",
+  "effect_text": "[Activate:Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 [Revolutionary Army] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

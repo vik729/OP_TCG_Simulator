@@ -1,0 +1,23 @@
+{
+  "id": "OP09-115",
+  "name": "Ice Block Partisan",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-115",
+  "effect_text": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 3 or less and a [Trigger].\n[Trigger] Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

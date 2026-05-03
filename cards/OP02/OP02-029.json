@@ -1,0 +1,23 @@
+{
+  "id": "OP02-029",
+  "name": "Carrot",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Minks"
+  ],
+  "rarity": "R",
+  "set_id": "OP02",
+  "image_id": "OP02-029",
+  "effect_text": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

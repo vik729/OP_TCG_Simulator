@@ -1,0 +1,24 @@
+{
+  "id": "OP07-048",
+  "name": "Donquixote Doflamingo",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "UC",
+  "set_id": "OP07",
+  "image_id": "OP07-048",
+  "effect_text": "[Activate:Main] [Once Per Turn] (2) (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a [The Seven Warlords of the Sea] type Character card with a cost of 4 or less, you may play that card rested. Then, place the rest at the bottom of your deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

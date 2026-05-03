@@ -1,0 +1,23 @@
+{
+  "id": "OP11-001",
+  "name": "Koby (001) (Alternate Art)",
+  "type": "Leader",
+  "color": [
+    "Red Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "L",
+  "set_id": "OP11",
+  "image_id": "OP11-001_p1",
+  "effect_text": "Your \"SWORD\" type Characters can attack Characters on the turn in which they are played.\n[Once Per Turn] If your \"Navy\" type Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "EB01-045",
+  "name": "Brook (045)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB01",
+  "image_id": "EB01-045",
+  "effect_text": "[On Play] If your opponent has a Character with a cost of 0, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

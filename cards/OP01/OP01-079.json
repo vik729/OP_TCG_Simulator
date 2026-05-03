@@ -1,0 +1,25 @@
+{
+  "id": "OP01-079",
+  "name": "Ms. All Sunday",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-079",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the \"Baroque Works\" type, add up to 1 Event from your trash to your hand.  This card has been officially errata'd.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

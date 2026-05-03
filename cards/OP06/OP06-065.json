@@ -1,0 +1,21 @@
+{
+  "id": "OP06-065",
+  "name": "Vinsmoke Niji (065)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-065",
+  "effect_text": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, choose one:\n• K.O. up to 1 of your opponent's Characters with a cost of 2 or less.\n• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

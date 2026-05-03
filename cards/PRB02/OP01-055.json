@@ -1,0 +1,21 @@
+{
+  "id": "OP01-055",
+  "name": "You Can Be My Samurai!! (Pirate Foil)",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "PRB02",
+  "image_id": "OP01-055_p1",
+  "effect_text": "[Main] You may rest 2 of your Characters: Draw 2 cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

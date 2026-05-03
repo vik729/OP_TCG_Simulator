@@ -1,0 +1,23 @@
+{
+  "id": "OP01-087",
+  "name": "Officer Agents",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Baroque Works"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-087",
+  "effect_text": "[Counter] Play up to 1 \"Baroque Works\" type card with a cost of 3 or less from your hand.  This card has been officially errata'd.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP11-006",
+  "name": "Zephyr",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-006",
+  "effect_text": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's (Special) attribute Characters 5000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

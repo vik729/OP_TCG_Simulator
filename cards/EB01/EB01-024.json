@@ -1,0 +1,24 @@
+{
+  "id": "EB01-024",
+  "name": "Hamlet",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+  ],
+  "rarity": "C",
+  "set_id": "EB01",
+  "image_id": "EB01-024",
+  "effect_text": "If you have 4 or less cards in your hand, all of your [SMILE] type Characters gain +1000 power.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

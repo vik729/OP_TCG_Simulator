@@ -1,0 +1,23 @@
+{
+  "id": "ST05-001",
+  "name": "Shanks",
+  "type": "Leader",
+  "color": [
+    "Purple"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Four Emperors"
+  ],
+  "rarity": "L",
+  "set_id": "ST05",
+  "image_id": "ST05-001",
+  "effect_text": "[Activate:Main] [Once Per Turn] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): All of your \"FILM\" type Characters gain +2000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

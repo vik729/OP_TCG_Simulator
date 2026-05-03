@@ -1,0 +1,24 @@
+{
+  "id": "EB02-016",
+  "name": "Chopperman",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-016",
+  "effect_text": "Also treat this card's name as [Tony Tony.Chopper] according to the rules.\n[On Play] Play up to 1 \"Animal\" type Character card with a cost of 3 or less from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

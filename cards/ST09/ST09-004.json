@@ -1,0 +1,24 @@
+{
+  "id": "ST09-004",
+  "name": "Kaido",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+  ],
+  "rarity": "C",
+  "set_id": "ST09",
+  "image_id": "ST09-004",
+  "effect_text": "[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

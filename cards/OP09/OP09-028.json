@@ -1,0 +1,23 @@
+{
+  "id": "OP09-028",
+  "name": "Sanji (028)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-028",
+  "effect_text": "[On K.O.] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 \"ODYSSEY\" or \"Straw Hat Crew\" type Character card with a cost of 4 or less from your trash rested.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

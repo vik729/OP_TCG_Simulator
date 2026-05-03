@@ -1,0 +1,24 @@
+{
+  "id": "OP10-040",
+  "name": "The Weak Do Not Have the Right to Choose How They Die",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 5,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Heart Pirates",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "C",
+  "set_id": "OP10",
+  "image_id": "OP10-040",
+  "effect_text": "[Main]/[Counter] K.O. up to 1 of your opponent's rested Characters with a cost of 7 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

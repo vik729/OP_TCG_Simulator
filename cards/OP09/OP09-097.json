@@ -1,0 +1,23 @@
+{
+  "id": "OP09-097",
+  "name": "Black Vortex",
+  "type": "Event",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "C",
+  "set_id": "OP09",
+  "image_id": "OP09-097",
+  "effect_text": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card 4000 power during this turn.\n[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

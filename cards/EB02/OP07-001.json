@@ -1,0 +1,23 @@
+{
+  "id": "OP07-001",
+  "name": "Monkey.D.Dragon (SPR)",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP07-001",
+  "effect_text": "[Activate: Main] [Once Per Turn] Give up to 2 total of your currently given DON!! cards to 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

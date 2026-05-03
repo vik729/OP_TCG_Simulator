@@ -1,0 +1,21 @@
+{
+  "id": "OP12-005",
+  "name": "Shiki",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 8,
+  "power": 10000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-005",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

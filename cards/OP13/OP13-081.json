@@ -1,0 +1,23 @@
+{
+  "id": "OP13-081",
+  "name": "Koala",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "C",
+  "set_id": "OP13",
+  "image_id": "OP13-081",
+  "effect_text": "If your Leader has the \"Revolutionary Army\" type, this Character gains +3 cost.\n[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

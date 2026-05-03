@@ -1,0 +1,24 @@
+{
+  "id": "OP01-104",
+  "name": "Speed",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+  ],
+  "rarity": "C",
+  "set_id": "OP01",
+  "image_id": "OP01-104",
+  "effect_text": "[Trigger] Play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

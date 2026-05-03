@@ -1,0 +1,23 @@
+{
+  "id": "OP05-051",
+  "name": "Borsalino (SP)",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP05-051_p2",
+  "effect_text": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

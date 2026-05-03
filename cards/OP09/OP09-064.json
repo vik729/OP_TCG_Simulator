@@ -1,0 +1,23 @@
+{
+  "id": "OP09-064",
+  "name": "Killer",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Kid Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-064",
+  "effect_text": "[On Play] DON!! 1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Set up to 1 of your \"Kid Pirates\" type Leader as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP04-023",
+  "name": "Kuro",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-023",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

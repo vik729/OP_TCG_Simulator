@@ -1,0 +1,21 @@
+{
+  "id": "OP08-098",
+  "name": "Kalgara (SPR)",
+  "type": "Leader",
+  "color": [
+    "Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "EB02",
+  "image_id": "OP08-098",
+  "effect_text": "[DON!! x1] [When Attacking] Play up to 1 \"Shandian Warrior\" type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

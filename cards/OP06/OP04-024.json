@@ -1,0 +1,23 @@
+{
+  "id": "OP04-024",
+  "name": "Sugar (SP)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 0,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP04-024_p2",
+  "effect_text": "[Opponent's Turn][Once Per Turn] When your opponent plays a Character, if your Leader has the [Donquixote Pirates] type, rest up to 1 of your opponent's Characters. Then, rest this Character.\n[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

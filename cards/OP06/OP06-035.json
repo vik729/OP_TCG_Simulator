@@ -1,0 +1,26 @@
+{
+  "id": "OP06-035",
+  "name": "Hody Jones (035)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 7,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Fish-Man",
+    "Fish-Man"
+  ],
+  "rarity": "SR",
+  "set_id": "OP06",
+  "image_id": "OP06-035",
+  "effect_text": "[Rush] (This card can attack on the turn in which it is played.)\n[On Play] Rest up to a total of 2 of your opponent's Characters or DON!! cards. Then, add 1 card from the top of your Life cards to your hand.",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

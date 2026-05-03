@@ -1,0 +1,23 @@
+{
+  "id": "OP06-081",
+  "name": "Absalom",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-081",
+  "effect_text": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

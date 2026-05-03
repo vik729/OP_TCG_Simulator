@@ -1,0 +1,21 @@
+{
+  "id": "OP06-112",
+  "name": "Raizo (Reprint)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST28",
+  "image_id": "OP06-112_r1",
+  "effect_text": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.[Trigger] If your opponent has 3 or less Life cards, play this card.DISCLAIMER: This card is a reprint of the pre-existing card in the OP06 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

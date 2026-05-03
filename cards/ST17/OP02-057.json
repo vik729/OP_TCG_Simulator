@@ -1,0 +1,24 @@
+{
+  "id": "OP02-057",
+  "name": "Bartholomew Kuma",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Revolutionary Army",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "UC",
+  "set_id": "ST17",
+  "image_id": "OP02-057_r1",
+  "effect_text": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 \"The Seven Warlords of the Sea\" type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

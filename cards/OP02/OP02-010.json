@@ -1,0 +1,21 @@
+{
+  "id": "OP02-010",
+  "name": "Dogura",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP02",
+  "image_id": "OP02-010",
+  "effect_text": "[Activate:Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

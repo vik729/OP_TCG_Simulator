@@ -1,0 +1,23 @@
+{
+  "id": "OP11-002",
+  "name": "Ain",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-002",
+  "effect_text": "[On Play] Give up to 1 of your opponent's Characters 1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

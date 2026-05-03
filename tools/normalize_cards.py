@@ -30,13 +30,17 @@ import sys
 # --- Config ----------------------------------------------------------------
 
 PROJECT_ROOT = pathlib.Path(__file__).parent.parent
-RAW_DIR = PROJECT_ROOT / "cards" / "raw" / "decks"
+RAW_DECKS_DIR = PROJECT_ROOT / "cards" / "raw" / "decks"
+RAW_SETS_DIR = PROJECT_ROOT / "cards" / "raw" / "sets"
+RAW_DIR = RAW_DECKS_DIR  # back-compat for code that hasn't been updated
 CARDS_DIR = PROJECT_ROOT / "cards"
 CORRECTIONS_FILE = PROJECT_ROOT / "cards" / "corrections.json"
 SUBTYPES_FILE = PROJECT_ROOT / "cards" / "subtypes.json"
 DOCS_DIR = PROJECT_ROOT / "docs"
 REPORT_FILE = DOCS_DIR / "normalization_report.md"
 
+# All sets we know how to normalize. Extend by running fetch_all_sets.py
+# and adding the resulting set IDs here.
 TARGET_DECKS = ["ST-01", "ST-02", "ST-03", "ST-04"]
 
 KNOWN_KEYWORDS = [
@@ -333,12 +337,19 @@ def main():
     if not registry:
         print("[WARN] cards/subtypes.json is empty or missing; subtype normalization will flag everything as unknown.")
 
-    for deck_id in TARGET_DECKS:
-        raw_path = RAW_DIR / "{}.json".format(deck_id)
-        if not raw_path.exists():
-            print("[SKIP] {} - raw file not found: {}".format(deck_id, raw_path))
-            print("       Run fetch_cards.py first.")
-            continue
+    # Discover every raw file present (both /decks/ and /sets/).
+    raw_files = []
+    if RAW_DECKS_DIR.exists():
+        raw_files.extend(sorted(RAW_DECKS_DIR.glob("*.json")))
+    if RAW_SETS_DIR.exists():
+        raw_files.extend(sorted(RAW_SETS_DIR.glob("*.json")))
+
+    if not raw_files:
+        print("[ERROR] No raw files found. Run tools/fetch_all_sets.py first.")
+        return
+
+    for raw_path in raw_files:
+        deck_id = raw_path.stem  # e.g. "ST-01" or "OP-03"
 
         raw_cards = json.loads(raw_path.read_text(encoding="utf-8"))
         set_id_normalized = normalize_set_id(deck_id)

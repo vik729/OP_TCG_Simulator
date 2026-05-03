@@ -1,0 +1,26 @@
+{
+  "id": "OP01-068",
+  "name": "Gecko Moria",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Seven Warlords of the Sea",
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "OP01",
+  "image_id": "OP01-068",
+  "effect_text": "[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand. (This card deals 2 damage.)",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

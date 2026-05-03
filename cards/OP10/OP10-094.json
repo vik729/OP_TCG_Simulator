@@ -1,0 +1,25 @@
+{
+  "id": "OP10-094",
+  "name": "Ryuma",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP10",
+  "image_id": "OP10-094",
+  "effect_text": "[DON!! x1] This Character gains [Double Attack].",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

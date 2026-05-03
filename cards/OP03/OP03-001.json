@@ -1,0 +1,21 @@
+{
+  "id": "OP03-001",
+  "name": "Portgas.D.Ace",
+  "type": "Leader",
+  "color": [
+    "Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 5,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "OP03",
+  "image_id": "OP03-001",
+  "effect_text": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "EB01-001",
+  "name": "Kouzuki Oden",
+  "type": "Leader",
+  "color": [
+    "Green Red"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "L",
+  "set_id": "EB01",
+  "image_id": "EB01-001",
+  "effect_text": "All of your [Land of Wano] type Character cards without a Counter have a +1000 Counter, according to the rules.[DON!! x1] [When Attacking] If you have a [Land of Wano] type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

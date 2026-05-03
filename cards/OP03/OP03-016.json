@@ -1,0 +1,23 @@
+{
+  "id": "OP03-016",
+  "name": "Flame Emperor",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 7,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP03",
+  "image_id": "OP03-016",
+  "effect_text": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn. (This card deals 2 damage.) [Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+  "keywords": [
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

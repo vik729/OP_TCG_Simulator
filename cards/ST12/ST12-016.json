@@ -1,0 +1,23 @@
+{
+  "id": "ST12-016",
+  "name": "Lion Strike",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST12",
+  "image_id": "ST12-016",
+  "effect_text": "[Main] / [Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less. [Trigger] Activate this card's [Main] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

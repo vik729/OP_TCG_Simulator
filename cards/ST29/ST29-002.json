@@ -1,0 +1,23 @@
+{
+  "id": "ST29-002",
+  "name": "Usopp (Full Art)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 3,
+  "power": 4000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST29",
+  "image_id": "ST29-002_p1",
+  "effect_text": "[On Play] / [When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

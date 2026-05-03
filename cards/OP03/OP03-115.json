@@ -1,0 +1,21 @@
+{
+  "id": "OP03-115",
+  "name": "Streusen",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP03",
+  "image_id": "OP03-115",
+  "effect_text": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

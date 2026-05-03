@@ -1,0 +1,23 @@
+{
+  "id": "OP12-057",
+  "name": "Ice Block Pheasant Peck",
+  "type": "Event",
+  "color": [
+    "Blue"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "OP12",
+  "image_id": "OP12-057",
+  "effect_text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, trash 1 card from your hand.\n[Trigger] You may trash 1 card from your hand: Draw 1 card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

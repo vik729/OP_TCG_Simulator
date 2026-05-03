@@ -1,0 +1,23 @@
+{
+  "id": "OP08-049",
+  "name": "Speed Jil",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-049",
+  "effect_text": "[On Play] Reveal 1 card from the top of your deck and place it at the top or bottom of your deck. If the revealed card's type includes \"Whitebeard Piratess\", this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

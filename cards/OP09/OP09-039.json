@@ -1,0 +1,24 @@
+{
+  "id": "OP09-039",
+  "name": "Gum-Gum Cuatro Jet Cross Shock Bazooka",
+  "type": "Event",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "R",
+  "set_id": "OP09",
+  "image_id": "OP09-039",
+  "effect_text": "[Counter] If your Leader has the \"ODYSSEY\" type and you have 2 or more rested Characters, up to 1 of your Leader or Character cards gains +2000 power during this turn.\n[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

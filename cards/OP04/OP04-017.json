@@ -1,0 +1,24 @@
+{
+  "id": "OP04-017",
+  "name": "Happiness Punch",
+  "type": "Event",
+  "color": [
+    "Red"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Alabasta",
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "OP04",
+  "image_id": "OP04-017",
+  "effect_text": "[Counter] Give up to 1 of your opponent's Leader or Character cards -2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

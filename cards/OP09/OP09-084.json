@@ -1,0 +1,27 @@
+{
+  "id": "OP09-084",
+  "name": "Catarina Devon",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-084",
+  "effect_text": "[Activate: Main] [Once Per Turn] If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.",
+  "keywords": [
+    "Blocker",
+    "Banish",
+    "Double Attack"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP03-078",
+  "name": "Issho",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 8,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "SR",
+  "set_id": "OP03",
+  "image_id": "OP03-078",
+  "effect_text": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -3 cost. [On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

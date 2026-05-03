@@ -1,0 +1,21 @@
+{
+  "id": "OP08-101",
+  "name": "Charlotte Angel",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP08",
+  "image_id": "OP08-101",
+  "effect_text": "[Activate:Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the [Big Mom Pirates] type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

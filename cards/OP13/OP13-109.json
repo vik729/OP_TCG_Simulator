@@ -1,0 +1,24 @@
+{
+  "id": "OP13-109",
+  "name": "Jewelry Bonney (109)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Bonney Pirates",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "OP13",
+  "image_id": "OP13-109",
+  "effect_text": "If this Character would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.\n[Trigger] Draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

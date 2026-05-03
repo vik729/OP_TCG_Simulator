@@ -1,0 +1,25 @@
+{
+  "id": "OP12-030",
+  "name": "Dracule Mihawk",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 8,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "SR",
+  "set_id": "OP12",
+  "image_id": "OP12-030",
+  "effect_text": "[Blocker]\n[On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

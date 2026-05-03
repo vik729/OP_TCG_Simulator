@@ -1,0 +1,21 @@
+{
+  "id": "ST07-017",
+  "name": "Queen Mama Chanter",
+  "type": "Stage",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 2,
+  "power": null,
+  "counter": 0,
+  "life": null,
+  "attribute": "NULL",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST07",
+  "image_id": "ST07-017",
+  "effect_text": "[Activate:Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

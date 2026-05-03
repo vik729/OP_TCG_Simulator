@@ -1,0 +1,24 @@
+{
+  "id": "OP07-034",
+  "name": "Roronoa Zoro (Reprint)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 1,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [
+    "Straw Hat Crew",
+    "Supernovas"
+  ],
+  "rarity": "UC",
+  "set_id": "ST24",
+  "image_id": "OP07-034_r1",
+  "effect_text": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

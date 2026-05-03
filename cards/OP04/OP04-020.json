@@ -1,0 +1,23 @@
+{
+  "id": "OP04-020",
+  "name": "Issho",
+  "type": "Leader",
+  "color": [
+    "Green Black"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "L",
+  "set_id": "OP04",
+  "image_id": "OP04-020",
+  "effect_text": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost. [End of Your Turn] (1) (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

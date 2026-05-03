@@ -1,0 +1,21 @@
+{
+  "id": "OP06-092",
+  "name": "Brook",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "R",
+  "set_id": "OP06",
+  "image_id": "OP06-092",
+  "effect_text": "[On Play] Choose one:\n• Trash up to 1 of your opponent's Characters with a cost of 4 or less.\n• Your opponent places 3 cards from their trash at bottom of their deck in any order.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

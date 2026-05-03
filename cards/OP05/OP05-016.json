@@ -1,0 +1,25 @@
+{
+  "id": "OP05-016",
+  "name": "Morley",
+  "type": "Character",
+  "color": [
+    "Red"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Revolutionary Army"
+  ],
+  "rarity": "R",
+  "set_id": "OP05",
+  "image_id": "OP05-016",
+  "effect_text": "[When Attacking] If this Character has 7000 power or more, your opponent cannot activate [Blocker] during this battle. [Trigger] You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

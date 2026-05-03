@@ -1,0 +1,24 @@
+{
+  "id": "OP06-086",
+  "name": "Gecko Moria (Alternate Art)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 8,
+  "power": 9000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "The Seven Warlords of the Sea",
+    "Thriller Bark Pirates"
+  ],
+  "rarity": "SR",
+  "set_id": "PRB01",
+  "image_id": "OP06-086_p3",
+  "effect_text": "[On Play] Choose up to 1 Character card with a cost of 4 or less and up to 1 Character card with a cost of 2 or less from your trash. Play 1 card and play the other card rested.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

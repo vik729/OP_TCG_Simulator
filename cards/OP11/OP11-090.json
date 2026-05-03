@@ -1,0 +1,26 @@
+{
+  "id": "OP11-090",
+  "name": "Briscola",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 2,
+  "power": 2000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-090",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

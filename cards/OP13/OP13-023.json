@@ -1,0 +1,21 @@
+{
+  "id": "OP13-023",
+  "name": "Uta",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP13",
+  "image_id": "OP13-023",
+  "effect_text": "[On Play] Set up to 2 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.\n[On K.O.] Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

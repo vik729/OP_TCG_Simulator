@@ -1,0 +1,23 @@
+{
+  "id": "ST07-004",
+  "name": "Charlotte Snack",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST07",
+  "image_id": "ST07-004",
+  "effect_text": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+  "keywords": [
+    "Banish"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "OP03-069",
+  "name": "Minorhinoceros",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP03",
+  "image_id": "OP03-069",
+  "effect_text": "[On K.O.] If your Leader has the [Impel Down] type, draw 2 cards and trash 1 card from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

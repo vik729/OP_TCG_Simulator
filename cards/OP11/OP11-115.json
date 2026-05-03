@@ -1,0 +1,23 @@
+{
+  "id": "OP11-115",
+  "name": "You're Just Not My Type!",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "UC",
+  "set_id": "OP11",
+  "image_id": "OP11-115",
+  "effect_text": "[Counter] If your Leader is [Shirahoshi], up to 1 of your Leader or Character cards gains +4000 power during this battle.\n[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

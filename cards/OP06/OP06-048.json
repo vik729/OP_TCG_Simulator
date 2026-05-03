@@ -1,0 +1,23 @@
+{
+  "id": "OP06-048",
+  "name": "Zeff",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 3,
+  "power": 3000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP06",
+  "image_id": "OP06-048",
+  "effect_text": "[Your Turn] When your opponent activates [Blocker] or an Event, if your Leader has the [East Blue] type, you may trash 4 cards from the top of your deck.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

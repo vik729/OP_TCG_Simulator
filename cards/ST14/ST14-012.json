@@ -1,0 +1,25 @@
+{
+  "id": "ST14-012",
+  "name": "Monkey.D.Luffy (012)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 8,
+  "power": 10000,
+  "counter": null,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "C",
+  "set_id": "ST14",
+  "image_id": "ST14-012",
+  "effect_text": "If you have a Character with a cost of 10 or more, this Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+  "keywords": [
+    "Rush"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

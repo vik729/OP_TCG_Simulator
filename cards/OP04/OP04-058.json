@@ -1,0 +1,24 @@
+{
+  "id": "OP04-058",
+  "name": "Crocodile (058)",
+  "type": "Leader",
+  "color": [
+    "Purple Yellow"
+  ],
+  "cost": null,
+  "power": 5000,
+  "counter": null,
+  "life": 4,
+  "attribute": "Special",
+  "subtypes": [
+    "Baroque Works",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "L",
+  "set_id": "OP04",
+  "image_id": "OP04-058",
+  "effect_text": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, add up to 1 DON!! card from your DON!! deck and set it as active.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

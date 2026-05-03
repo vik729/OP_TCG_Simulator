@@ -1,0 +1,21 @@
+{
+  "id": "ST07-016",
+  "name": "Power Mochi",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "ST07",
+  "image_id": "ST07-016",
+  "effect_text": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle. [Trigger] Draw 1 card, look at up to 1 card from the top of your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

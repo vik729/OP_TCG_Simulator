@@ -1,0 +1,21 @@
+{
+  "id": "OP05-109",
+  "name": "Pagaya",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 1,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "OP05",
+  "image_id": "OP05-109",
+  "effect_text": "[Once Per Turn] When a [Trigger] activates, draw 2 cards and trash 2 cards from your hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

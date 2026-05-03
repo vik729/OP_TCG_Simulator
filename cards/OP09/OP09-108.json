@@ -1,0 +1,24 @@
+{
+  "id": "OP09-108",
+  "name": "Bartholomew Kuma",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 2000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Revolutionary Army",
+    "The Seven Warlords of the Sea"
+  ],
+  "rarity": "UC",
+  "set_id": "OP09",
+  "image_id": "OP09-108",
+  "effect_text": "[Trigger] If your Leader has the \"Revolutionary Army\" type and you and your opponent have a total of 5 or less Life cards, play this card.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

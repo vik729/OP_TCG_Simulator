@@ -1,0 +1,21 @@
+{
+  "id": "OP13-064",
+  "name": "Gol.D.Roger (064)",
+  "type": "Character",
+  "color": [
+    "Purple"
+  ],
+  "cost": 10,
+  "power": 13000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Slash",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP13",
+  "image_id": "OP13-064",
+  "effect_text": "Your Leader and all of your Characters that do not have a type including \"Roger Pirates\" have their effects negated.\n[On Play] DON!! 3: Your Leader gains +2000 power until the end of your opponent's next End Phase. Then, give all of your opponent's Characters -2000 power until the end of your opponent's next End Phase.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

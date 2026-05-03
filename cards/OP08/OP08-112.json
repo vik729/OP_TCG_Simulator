@@ -1,0 +1,21 @@
+{
+  "id": "OP08-112",
+  "name": "S-Snake",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 6000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [],
+  "rarity": "SR",
+  "set_id": "OP08",
+  "image_id": "OP08-112_p1",
+  "effect_text": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. [Trigger] Activate this card's [On Play] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "OP08-106",
+  "name": "Nami (SP)",
+  "type": "Character",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 5,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Straw Hat Crew"
+  ],
+  "rarity": "SR",
+  "set_id": "OP09",
+  "image_id": "OP08-106_p2",
+  "effect_text": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.\n[Trigger] Activate this card's [On Play] effect.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "EB02-024",
+  "name": "Sogeking",
+  "type": "Character",
+  "color": [
+    "Blue"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Ranged",
+  "subtypes": [],
+  "rarity": "C",
+  "set_id": "EB02",
+  "image_id": "EB02-024",
+  "effect_text": "Also treat this card's name as [Usopp] according to the rules.\n[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order. Then, return up to 1 Character with a cost of 1 or less to the owner's hand.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

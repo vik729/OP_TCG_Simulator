@@ -1,0 +1,23 @@
+{
+  "id": "ST19-001",
+  "name": "Smoker (ST19-001)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 6,
+  "power": 8000,
+  "counter": 0,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Navy"
+  ],
+  "rarity": "C",
+  "set_id": "ST19",
+  "image_id": "ST19-001",
+  "effect_text": "[On Play] You may trash 1 black \"Navy\" type card from your hand: Up to 2 of your opponent's Characters with a cost of 4 or less cannot attack until the end of your opponent's next turn.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

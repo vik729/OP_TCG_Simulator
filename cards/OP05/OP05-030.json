@@ -1,0 +1,26 @@
+{
+  "id": "OP05-030",
+  "name": "Donquixote Rosinante (030)",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 2,
+  "power": 1000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Special",
+  "subtypes": [
+    "Donquixote Pirates",
+    "Navy"
+  ],
+  "rarity": "R",
+  "set_id": "OP05",
+  "image_id": "OP05-030",
+  "effect_text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] If your rested Character would be K.O.'d, you may trash this Character instead.",
+  "keywords": [
+    "Blocker"
+  ],
+  "triggers": [],
+  "dsl_status": "pending"
+}

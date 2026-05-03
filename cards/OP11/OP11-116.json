@@ -1,0 +1,23 @@
+{
+  "id": "OP11-116",
+  "name": "Merman Combat Ultramarine",
+  "type": "Event",
+  "color": [
+    "Yellow"
+  ],
+  "cost": 6,
+  "power": null,
+  "counter": null,
+  "life": null,
+  "attribute": null,
+  "subtypes": [
+    "Fish-Man"
+  ],
+  "rarity": "C",
+  "set_id": "OP11",
+  "image_id": "OP11-116",
+  "effect_text": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.\n[Trigger] Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

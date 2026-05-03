@@ -1,0 +1,23 @@
+{
+  "id": "OP09-086",
+  "name": "Jesus Burgess (Alternate Art)",
+  "type": "Character",
+  "color": [
+    "Black"
+  ],
+  "cost": 4,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Strike",
+  "subtypes": [
+    "Blackbeard Pirates"
+  ],
+  "rarity": "R",
+  "set_id": "PRB02",
+  "image_id": "OP09-086_p1",
+  "effect_text": "This Character cannot be K.O.'d by your opponent's effects.If your Leader has the \"Blackbeard Pirates\" type, this Character gains +1000 power for every 4 cards in your trash.",
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}

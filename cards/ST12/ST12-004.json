@@ -1,0 +1,23 @@
+{
+  "id": "ST12-004",
+  "name": "Humandrill",
+  "type": "Character",
+  "color": [
+    "Green"
+  ],
+  "cost": 3,
+  "power": 5000,
+  "counter": 1000,
+  "life": null,
+  "attribute": "Wisdom",
+  "subtypes": [
+    "Animal"
+  ],
+  "rarity": "C",
+  "set_id": "ST12",
+  "image_id": "ST12-004",
+  "effect_text": null,
+  "keywords": [],
+  "triggers": [],
+  "dsl_status": "pending"
+}
