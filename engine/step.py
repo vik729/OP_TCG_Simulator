@@ -293,8 +293,57 @@ def _handle_play_card(state, action: PlayCard, db):
 
 
 def _handle_activate_ability(state, action: ActivateAbility, db):
-    raise NotImplementedError(
-        "ActivateAbility requires DSL - not in vanilla MVP."
+    """v2: ActivateMain trigger handler.
+    1. Resolve trigger by index from card's ActivateMain triggers.
+    2. Enforce OPT.
+    3. Pay all costs atomically (any failure -> abort).
+    4. Mark OPT used.
+    5. Push effect onto effect_stack."""
+    card = state.get_card(action.card_instance_id)
+    if card is None:
+        raise IllegalActionError(f"ActivateAbility: card {action.card_instance_id} not found")
+    cdef = db.get(card.definition_id)
+    activate_triggers = [t for t in (cdef.triggers or ()) if t.get("on") == "ActivateMain"]
+    if action.trigger_index >= len(activate_triggers):
+        raise IllegalActionError(
+            f"ActivateAbility: card has no ActivateMain trigger at index {action.trigger_index}")
+    trigger = activate_triggers[action.trigger_index]
+
+    active = state.active_player()
+    if trigger.get("once_per_turn") and card.instance_id in active.once_per_turn_used:
+        raise IllegalActionError(
+            f"ActivateAbility: {card.instance_id} once per turn already used")
+
+    # Pay costs atomically
+    from engine.dsl.cost_helpers import apply_cost, ActivationCostFailed
+    new_state = state
+    for cost_node in trigger.get("cost", []):
+        try:
+            new_state = apply_cost(cost_node, new_state,
+                                    source_controller=card.controller,
+                                    source_id=card.instance_id)
+        except ActivationCostFailed as e:
+            raise IllegalActionError(f"ActivateAbility: cost failed - {e}")
+
+    # Mark OPT used
+    if trigger.get("once_per_turn"):
+        new_active = dataclasses.replace(
+            new_state.active_player(),
+            once_per_turn_used=new_state.active_player().once_per_turn_used | {card.instance_id},
+        )
+        new_state = _replace_active_player(new_state, new_active)
+
+    # Push effect onto stack
+    from engine.game_state import StackEntry
+    entry = StackEntry(
+        effect=trigger["effect"],
+        source_instance_id=card.instance_id,
+        controller=card.controller,
+        inputs_collected=(),
+        initial_state_ref=new_state,
+    )
+    return dataclasses.replace(
+        new_state, effect_stack=new_state.effect_stack + (entry,)
     )
 
 

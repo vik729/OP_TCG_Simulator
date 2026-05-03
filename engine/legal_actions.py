@@ -95,15 +95,31 @@ def _legal_main_actions(state: GameState, db: Optional[CardDB]) -> tuple[Action,
 
     # DeclareAttack: only if turn > 1 (rule 6-5-6-1)
     if state.turn_number > 1:
+        from engine.dsl.lookups import can_attack
         attackers = [active.leader] + list(active.field)
         for atk in attackers:
             if atk.rested:
+                continue
+            if not can_attack(state, atk.instance_id):
                 continue
             for tgt in _attack_targets(state, atk):
                 actions.append(DeclareAttack(
                     attacker_instance_id=atk.instance_id,
                     target_instance_id=tgt.instance_id,
                 ))
+
+    # ActivateAbility for ActivateMain triggers on field cards (T5/v2)
+    candidates = [active.leader] + list(active.field)
+    for card in candidates:
+        cdef = db.get(card.definition_id)
+        for i, trigger in enumerate(cdef.triggers or ()):
+            if trigger.get("on") != "ActivateMain":
+                continue
+            if trigger.get("once_per_turn") and card.instance_id in active.once_per_turn_used:
+                continue
+            actions.append(ActivateAbility(
+                card_instance_id=card.instance_id, trigger_index=i,
+            ))
 
     return tuple(actions)
 
