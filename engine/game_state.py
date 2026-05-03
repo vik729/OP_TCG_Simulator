@@ -10,6 +10,7 @@ Design rules:
 - GameState can be serialised to JSON and back without losing information.
 """
 from __future__ import annotations
+import dataclasses
 from dataclasses import dataclass
 from enum import Enum
 from typing import Optional
@@ -143,18 +144,20 @@ class StackEntry:
     """
     One entry on the effect resolution stack (LIFO order).
 
-    `effect` is a DSL node — a plain dict matching the schema defined in
-    the DSL layer (e.g. {"type": "KO"} or {"type": "Sequence", "effects": [...]}).
-    GameState itself has no knowledge of what these dicts mean —
-    that interpretation lives in engine/resolver.py.
-
-    `targets` starts as None and is bound once the player (or engine)
-    resolves target selection.
+    `effect` is a DSL node tree — opaque to GameState; interpreted by
+    engine.dsl.resolver. `inputs_collected` is the ordered log of
+    RespondInput.choices answers given so far. `initial_state_ref` is a
+    pointer to the state at the moment this entry was pushed (free in
+    immutable model). The resolver re-walks the tree from initial_state_ref
+    each time, using inputs_collected at choice points.
     """
-    effect:             dict                         # DSL node — opaque to GameState
-    source_instance_id: str                          # which card produced this effect
-    controller:         PlayerID                     # who controls the effect
-    targets:            Optional[tuple[str, ...]] = None  # bound instance_ids
+    effect:             dict
+    source_instance_id: str
+    controller:         PlayerID
+    inputs_collected:   tuple[tuple[str, ...], ...] = ()
+    initial_state_ref:  Optional["GameState"] = dataclasses.field(
+        default=None, compare=False, hash=False, repr=False
+    )
 
 
 # ── Player input request ───────────────────────────────────────────────────────

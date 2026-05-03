@@ -47,7 +47,7 @@ def step(state: GameState, action: Action, db: CardDB) -> GameState:
     handler = _dispatch(action)
     new_state = handler(state, action, db)
     new_state = check_win_conditions(new_state)
-    new_state = resolve_top(new_state)
+    new_state = resolve_top(new_state, db)
     return new_state
 
 
