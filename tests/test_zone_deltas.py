@@ -48,13 +48,27 @@ def _allowed_hand_delta(action, prev: GameState, pid: PlayerID) -> set[int]:
         return {-1} if pid == actor else {0}
     if isinstance(action, PlayCounter):
         return {-1} if pid != actor else {0}
+    # v2: RespondInput can move cards across zones via DSL effects
+    # (SearchDeck add to hand, SearchTrash recover, etc.). Wide envelope.
+    from engine.actions import RespondInput, ActivateAbility, ActivateTrigger, PassTrigger
+    if isinstance(action, RespondInput):
+        return {-2, -1, 0, 1, 2}
+    if isinstance(action, ActivateAbility):
+        return {-1, 0, 1}      # cost may trash, effect may add
+    if isinstance(action, (ActivateTrigger, PassTrigger)):
+        # Trigger pass moves life->hand for defender; activate may move to field/trash
+        return {-1, 0, 1}
     return {0}
 
 
 def _allowed_life_delta(action, prev: GameState, pid: PlayerID) -> set[int]:
-    """Life-size deltas. Vanilla: only leader hits remove life cards."""
+    """Life-size deltas. Vanilla: only leader hits remove life cards.
+    v2: ActivateTrigger/PassTrigger consume life cards too."""
     if isinstance(action, AdvancePhase) and prev.phase == Phase.BATTLE_DAMAGE:
         return {0, -1, -2}
+    from engine.actions import ActivateTrigger, PassTrigger
+    if isinstance(action, (ActivateTrigger, PassTrigger)):
+        return {0, -1}
     return {0}
 
 

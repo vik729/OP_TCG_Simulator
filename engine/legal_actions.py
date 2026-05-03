@@ -108,7 +108,8 @@ def _legal_main_actions(state: GameState, db: Optional[CardDB]) -> tuple[Action,
                     target_instance_id=tgt.instance_id,
                 ))
 
-    # ActivateAbility for ActivateMain triggers on field cards (T5/v2)
+    # ActivateAbility for ActivateMain triggers on field cards (T5/v2).
+    # Pre-check cost feasibility to avoid the bot enumerating illegal options.
     candidates = [active.leader] + list(active.field)
     for card in candidates:
         cdef = db.get(card.definition_id)
@@ -117,11 +118,31 @@ def _legal_main_actions(state: GameState, db: Optional[CardDB]) -> tuple[Action,
                 continue
             if trigger.get("once_per_turn") and card.instance_id in active.once_per_turn_used:
                 continue
+            if not _can_pay_cost(state, card, trigger.get("cost", [])):
+                continue
             actions.append(ActivateAbility(
                 card_instance_id=card.instance_id, trigger_index=i,
             ))
 
     return tuple(actions)
+
+
+def _can_pay_cost(state: GameState, card: CardInstance, cost_array: list) -> bool:
+    """Pre-flight check: would the cost array be payable from the current state?"""
+    active = state.active_player()
+    don_needed = 0
+    rest_self_needed = False
+    for c in cost_array:
+        t = c.get("type")
+        if t == "RestDon":
+            don_needed += c.get("amount", 1)
+        elif t == "RestSelf":
+            rest_self_needed = True
+    if don_needed > active.don_field.active:
+        return False
+    if rest_self_needed and card.rested:
+        return False
+    return True
 
 
 def _attack_targets(state: GameState, attacker: CardInstance) -> list[CardInstance]:
