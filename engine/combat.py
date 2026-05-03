@@ -28,7 +28,7 @@ from engine.keywords import effective_keywords
 
 
 def begin_attack(state: GameState, action: DeclareAttack, db: CardDB) -> GameState:
-    """MAIN -> BATTLE_DECLARED. Rests the attacker, sets battle_context."""
+    """MAIN -> BATTLE_DECLARED. Rests the attacker, sets battle_context, fires WhenAttacking triggers."""
     attacker_id = action.attacker_instance_id
     target_id = action.target_instance_id
 
@@ -38,7 +38,26 @@ def begin_attack(state: GameState, action: DeclareAttack, db: CardDB) -> GameSta
     new_state = _replace_card(state, attacker_id, dataclasses.replace(attacker, rested=True))
 
     ctx = BattleContext(attacker_id=attacker_id, target_id=target_id)
-    return dataclasses.replace(new_state, phase=Phase.BATTLE_DECLARED, battle_context=ctx)
+    new_state = dataclasses.replace(new_state, phase=Phase.BATTLE_DECLARED, battle_context=ctx)
+
+    # Fire any WhenAttacking triggers on the attacker.
+    atk_def = db.get(attacker.definition_id)
+    when_atk_triggers = [t for t in (atk_def.triggers or []) if t.get("on") == "WhenAttacking"]
+    if when_atk_triggers:
+        from engine.game_state import StackEntry
+        for trigger in when_atk_triggers:
+            entry = StackEntry(
+                effect=trigger["effect"],
+                source_instance_id=attacker_id,
+                controller=attacker.controller,
+                inputs_collected=(),
+                initial_state_ref=new_state,
+            )
+            new_state = dataclasses.replace(
+                new_state, effect_stack=new_state.effect_stack + (entry,)
+            )
+
+    return new_state
 
 
 def handle_blocker(state: GameState, action: DeclareBlocker, db: CardDB) -> GameState:
