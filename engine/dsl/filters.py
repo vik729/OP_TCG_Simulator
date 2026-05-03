@@ -26,7 +26,8 @@ def matches(card: CardInstance, filter_dict: dict, state: GameState,
 
     expected_zone = filter_dict.get("zone", "field")
     zone_map = {"field": Zone.FIELD, "hand": Zone.HAND,
-                "leader": Zone.FIELD, "character": Zone.FIELD}
+                "leader": Zone.FIELD, "character": Zone.FIELD,
+                "deck": Zone.DECK, "trash": Zone.TRASH, "life": Zone.LIFE}
     target_zone = zone_map.get(expected_zone, Zone.FIELD)
     if expected_zone == "leader" and cdef.type != "Leader":
         return False

@@ -302,6 +302,121 @@ def _apply_grant_keyword(node, state, *, source_controller, db, source_id, input
     return new_state, None, choice_index + 1
 
 
+def _apply_search_deck(node, state, *, source_controller, db, source_id, inputs, choice_index):
+    """v2 SearchDeck: reveal top N, optionally filter, take up to M to hand,
+    remainder goes to bottom_of_deck or trash."""
+    count = node.get("count", 1)
+    filter_dict = node.get("filter")
+    remainder = node.get("remainder", "bottom_of_deck")
+    add_to_hand_max = node.get("add_to_hand_max", 1)
+    player = state.get_player(source_controller)
+
+    revealed = list(player.deck[:count])
+
+    if filter_dict:
+        from engine.dsl.filters import matches
+        eligible = [c for c in revealed
+                    if matches(c, dict(filter_dict, zone="deck"), state,
+                               source_controller=source_controller, db=db,
+                               source_id=source_id)]
+    else:
+        eligible = list(revealed)
+
+    if add_to_hand_max == 0 or not eligible:
+        chosen_ids: tuple[str, ...] = ()
+    elif choice_index >= len(inputs):
+        request = InputRequest(
+            request_type="ChooseCards",
+            prompt=f"Add up to {add_to_hand_max} from top {len(revealed)}",
+            valid_choices=tuple(c.instance_id for c in eligible),
+            min_choices=0,
+            max_choices=add_to_hand_max,
+            resume_context={"choice_index": choice_index},
+        )
+        return dataclasses.replace(state, pending_input=request), request, choice_index
+    else:
+        chosen_ids = inputs[choice_index]
+
+    chosen_set = set(chosen_ids)
+    chosen_cards = [dataclasses.replace(c, zone=Zone.HAND) for c in revealed
+                    if c.instance_id in chosen_set]
+    leftover = [c for c in revealed if c.instance_id not in chosen_set]
+    new_deck = player.deck[len(revealed):]
+
+    if remainder == "bottom_of_deck":
+        new_deck = new_deck + tuple(leftover)
+        new_player = dataclasses.replace(
+            player, deck=new_deck, hand=player.hand + tuple(chosen_cards),
+        )
+    elif remainder == "trash":
+        leftover_trashed = tuple(dataclasses.replace(c, zone=Zone.TRASH) for c in leftover)
+        new_player = dataclasses.replace(
+            player, deck=new_deck,
+            hand=player.hand + tuple(chosen_cards),
+            trash=player.trash + leftover_trashed,
+        )
+    else:
+        raise ValueError(f"Unknown remainder mode {remainder!r}")
+
+    new_state = _replace_player(state, source_controller, new_player)
+    new_choice_index = (choice_index + 1) if (add_to_hand_max > 0 and eligible) else choice_index
+    return new_state, None, new_choice_index
+
+
+def _apply_search_trash(node, state, *, source_controller, db, source_id, inputs, choice_index):
+    """v2 SearchTrash: pick from controller's trash, move chosen to hand."""
+    filter_dict = node.get("filter")
+    add_to_hand_max = node.get("add_to_hand_max", 1)
+    player = state.get_player(source_controller)
+
+    if filter_dict:
+        from engine.dsl.filters import matches
+        eligible = [c for c in player.trash
+                    if matches(c, dict(filter_dict, zone="trash"), state,
+                               source_controller=source_controller, db=db,
+                               source_id=source_id)]
+    else:
+        eligible = list(player.trash)
+
+    if not eligible:
+        return state, None, choice_index + 1
+    if choice_index >= len(inputs):
+        request = InputRequest(
+            request_type="ChooseCards",
+            prompt=f"Recover up to {add_to_hand_max} from trash",
+            valid_choices=tuple(c.instance_id for c in eligible),
+            min_choices=0,
+            max_choices=add_to_hand_max,
+            resume_context={"choice_index": choice_index},
+        )
+        return dataclasses.replace(state, pending_input=request), request, choice_index
+    chosen_ids = set(inputs[choice_index])
+    chosen = [dataclasses.replace(c, zone=Zone.HAND) for c in player.trash
+              if c.instance_id in chosen_ids]
+    new_trash = tuple(c for c in player.trash if c.instance_id not in chosen_ids)
+    new_player = dataclasses.replace(player, trash=new_trash,
+                                     hand=player.hand + tuple(chosen))
+    new_state = _replace_player(state, source_controller, new_player)
+    return new_state, None, choice_index + 1
+
+
+def _apply_rest(node, state, *, source_controller, db, source_id, inputs, choice_index):
+    """v2 Rest: force-rest target cards."""
+    if choice_index >= len(inputs):
+        return _request_target_choice(node, state, source_controller=source_controller,
+                                      db=db, source_id=source_id, choice_index=choice_index,
+                                      prompt_prefix="Rest target")
+    chosen_ids = inputs[choice_index]
+    new_state = state
+    for cid in chosen_ids:
+        target = new_state.get_card(cid)
+        if target is None or target.rested:
+            continue
+        new_target = dataclasses.replace(target, rested=True)
+        new_state = _replace_card(new_state, cid, new_target)
+    return new_state, None, choice_index + 1
+
+
 _OPERATORS = {
     "Draw":         _apply_draw,
     "KO":           _apply_ko,
@@ -311,4 +426,7 @@ _OPERATORS = {
     "TrashHand":    _apply_trash_hand,
     "GivePower":    _apply_give_power,
     "GrantKeyword": _apply_grant_keyword,
+    "SearchDeck":   _apply_search_deck,
+    "SearchTrash":  _apply_search_trash,
+    "Rest":         _apply_rest,
 }
