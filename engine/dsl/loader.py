@@ -15,7 +15,8 @@ import yaml
 ALLOWED_DSL_STATUS = {"vanilla", "parsed", "manual_review"}
 ALLOWED_TRIGGERS = {"OnPlay", "WhenAttacking", "WhenBlocking", "OnKO",
                     "Counter", "ActivateMain", "EndOfYourTurn",
-                    "AtStartOfYourTurn"}
+                    "AtStartOfYourTurn", "Trigger"}
+ALLOWED_COST_TYPES = {"RestSelf", "RestDon"}
 ALLOWED_UNTIL = {"end_of_battle", "end_of_this_turn",
                  "end_of_opponent_turn", "end_of_your_next_turn"}
 
@@ -47,7 +48,21 @@ def load_card_yaml(path) -> dict:
         if not isinstance(effect, dict):
             raise LoaderError(f"{p}: trigger[{i}].effect must be a dict")
         _validate_effect_tree(effect, location=f"{p}: trigger[{i}].effect")
-        normalized_triggers.append({"on": on, "effect": effect})
+        # v2: optional cost array (used by ActivateMain triggers)
+        cost = t.get("cost", [])
+        if not isinstance(cost, list):
+            raise LoaderError(f"{p}: trigger[{i}].cost must be a list")
+        for j, c in enumerate(cost):
+            if not isinstance(c, dict) or "type" not in c:
+                raise LoaderError(f"{p}: trigger[{i}].cost[{j}] must be a dict with 'type'")
+            if c["type"] not in ALLOWED_COST_TYPES:
+                raise LoaderError(
+                    f"{p}: trigger[{i}].cost[{j}].type {c['type']!r} not in {ALLOWED_COST_TYPES}")
+        normalized_triggers.append({
+            "on": on, "effect": effect,
+            "cost": cost,
+            "once_per_turn": bool(t.get("once_per_turn", False)),
+        })
     return {
         "card_id":     raw["card_id"],
         "dsl_status":  status,
