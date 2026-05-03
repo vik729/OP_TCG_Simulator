@@ -150,3 +150,16 @@ def validate_deck(deck: DeckList, db: CardDB, ruleset: Ruleset) -> None:
         raise DeckValidationError(
             f"Card {most_common_id} appears {most_common_count} times, max is 4"
         )
+
+    # Rule 7 (DSL gate): every card must be in a known dsl_status state.
+    # v1: accept {vanilla, parsed, pending}. Reject manual_review (broken
+    # YAML) and any unknown status. `pending` cards play as vanilla (their
+    # effects don't fire); a future batch will author them.
+    ALLOWED_STATUS = {"vanilla", "parsed", "pending"}
+    for cid in [deck.leader_id] + list(deck.main_deck_ids):
+        cdef = db.get(cid)
+        if cdef.dsl_status not in ALLOWED_STATUS:
+            raise DeckValidationError(
+                f"Card {cid} has dsl_status={cdef.dsl_status!r}; "
+                f"must be in {ALLOWED_STATUS}"
+            )
