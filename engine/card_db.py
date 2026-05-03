@@ -49,6 +49,7 @@ class CardDefinition:
     triggers: tuple[dict, ...]
     effect_text: str
     set_id: str
+    dsl_status: str = "vanilla"     # vanilla | parsed | pending | manual_review
 
 
 def _extract_keywords_from_text(effect_text: str) -> tuple[str, ...]:
@@ -106,6 +107,14 @@ class CardDB:
                 kws.append(kw)
         return tuple(kws)
 
+    def _load_effects_yaml(self, set_id: str, card_id: str) -> Optional[dict]:
+        """Try to load cards/effects/<set>/<card_id>.yaml. Returns parsed dict or None."""
+        path = self.cards_root / "effects" / set_id / f"{card_id}.yaml"
+        if not path.exists():
+            return None
+        from engine.dsl.loader import load_card_yaml
+        return load_card_yaml(path)
+
     def _load_one_card(self, json_path: Path, set_id: str,
                        yaml_data: dict[str, list[str]],
                        overrides: dict[str, dict[str, list[str]]]) -> CardDefinition:
@@ -114,6 +123,19 @@ class CardDB:
         keywords = self._resolve_keywords(
             card_id, set_id, raw.get("effect_text", "") or "", yaml_data, overrides
         )
+        effect_text = raw.get("effect_text", "") or ""
+
+        # Effects YAML overlay (DSL phase). If absent, fall back to:
+        #   - "vanilla" when no effect text exists
+        #   - "pending" when effect text exists but no YAML has been authored yet
+        effects = self._load_effects_yaml(set_id, card_id)
+        if effects is not None:
+            triggers = tuple(effects["triggers"])
+            dsl_status = effects["dsl_status"]
+        else:
+            triggers = ()
+            dsl_status = "vanilla" if not effect_text.strip() else "pending"
+
         return CardDefinition(
             id=card_id,
             name=raw.get("name", ""),
@@ -126,10 +148,11 @@ class CardDB:
             attribute=raw.get("attribute"),
             subtypes=tuple(raw.get("subtypes") or ()),
             keywords=keywords,
-            conditional_keywords=(),     # vanilla MVP: never populated
-            triggers=(),                  # vanilla MVP: never populated
-            effect_text=raw.get("effect_text", "") or "",
+            conditional_keywords=(),
+            triggers=triggers,
+            effect_text=effect_text,
             set_id=raw.get("set_id", set_id),
+            dsl_status=dsl_status,
         )
 
     def _load_all(self) -> None:
@@ -137,7 +160,7 @@ class CardDB:
         for set_dir in sorted(self.cards_root.iterdir()):
             if not set_dir.is_dir():
                 continue
-            if set_dir.name in ("raw", "keywords"):
+            if set_dir.name in ("raw", "keywords", "effects"):
                 continue
             set_id = set_dir.name
             yaml_data = self._load_keyword_yaml(set_id)
