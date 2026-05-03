@@ -148,6 +148,27 @@ class TempEffect:
     expires_after:      Phase = Phase.BATTLE_CLEANUP
 
 
+@dataclass(frozen=True)
+class ScopedEffect:
+    """
+    A modification to game state with a temporal scope. Replaces TempEffect
+    and TempKeyword. The temporal scoping is generic; only `modification` varies.
+
+    `modification` is a typed dict, e.g.:
+      - {"type": "PowerMod", "amount": -2000}
+      - {"type": "KeywordGrant", "keyword": "Rush"}
+      - {"type": "PreventRefresh"}            # v2+
+      - {"type": "CantAttack"}                # v2+
+
+    `applies_when` is checked at every query; `expires_at` triggers cleanup.
+    """
+    target_instance_id: str
+    modification:       dict
+    applies_when:       str = "always"   # always | your_turn | opponent_turn | during_battle
+    expires_at:         str = "BATTLE_CLEANUP"
+    expires_at_turn:    Optional[int] = None
+
+
 # ── Effect stack ───────────────────────────────────────────────────────────────
 
 @dataclass(frozen=True)
