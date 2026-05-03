@@ -121,14 +121,9 @@ def _do_damage(state: GameState, db: CardDB) -> GameState:
     atk_power = battle_power(attacker, atk_def, state)
     tgt_power = battle_power(target, tgt_def, state) + sum(state.battle_context.power_boosts)
 
-    for se in state.scoped_effects:
-        if se.modification.get("type") != "PowerMod":
-            continue
-        amount = se.modification.get("amount", 0)
-        if se.target_instance_id == attacker.instance_id:
-            atk_power += amount
-        if se.target_instance_id == target.instance_id:
-            tgt_power += amount
+    from engine.dsl.lookups import power_modifiers
+    atk_power += power_modifiers(state, attacker.instance_id)
+    tgt_power += power_modifiers(state, target.instance_id)
 
     if atk_power < tgt_power:
         return dataclasses.replace(state, phase=Phase.BATTLE_CLEANUP)

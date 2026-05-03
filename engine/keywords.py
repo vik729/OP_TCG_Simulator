@@ -47,5 +47,6 @@ def effective_keywords(card: CardInstance, db: CardDB,
     for grant in definition.conditional_keywords:
         if evaluate_condition(grant.condition, card, state):
             result.add(grant.keyword)
-    # L3 grants from state.scoped_effects added by lookups.granted_keywords (T6)
+    from engine.dsl.lookups import granted_keywords
+    result |= granted_keywords(state, card.instance_id)
     return frozenset(result)
