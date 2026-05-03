@@ -68,6 +68,13 @@ def make_player(pid: PlayerID, id_offset: int = 0) -> PlayerState:
     )
 
 
+def test_game_state_has_scoped_effects_field():
+    """T2: confirm temp_effects has been replaced by scoped_effects."""
+    field_names = {f.name for f in dataclasses.fields(GameState)}
+    assert "scoped_effects" in field_names
+    assert "temp_effects" not in field_names
+
+
 def make_state(**overrides) -> GameState:
     """
     Build a minimal valid GameState in MAIN phase, P1's turn.
@@ -81,7 +88,7 @@ def make_state(**overrides) -> GameState:
         p2=make_player(PlayerID.P2),
         effect_stack=(),
         pending_input=None,
-        temp_effects=(),
+        scoped_effects=(),
         battle_context=None,
         rng_state=0,
         ruleset_id="ST01-ST04-v1",

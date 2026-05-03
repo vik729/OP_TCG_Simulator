@@ -288,7 +288,7 @@ class GameState:
     p2:               PlayerState
     effect_stack:     tuple[StackEntry, ...]
     pending_input:    Optional[InputRequest]
-    temp_effects:     tuple[TempEffect, ...]
+    scoped_effects:   tuple[ScopedEffect, ...]
     battle_context:   Optional[BattleContext]
     rng_state:        int           # advances each time the engine needs randomness
     ruleset_id:       str           # e.g. "ST01-ST04-v1" — for future errata support

@@ -121,11 +121,14 @@ def _do_damage(state: GameState, db: CardDB) -> GameState:
     atk_power = battle_power(attacker, atk_def, state)
     tgt_power = battle_power(target, tgt_def, state) + sum(state.battle_context.power_boosts)
 
-    for te in state.temp_effects:
-        if te.target_instance_id == attacker.instance_id:
-            atk_power += te.power_modifier
-        if te.target_instance_id == target.instance_id:
-            tgt_power += te.power_modifier
+    for se in state.scoped_effects:
+        if se.modification.get("type") != "PowerMod":
+            continue
+        amount = se.modification.get("amount", 0)
+        if se.target_instance_id == attacker.instance_id:
+            atk_power += amount
+        if se.target_instance_id == target.instance_id:
+            tgt_power += amount
 
     if atk_power < tgt_power:
         return dataclasses.replace(state, phase=Phase.BATTLE_CLEANUP)
@@ -202,11 +205,11 @@ def _ko_character(state: GameState, char_id: str, owner: PlayerID, db: CardDB) -
 
 def _do_cleanup(state: GameState, db: CardDB) -> GameState:
     """Clear battle_context; remove temp effects with expires_after=BATTLE_CLEANUP."""
-    new_temp = tuple(
-        te for te in state.temp_effects if te.expires_after != Phase.BATTLE_CLEANUP
+    new_scoped = tuple(
+        se for se in state.scoped_effects if se.expires_at != "BATTLE_CLEANUP"
     )
     return dataclasses.replace(
-        state, phase=Phase.MAIN, battle_context=None, temp_effects=new_temp,
+        state, phase=Phase.MAIN, battle_context=None, scoped_effects=new_scoped,
     )
 
 

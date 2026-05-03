@@ -174,7 +174,12 @@ def _do_don(state, db):
 
 def _do_end(state, db):
     """END: expire end-of-turn temp effects; flip turn player; advance turn."""
-    new_temp = tuple(te for te in state.temp_effects if te.expires_after != Phase.END)
+    new_scoped = tuple(
+        se for se in state.scoped_effects
+        if not (se.expires_at == "END_TURN"
+                and (se.expires_at_turn is None
+                     or se.expires_at_turn == state.turn_number))
+    )
     new_active_id = state.active_player_id.opponent()
     new_turn = state.turn_number + 1
     return dataclasses.replace(
@@ -182,7 +187,7 @@ def _do_end(state, db):
         phase=Phase.REFRESH,
         active_player_id=new_active_id,
         turn_number=new_turn,
-        temp_effects=new_temp,
+        scoped_effects=new_scoped,
     )
 
 

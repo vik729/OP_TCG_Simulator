@@ -139,11 +139,14 @@ def _battle_damage_delta(pre: GameState, cur: GameState, db: CardDB) -> str | No
     t_def = db.get(target.definition_id)
     a_power = battle_power(attacker, a_def, pre)
     t_power = battle_power(target, t_def, pre) + sum(bc.power_boosts)
-    for te in pre.temp_effects:
-        if te.target_instance_id == attacker.instance_id:
-            a_power += te.power_modifier
-        if te.target_instance_id == target.instance_id:
-            t_power += te.power_modifier
+    for se in pre.scoped_effects:
+        if se.modification.get("type") != "PowerMod":
+            continue
+        amount = se.modification.get("amount", 0)
+        if se.target_instance_id == attacker.instance_id:
+            a_power += amount
+        if se.target_instance_id == target.instance_id:
+            t_power += amount
 
     power_str = f"{a_power} vs {t_power}"
 
