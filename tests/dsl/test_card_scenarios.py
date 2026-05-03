@@ -117,6 +117,42 @@ def test_st01_014_guard_point_counter_buffs_target_for_battle(db):
     assert matching[0].expires_at == "BATTLE_CLEANUP"
 
 
+def test_replay_round_trip_with_authored_cards(db):
+    """T22: A full random game using authored cards (Brook, Killer, Jinbe, etc.)
+    replays to byte-identical end state."""
+    import random
+    from engine.replay import record_action, record_result, deserialize_action
+    from engine.bots.random_bot import random_legal_action
+    from engine.deck import load_official_deck
+    from engine.ruleset import RULESETS
+    from engine.setup import build_initial_state
+
+    ruleset = RULESETS["ST01-ST04-v1"]
+    p1 = load_official_deck("ST-01", db)
+    p2 = load_official_deck("ST-02", db)
+
+    def run_game(seed):
+        state = build_initial_state(p1, p2, seed=seed, ruleset=ruleset, db=db)
+        rng = random.Random(seed + 100_000)
+        trace = []
+        while not state.is_terminal():
+            action = random_legal_action(state, rng, db)
+            record_action(trace, action, turn=state.turn_number,
+                          phase=state.phase, actor=state.active_player_id)
+            state = step(state, action, db)
+            if state.turn_number >= 500:
+                break
+        record_result(trace, state.winner, state.win_reason.value, state.turn_number)
+        return state, trace
+
+    state_a, trace = run_game(42)
+    actions = [deserialize_action(r["action"]) for r in trace if r["type"] == "action"]
+    state_b = build_initial_state(p1, p2, seed=42, ruleset=ruleset, db=db)
+    for action in actions:
+        state_b = step(state_b, action, db)
+    assert state_a == state_b
+
+
 def test_play_card_with_on_play_draw_triggers_resolution(db, monkeypatch):
     """T14: A card with an OnPlay Draw trigger draws when played."""
     target_id = "ST01-002"
