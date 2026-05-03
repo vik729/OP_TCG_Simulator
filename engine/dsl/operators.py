@@ -71,6 +71,13 @@ def _request_target_choice(node, state, *, source_controller, db, source_id,
     valid_ids = tuple(c.instance_id for c in candidates)
     max_n = node.get("max_choices", 1)
     min_n = node.get("min_choices", 0)
+
+    # Auto-skip: if no valid targets and selection is optional, consume the
+    # choice slot as an empty selection rather than stalling on a question
+    # the player can't answer.
+    if not valid_ids and min_n == 0:
+        return state, None, choice_index + 1
+
     request = InputRequest(
         request_type="ChooseTargets",
         prompt=f"{prompt_prefix}: choose up to {max_n}",

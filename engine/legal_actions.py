@@ -60,10 +60,17 @@ def legal_actions(state: GameState, db: Optional[CardDB]) -> tuple[Action, ...]:
 
 
 def _legal_respond_inputs(state: GameState) -> tuple[RespondInput, ...]:
-    """Generate RespondInput options matching pending_input.valid_choices."""
+    """Generate RespondInput options matching pending_input.valid_choices.
+    If min_choices is 0, also emit a 'skip' option (empty choices)."""
     pending = state.pending_input
     assert pending is not None
-    return tuple(RespondInput(choices=(c,)) for c in pending.valid_choices)
+    options: list[RespondInput] = [RespondInput(choices=(c,)) for c in pending.valid_choices]
+    if pending.min_choices == 0:
+        options.append(RespondInput(choices=()))
+    if not options:
+        # min_choices > 0 but no valid choices — emit skip anyway as a fallback.
+        options.append(RespondInput(choices=()))
+    return tuple(options)
 
 
 def _legal_main_actions(state: GameState, db: Optional[CardDB]) -> tuple[Action, ...]:

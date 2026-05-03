@@ -1,0 +1,20 @@
+card_id: ST01-005
+dsl_status: parsed
+authored_by: human
+
+# "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards
+#  other than this card gains +1000 power during this turn."
+triggers:
+  - "on": WhenAttacking
+    effect:
+      type: If
+      condition: { type: SourceAttachedDon, op: ge, value: 1 }
+      then:
+        type: GivePower
+        target:
+          controller: own
+          type: [Leader, Character]
+          not_this_card: true
+        amount: 1000
+        until: end_of_this_turn
+        max_choices: 1

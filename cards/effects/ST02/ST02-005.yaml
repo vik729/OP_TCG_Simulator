@@ -1,0 +1,15 @@
+card_id: ST02-005
+dsl_status: parsed
+authored_by: human
+
+# "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less."
+triggers:
+  - "on": OnPlay
+    effect:
+      type: KO
+      target:
+        controller: opponent
+        type: Character
+        rested: true
+        cost_le: 3
+      max_choices: 1

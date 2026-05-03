@@ -59,10 +59,12 @@ class TestKeywords:
         card = db.get("ST01-001")
         assert card.conditional_keywords == ()
 
-    def test_triggers_default_empty(self, db):
-        """Vanilla MVP: no card has parsed triggers."""
+    def test_triggers_only_present_for_authored_cards(self, db):
+        """Cards have triggers only if a YAML at cards/effects/<set>/<id>.yaml exists."""
         for card in db.all_definitions():
-            assert card.triggers == (), f"{card.id} has triggers"
+            if card.triggers:
+                assert card.dsl_status == "parsed", \
+                    f"{card.id} has triggers but dsl_status={card.dsl_status}"
 
 
 class TestConditionalKeywordGrant:

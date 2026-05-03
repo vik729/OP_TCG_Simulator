@@ -1,0 +1,16 @@
+card_id: ST01-014
+dsl_status: parsed
+authored_by: human
+
+# "[Counter] Up to 1 of your Leader or Character cards gains +3000 power
+#  during this battle. [Trigger] ... (life-card trigger deferred to v2)"
+triggers:
+  - "on": Counter
+    effect:
+      type: GivePower
+      target:
+        controller: own
+        type: [Leader, Character]
+      amount: 3000
+      until: end_of_battle
+      max_choices: 1

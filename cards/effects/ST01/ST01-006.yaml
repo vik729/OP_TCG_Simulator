@@ -1,0 +1,3 @@
+card_id: ST01-006
+dsl_status: vanilla   # only [Blocker] keyword, supported by the engine
+authored_by: human

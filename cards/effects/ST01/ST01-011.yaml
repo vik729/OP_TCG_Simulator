@@ -1,0 +1,13 @@
+card_id: ST01-011
+dsl_status: parsed
+authored_by: human
+
+# "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+triggers:
+  - "on": OnPlay
+    effect:
+      type: AttachDon
+      target: { controller: own, type: [Leader, Character] }
+      count: 2
+      max_choices: 1
+      state: rested
