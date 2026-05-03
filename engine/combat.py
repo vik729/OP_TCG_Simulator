@@ -16,7 +16,7 @@ import dataclasses
 from typing import Optional
 from engine.game_state import (
     GameState, Phase, PlayerID, CardInstance, Zone, BattleContext, DonField,
-    WinReason, TempEffect,
+    WinReason,
 )
 from engine.actions import (
     DeclareAttack, DeclareBlocker, PassBlocker,

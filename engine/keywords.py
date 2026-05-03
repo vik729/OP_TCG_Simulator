@@ -6,7 +6,7 @@ Central query for "does this card have keyword X right now?"
 Three levels (per spec §7.4):
   L1 innate always-on:  CardDefinition.keywords
   L2 innate conditional: CardDefinition.conditional_keywords (vanilla: empty)
-  L3 runtime grants:    CardInstance.temp_keywords (vanilla: empty, plumbing only)
+  L3 runtime grants:    state.scoped_effects KeywordGrant entries (added in DSL phase)
 
 Engine code MUST go through effective_keywords() — never read keywords fields
 directly. This is the abstraction boundary that lets DSL phase add L2/L3
@@ -47,6 +47,5 @@ def effective_keywords(card: CardInstance, db: CardDB,
     for grant in definition.conditional_keywords:
         if evaluate_condition(grant.condition, card, state):
             result.add(grant.keyword)
-    for tk in card.temp_keywords:
-        result.add(tk.keyword)
+    # L3 grants from state.scoped_effects added by lookups.granted_keywords (T6)
     return frozenset(result)

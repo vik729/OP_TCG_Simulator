@@ -6,7 +6,7 @@ Defines which Actions are legal in each Phase.
 This is NOT a class or dataclass.  It is:
   1. LEGAL_ACTIONS  — dict[Phase, frozenset[type]] saying what's valid when
   2. Helper functions for the engine
-  3. PHASE_ORDER    — tuple used to garbage-collect TempEffects by phase position
+  3. PHASE_ORDER    — tuple of phases in their canonical sequence
 
 Actual phase transitions live in engine/step.py because they depend on full
 GameState context, not just the current phase.
@@ -85,7 +85,7 @@ def is_legal_action(phase: Phase, action: Action, has_pending_input: bool) -> bo
     return type(action) in LEGAL_ACTIONS[phase]
 
 
-# ── Phase ordering (for TempEffect expiry) ────────────────────────────────────
+# ── Phase ordering ────────────────────────────────────────────────────────────
 
 PHASE_ORDER: tuple[Phase, ...] = (
     Phase.REFRESH,

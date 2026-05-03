@@ -16,7 +16,7 @@ import pytest
 import dataclasses
 from engine.game_state import (
     Phase, Zone, PlayerID,
-    TempKeyword, CardInstance, DonField, TempEffect,
+    CardInstance, DonField,
     StackEntry, InputRequest, BattleContext, PlayerState, GameState,
     validate_invariants,
 )
@@ -148,13 +148,6 @@ class TestConstruction:
         )
         state = make_state(pending_input=req, effect_stack=(entry,))
         assert state.is_waiting_for_input()
-
-    def test_temp_keyword_on_card(self):
-        kw = TempKeyword(keyword="Rush", expires_after=Phase.END)
-        card = make_card("p1-0")
-        card_with_rush = dataclasses.replace(card, temp_keywords=(kw,))
-        assert card_with_rush.has_temp_keyword("Rush")
-        assert not card_with_rush.has_temp_keyword("Blocker")
 
     def test_don_field_total(self):
         don = DonField(active=3, rested=2)

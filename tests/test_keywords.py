@@ -4,7 +4,7 @@ import dataclasses
 from engine.keywords import effective_keywords, evaluate_condition
 from engine.card_db import CardDB, CardDefinition, ConditionalKeywordGrant
 from engine.game_state import (
-    CardInstance, TempKeyword, Phase, Zone, PlayerID,
+    CardInstance, Phase, Zone, PlayerID,
 )
 from tests.test_game_state import make_state, make_card
 
@@ -24,19 +24,7 @@ class TestEffectiveKeywords:
         # ST01-001 (Luffy leader) has no static keywords per EFFECT_MAP
         assert isinstance(result, frozenset)
 
-    def test_temp_keyword_included(self, db):
-        """L3: TempKeyword on the instance is included."""
-        card = CardInstance(
-            instance_id="p1-test",
-            definition_id="ST01-001",
-            zone=Zone.FIELD,
-            controller=PlayerID.P1,
-            temp_keywords=(TempKeyword(keyword="Rush", expires_after=Phase.END),),
-        )
-        state = make_state()
-        result = effective_keywords(card, db, state)
-        assert "Rush" in result
-
+    # L3 (TempKeyword) test removed — see T6 for ScopedEffect KeywordGrant lookup
 
 class TestEvaluateCondition:
     def test_don_attached_min_satisfied(self, db):

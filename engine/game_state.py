@@ -75,17 +75,6 @@ class WinReason(Enum):
 # ── Card-level types ───────────────────────────────────────────────────────────
 
 @dataclass(frozen=True)
-class TempKeyword:
-    """
-    A keyword granted to a card temporarily (e.g. Kaido gives himself [Rush]
-    during the turn he was played).
-    Removed when the game advances past `expires_after`.
-    """
-    keyword:       str    # "Rush", "Blocker", "Double Attack", etc.
-    expires_after: Phase  # the engine removes this once the phase has passed
-
-
-@dataclass(frozen=True)
 class CardInstance:
     """
     One physical card in the game.  There are 51 per player (50-card deck + 1 leader).
@@ -103,13 +92,8 @@ class CardInstance:
     controller:              PlayerID
     rested:                  bool = False
     attached_don:            int  = 0
-    temp_keywords:           tuple[TempKeyword, ...] = ()
     # Set by effects like Nami's [On Play] — card cannot attack until the phase passes
     attack_restricted_until: Optional[Phase] = None
-
-    def has_temp_keyword(self, kw: str) -> bool:
-        """Check temporary keyword grants only (base keywords live in the card DB)."""
-        return any(tk.keyword == kw for tk in self.temp_keywords)
 
 
 # ── DON!! field ────────────────────────────────────────────────────────────────
@@ -129,24 +113,7 @@ class DonField:
         return self.active + self.rested
 
 
-# ── Temporary power effects ────────────────────────────────────────────────────
-
-@dataclass(frozen=True)
-class TempEffect:
-    """
-    A time-scoped power modifier on a specific card.
-
-    Examples:
-      - Scalpel gives +2000 power until end of battle  (expires_after=BATTLE_CLEANUP)
-      - A [Your Turn] leader ability that buffs all your characters
-        would have expires_after=END (removed at end of turn)
-
-    The state sweep in step() removes TempEffects once their phase has passed.
-    """
-    target_instance_id: str
-    power_modifier:     int   = 0
-    expires_after:      Phase = Phase.BATTLE_CLEANUP
-
+# ── Scoped game-state modifications ────────────────────────────────────────────
 
 @dataclass(frozen=True)
 class ScopedEffect:
