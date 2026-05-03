@@ -1,0 +1,21 @@
+card_id: ST02-007
+dsl_status: parsed
+authored_by: human
+
+# "[Activate: Main] (1) (Rest 1 active DON.) You may rest this card:
+#  Look at 5 cards from the top of your deck; reveal up to 1
+#  Supernovas type card and add it to your hand. Then, place the
+#  rest at the bottom of your deck in any order."
+# v2 simplification: rest is in revealed order, not player-chosen.
+triggers:
+  - "on": ActivateMain
+    once_per_turn: false
+    cost:
+      - { type: RestDon, amount: 1 }
+      - { type: RestSelf }
+    effect:
+      type: SearchDeck
+      count: 5
+      filter: { subtype_includes: [Supernovas] }
+      add_to_hand_max: 1
+      remainder: bottom_of_deck
