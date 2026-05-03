@@ -75,7 +75,7 @@ def handle_pass_blocker(state: GameState, action: PassBlocker, db: CardDB) -> Ga
 
 
 def handle_counter(state: GameState, action: PlayCounter, db: CardDB) -> GameState:
-    """BATTLE_COUNTER: trash counter card from hand, add power to target."""
+    """BATTLE_COUNTER: trash counter card, apply static counter value, fire any Counter triggers."""
     assert state.battle_context is not None
     card_id = action.card_instance_id
     card = state.get_card(card_id)
@@ -90,7 +90,25 @@ def handle_counter(state: GameState, action: PlayCounter, db: CardDB) -> GameSta
     new_state = _replace_player(state, defender.player_id, new_defender)
     new_boosts = state.battle_context.power_boosts + (counter_value,)
     new_ctx = dataclasses.replace(state.battle_context, power_boosts=new_boosts)
-    return dataclasses.replace(new_state, battle_context=new_ctx)
+    new_state = dataclasses.replace(new_state, battle_context=new_ctx)
+
+    # Fire any Counter-window triggers on the played counter card.
+    counter_triggers = [t for t in (cdef.triggers or []) if t.get("on") == "Counter"]
+    if counter_triggers:
+        from engine.game_state import StackEntry
+        for trigger in counter_triggers:
+            entry = StackEntry(
+                effect=trigger["effect"],
+                source_instance_id=card.instance_id,
+                controller=defender.player_id,
+                inputs_collected=(),
+                initial_state_ref=new_state,
+            )
+            new_state = dataclasses.replace(
+                new_state, effect_stack=new_state.effect_stack + (entry,)
+            )
+
+    return new_state
 
 
 def handle_pass_counter(state: GameState, action: PassCounter, db: CardDB) -> GameState:
