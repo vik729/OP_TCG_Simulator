@@ -91,8 +91,18 @@ def _handle_choose_first(state, action, db):
 def _handle_respond_input(state, action, db):
     if state.phase == Phase.SETUP:
         return setup_module.handle_setup_respond_input(state, action, db)
-    raise NotImplementedError(
-        f"RespondInput not implemented for phase {state.phase} in vanilla MVP"
+    if not state.effect_stack:
+        raise IllegalActionError("RespondInput received but effect_stack is empty")
+    if state.pending_input is None:
+        raise IllegalActionError("RespondInput received but no pending_input is set")
+    top = state.effect_stack[-1]
+    new_top = dataclasses.replace(
+        top,
+        inputs_collected=top.inputs_collected + (action.choices,),
+    )
+    new_stack = state.effect_stack[:-1] + (new_top,)
+    return dataclasses.replace(
+        state, effect_stack=new_stack, pending_input=None,
     )
 
 

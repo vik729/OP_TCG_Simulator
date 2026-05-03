@@ -70,3 +70,31 @@ def test_resolve_with_input_completes(db):
     assert out.pending_input is None
     assert len(out.effect_stack) == 0
     assert len(out.p2.field) == 0
+
+
+def test_respond_input_appends_to_top_entry_and_resolves(db):
+    """T11: RespondInput in non-SETUP phase appends to top stack entry and re-resolves."""
+    from engine.actions import RespondInput
+    from engine.step import step
+
+    state = make_state()
+    char = make_card("p2-c1", "ST01-002", Zone.FIELD, PlayerID.P2)
+    new_p2 = dataclasses.replace(state.p2, field=(char,))
+    state = dataclasses.replace(state, p2=new_p2)
+
+    entry = StackEntry(
+        effect={"type": "KO", "target": {"controller": "opponent", "type": "Character"},
+                "max_choices": 1},
+        source_instance_id="p1-leader",
+        controller=PlayerID.P1,
+        initial_state_ref=state,
+    )
+    state = dataclasses.replace(state, effect_stack=(entry,))
+    state = resolve_top(state, db)
+    assert state.pending_input is not None
+
+    state = step(state, RespondInput(choices=("p2-c1",)), db)
+
+    assert state.pending_input is None
+    assert len(state.effect_stack) == 0
+    assert len(state.p2.field) == 0
