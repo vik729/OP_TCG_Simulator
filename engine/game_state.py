@@ -194,6 +194,7 @@ class BattleContext:
     attacker_id:  str
     target_id:    str
     power_boosts: tuple[int, ...] = ()   # accumulated from Counter cards this battle
+    pending_trigger_damage: int = 0      # v2: damage points remaining after a Trigger pause
 
 
 # ── Player state ───────────────────────────────────────────────────────────────

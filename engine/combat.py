@@ -116,11 +116,95 @@ def handle_pass_counter(state: GameState, action: PassCounter, db: CardDB) -> Ga
 
 
 def handle_trigger(state: GameState, action: ActivateTrigger, db: CardDB) -> GameState:
-    raise NotImplementedError("ActivateTrigger requires DSL - not in vanilla MVP")
+    """v2: Defender activates the revealed life card's [Trigger].
+    Card destination is dictated by its type:
+      - Character -> Field (and OnPlay triggers fire)
+      - Event     -> Trash (after effect)
+      - Stage     -> Hand (deferred to v3)
+    Then the trigger's effect is pushed onto effect_stack.
+    Damage continues if remaining > 1."""
+    assert state.battle_context is not None
+    defender_id = _defender_from_context(state)
+    defender = state.get_player(defender_id)
+    if not defender.life:
+        return dataclasses.replace(state, phase=Phase.BATTLE_CLEANUP)
+    revealed = defender.life[0]
+    cdef = db.get(revealed.definition_id)
+    trigger = next((t for t in cdef.triggers if t.get("on") == "Trigger"), None)
+    if trigger is None:
+        # Defensive: shouldn't happen if pause condition was met
+        return dataclasses.replace(state, phase=Phase.BATTLE_CLEANUP)
+
+    new_life = defender.life[1:]
+    if cdef.type == "Character":
+        new_card = dataclasses.replace(revealed, zone=Zone.FIELD,
+                                        rested=False, attached_don=0)
+        new_defender = dataclasses.replace(defender, life=new_life,
+                                           field=defender.field + (new_card,))
+        new_state = _replace_player(state, defender_id, new_defender)
+        # Push OnPlay triggers if any
+        on_play = [t for t in cdef.triggers if t.get("on") == "OnPlay"]
+        for op_t in on_play:
+            new_state = _push_entry(new_state, op_t["effect"], revealed.instance_id, defender_id)
+    elif cdef.type == "Event":
+        new_card = dataclasses.replace(revealed, zone=Zone.TRASH)
+        new_defender = dataclasses.replace(defender, life=new_life,
+                                           trash=defender.trash + (new_card,))
+        new_state = _replace_player(state, defender_id, new_defender)
+    else:
+        # Stage / fallback: send to hand
+        new_card = dataclasses.replace(revealed, zone=Zone.HAND)
+        new_defender = dataclasses.replace(defender, life=new_life,
+                                           hand=defender.hand + (new_card,))
+        new_state = _replace_player(state, defender_id, new_defender)
+
+    new_state = _push_entry(new_state, trigger["effect"], revealed.instance_id, defender_id)
+
+    # Continue with remaining damage
+    remaining = state.battle_context.pending_trigger_damage - 1
+    new_ctx = dataclasses.replace(new_state.battle_context, pending_trigger_damage=0)
+    new_state = dataclasses.replace(new_state, battle_context=new_ctx)
+    if remaining > 0:
+        return _apply_leader_damage(new_state, defender_id, remaining, banish=False, db=db)
+    return dataclasses.replace(new_state, phase=Phase.BATTLE_CLEANUP)
 
 
 def handle_pass_trigger(state: GameState, action: PassTrigger, db: CardDB) -> GameState:
-    return dataclasses.replace(state, phase=Phase.BATTLE_CLEANUP)
+    """v2: Defender passes the trigger; revealed card goes to hand (default)."""
+    assert state.battle_context is not None
+    defender_id = _defender_from_context(state)
+    defender = state.get_player(defender_id)
+    if not defender.life:
+        return dataclasses.replace(state, phase=Phase.BATTLE_CLEANUP)
+    revealed = defender.life[0]
+    new_card = dataclasses.replace(revealed, zone=Zone.HAND)
+    new_defender = dataclasses.replace(
+        defender, life=defender.life[1:], hand=defender.hand + (new_card,),
+    )
+    new_state = _replace_player(state, defender_id, new_defender)
+
+    remaining = state.battle_context.pending_trigger_damage - 1
+    new_ctx = dataclasses.replace(new_state.battle_context, pending_trigger_damage=0)
+    new_state = dataclasses.replace(new_state, battle_context=new_ctx)
+    if remaining > 0:
+        return _apply_leader_damage(new_state, defender_id, remaining, banish=False, db=db)
+    return dataclasses.replace(new_state, phase=Phase.BATTLE_CLEANUP)
+
+
+def _defender_from_context(state: GameState) -> PlayerID:
+    target = state.get_card(state.battle_context.target_id)
+    if target is not None:
+        return target.controller
+    return state.active_player_id.opponent()
+
+
+def _push_entry(state: GameState, effect: dict, source_id: str, controller: PlayerID) -> GameState:
+    from engine.game_state import StackEntry
+    entry = StackEntry(
+        effect=effect, source_instance_id=source_id, controller=controller,
+        inputs_collected=(), initial_state_ref=state,
+    )
+    return dataclasses.replace(state, effect_stack=state.effect_stack + (entry,))
 
 
 def advance_battle(state: GameState, db: CardDB) -> GameState:
@@ -184,10 +268,14 @@ def _do_damage(state: GameState, db: CardDB) -> GameState:
 
 def _apply_leader_damage(state: GameState, leader_owner: PlayerID, damage: int,
                           banish: bool, db: CardDB) -> GameState:
-    """Apply N damage to the leader. Each damage moves life->hand (or trash if Banish).
-    If life empty when leader is hit, GAME_OVER with LIFE_AND_LEADER_HIT."""
+    """Apply N damage to the leader. Each damage:
+      - if life empty -> GAME_OVER (LIFE_AND_LEADER_HIT)
+      - else if revealed card has [Trigger] AND not banish -> pause in
+        BATTLE_TRIGGER; defender chooses Activate or Pass
+      - else move life->trash (banish) or life->hand (default)"""
     new_state = state
-    for _ in range(damage):
+    remaining = damage
+    while remaining > 0:
         owner_state = new_state.get_player(leader_owner)
         if len(owner_state.life) == 0:
             return dataclasses.replace(
@@ -198,6 +286,17 @@ def _apply_leader_damage(state: GameState, leader_owner: PlayerID, damage: int,
                 battle_context=None,
             )
         top = owner_state.life[0]
+        cdef = db.get(top.definition_id)
+        has_trigger = any(t.get("on") == "Trigger" for t in (cdef.triggers or ()))
+        if has_trigger and not banish:
+            # Pause: defender chooses Activate or Pass.
+            new_ctx = dataclasses.replace(
+                new_state.battle_context, pending_trigger_damage=remaining,
+            )
+            return dataclasses.replace(
+                new_state, phase=Phase.BATTLE_TRIGGER, battle_context=new_ctx,
+            )
+        # Default flow: move card without Trigger
         rest = owner_state.life[1:]
         if banish:
             new_top = dataclasses.replace(top, zone=Zone.TRASH)
@@ -214,6 +313,7 @@ def _apply_leader_damage(state: GameState, leader_owner: PlayerID, damage: int,
                 hand=owner_state.hand + (new_top,),
             )
         new_state = _replace_player(new_state, leader_owner, new_owner)
+        remaining -= 1
     return new_state
 
 
