@@ -202,7 +202,7 @@ def _do_end(state, db):
 
 
 def _handle_play_card(state, action: PlayCard, db):
-    """PlayCard: rest <cost> active DON, move card from hand to field."""
+    """PlayCard: rest <cost> active DON, move card from hand to field, fire OnPlay triggers."""
     active = state.active_player()
     card = state.get_card(action.card_instance_id)
     if card is None:
@@ -221,7 +221,25 @@ def _handle_play_card(state, action: PlayCard, db):
     new_active = dataclasses.replace(
         active, hand=new_hand, field=new_field, don_field=new_don,
     )
-    return _replace_active_player(state, new_active)
+    new_state = _replace_active_player(state, new_active)
+
+    # Fire any OnPlay triggers on the played card.
+    on_play_triggers = [t for t in (cdef.triggers or []) if t.get("on") == "OnPlay"]
+    if on_play_triggers:
+        from engine.game_state import StackEntry
+        for trigger in on_play_triggers:
+            entry = StackEntry(
+                effect=trigger["effect"],
+                source_instance_id=card.instance_id,
+                controller=card.controller,
+                inputs_collected=(),
+                initial_state_ref=new_state,
+            )
+            new_state = dataclasses.replace(
+                new_state, effect_stack=new_state.effect_stack + (entry,)
+            )
+
+    return new_state
 
 
 def _handle_activate_ability(state, action: ActivateAbility, db):
